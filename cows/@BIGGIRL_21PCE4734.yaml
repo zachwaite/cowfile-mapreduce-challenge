@@ -1,0 +1,23 @@
+active_state: active
+bname: BIGGIRL
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '1900-01-01 00:00:00', lact: 0, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 0, rem: auto, typ: OPEN}
+- {age: 42638, dest: 5, dim: null, dslh: null, dte: !!timestamp '2016-09-27 00:00:00', lact: 0, typ: MOVE}
+- {age: 42820, dim: null, dslh: null, dte: !!timestamp '2017-03-28 09:36:23.207530', lact: 0, typ: CLEAR}
+- {age: 42901, dest: 4, dim: null, dslh: null, dte: !!timestamp '2017-06-17 00:00:00', lact: 0, typ: MOVE}
+- {age: 42945, dim: null, dslh: null, dte: !!timestamp '2017-07-31 00:00:00', lact: 0, typ: BRED}
+- {age: 43002, dim: null, dslh: 57, dte: !!timestamp '2017-09-26 08:25:35.908268', lact: 0, typ: CHECK}
+- {age: 43045, dim: null, dslh: 100, dte: !!timestamp '2017-11-08 06:48:31.844547', lact: 0, typ: CHECK}
+- {age: 43064, dim: null, dslh: 119, dte: !!timestamp '2017-11-27 14:28:41.031022', lact: 0, typ: CHECK}
+- {age: 43218, calf: null, dim: null, dslh: null, dte: &id002 !!timestamp '2018-04-30 00:00:00', lact: 1, typ: FRESH}
+- {age: 43218, dim: 0, dslh: null, dte: *id002, lact: 1, rem: auto, typ: OPEN}
+- {age: 43251, dim: 33, dslh: null, dte: !!timestamp '2018-06-02 00:00:00', lact: 1, typ: BRED}
+lact: 1
+lactation_state: inmilk
+life_state: alive
+pen: 4
+repro_state: bred
+usda: 21PCE4734
+vetck_rem: null
+vetck_state: normal

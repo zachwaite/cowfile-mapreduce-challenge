@@ -1,0 +1,28 @@
+active_state: active
+bname: MOPEY
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '1900-01-01 00:00:00', lact: 2, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 2, rem: auto, typ: OPEN}
+- {age: 42638, dest: 8, dim: null, dslh: null, dte: !!timestamp '2016-09-27 00:00:00', lact: 2, typ: MOVE}
+- {age: 42335, dim: null, dslh: null, dte: &id002 !!timestamp '2015-11-29 00:00:00', lact: 2, typ: BRED}
+- {age: 42638, dim: null, dslh: 303, dte: !!timestamp '2016-09-27 00:00:00', lact: 2, typ: PREG}
+- {age: 42335, dim: null, dslh: 0, dte: *id002, lact: 2, rem: auto, typ: CONCEPTION}
+- {age: 42648, dest: 1, dim: null, dslh: 313, dte: !!timestamp '2016-10-07 21:29:31.791600', lact: 2, typ: MOVE}
+- {age: 42820, dim: null, dslh: 485, dte: !!timestamp '2017-03-28 09:36:23.201861', lact: 2, typ: CLEAR}
+- {age: 42860, dim: null, dslh: 525, dte: &id003 !!timestamp '2017-05-07 00:00:00', lact: 2, typ: BRED}
+- {age: 42911, dim: null, dslh: 51, dte: !!timestamp '2017-06-27 06:04:10.224322', lact: 2, typ: CHECK}
+- {age: 42939, dim: null, dslh: 79, dte: !!timestamp '2017-07-25 04:15:18.037991', lact: 2, typ: CHECK}
+- {age: 43002, dim: null, dslh: 142, dte: !!timestamp '2017-09-26 08:25:35.908268', lact: 2, typ: CHECK}
+- {age: 43045, dim: null, dslh: 185, dte: !!timestamp '2017-11-08 06:48:31.844547', lact: 2, typ: CHECK}
+- {age: 43014, dim: null, dslh: 154, dte: !!timestamp '2017-10-08 00:00:00', lact: 2, typ: PREG}
+- {age: 42860, dim: null, dslh: 0, dte: *id003, lact: 2, rem: auto, typ: CONCEPTION}
+- {age: 43138, calf: null, dim: null, dslh: null, dte: &id004 !!timestamp '2018-02-09 00:00:00', lact: 3, typ: FRESH}
+- {age: 43138, dim: 0, dslh: null, dte: *id004, lact: 3, rem: auto, typ: OPEN}
+lact: 3
+lactation_state: inmilk
+life_state: alive
+pen: 1
+repro_state: open
+usda: '-'
+vetck_rem: null
+vetck_state: normal

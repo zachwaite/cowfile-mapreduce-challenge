@@ -1,0 +1,13 @@
+active_state: active
+bname: CHICKA
+events:
+- {age: null, dest: 5, dim: null, dslh: null, dte: !!timestamp '2017-04-11 00:00:00', lact: 0, typ: MOVE}
+- {age: null, dim: null, dslh: null, dte: !!timestamp '1900-01-01 00:00:00', lact: 0, typ: OPEN}
+lact: 0
+lactation_state: hfr
+life_state: alive
+pen: 5
+repro_state: open
+usda: 21PCE4776
+vetck_rem: null
+vetck_state: normal

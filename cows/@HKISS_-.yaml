@@ -1,0 +1,23 @@
+active_state: inactive
+bname: HKISS
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '1900-01-01 00:00:00', lact: 1, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 1, rem: auto, typ: OPEN}
+- {age: 42638, dest: 2, dim: null, dslh: null, dte: !!timestamp '2016-09-27 00:00:00', lact: 1, typ: MOVE}
+- {age: 42609, dim: null, dslh: null, dte: &id002 !!timestamp '2016-08-29 00:00:00', lact: 1, typ: BRED}
+- {age: 42666, dim: null, dslh: 57, dte: !!timestamp '2016-10-25 09:33:28.426652', lact: 1, typ: CHECK}
+- {age: 42666, dim: null, dslh: 57, dte: !!timestamp '2016-10-25 00:00:00', lact: 1, typ: PREG}
+- {age: 42609, dim: null, dslh: 0, dte: *id002, lact: 1, rem: auto, typ: CONCEPTION}
+- {admin: IM, age: 42666, ampm: pm, bfdays: 21, by: Zach Waite, dim: null, dosage: 5ml, dslh: 57, dte: !!timestamp '2016-10-25 00:00:00', lact: 1, mkdays: 0, trt: Triangle 10 vaccine, typ: TREATMENT}
+- {age: 42734, dim: null, dslh: 125, dte: !!timestamp '2017-01-01 00:00:00', lact: 1, typ: CLEAR}
+- {age: 42820, dim: null, dslh: 211, dte: !!timestamp '2017-03-28 09:36:23.227648', lact: 1, typ: CLEAR}
+- {age: 42765, dim: null, dslh: 156, dte: &id003 !!timestamp '2017-02-01 00:00:00', lact: 1, typ: SOLD}
+- {age: 42765, dim: null, dslh: 156, dte: *id003, lact: 1, typ: DEACTIVATED}
+lact: 1
+lactation_state: hfr
+life_state: alive
+pen: 2
+repro_state: preg
+usda: '-'
+vetck_rem: null
+vetck_state: normal

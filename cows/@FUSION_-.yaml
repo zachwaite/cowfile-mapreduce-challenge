@@ -1,0 +1,23 @@
+active_state: active
+bname: FUSION
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '1900-01-01 00:00:00', lact: 1, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 1, rem: auto, typ: OPEN}
+- {age: 42638, dest: 1, dim: null, dslh: null, dte: !!timestamp '2016-09-27 00:00:00', lact: 1, typ: MOVE}
+- {age: 42484, dim: null, dslh: null, dte: &id002 !!timestamp '2016-04-26 00:00:00', lact: 1, typ: BRED}
+- {age: 42638, dim: null, dslh: 154, dte: !!timestamp '2016-09-27 00:00:00', lact: 1, typ: PREG}
+- {age: 42484, dim: null, dslh: 0, dte: *id002, lact: 1, rem: auto, typ: CONCEPTION}
+- {age: 42648, dest: 2, dim: null, dslh: 164, dte: !!timestamp '2016-10-07 21:23:27.684207', lact: 1, typ: MOVE}
+- {age: 42690, dim: null, dslh: 206, dte: !!timestamp '2016-11-18 00:00:00', lact: 1, typ: BRED}
+- {age: 42764, dim: null, dslh: 74, dte: !!timestamp '2017-01-31 08:57:00.481285', lact: 1, typ: CHECK}
+- {age: 42764, dim: null, dslh: 74, dte: !!timestamp '2017-01-31 00:00:00', lact: 1, typ: OPEN}
+- {age: 42764, dim: null, dslh: null, dte: !!timestamp '2017-01-31 00:00:00', lact: 1, typ: CLEAR}
+- {age: 42820, dim: null, dslh: null, dte: !!timestamp '2017-03-28 09:36:23.202599', lact: 1, typ: CLEAR}
+lact: 1
+lactation_state: hfr
+life_state: alive
+pen: 2
+repro_state: open
+usda: '-'
+vetck_rem: null
+vetck_state: normal

@@ -1,0 +1,31 @@
+active_state: inactive
+bname: SOCKS
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '2014-06-08 00:00:00', lact: 0, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 0, rem: auto, typ: OPEN}
+- {age: 842, dest: 4, dim: null, dslh: null, dte: !!timestamp '2016-09-27 00:00:00', lact: 0, typ: MOVE}
+- {age: 830, dim: null, dslh: null, dte: !!timestamp '2016-09-15 00:00:00', lact: 0, typ: BRED}
+- {age: 870, dim: null, dslh: 40, dte: !!timestamp '2016-10-25 09:33:28.426652', lact: 0, typ: CHECK}
+- {age: 968, dim: null, dslh: 138, dte: !!timestamp '2017-01-31 08:57:00.481285', lact: 0, typ: CHECK}
+- {age: 1024, dim: null, dslh: 194, dte: !!timestamp '2017-03-28 09:29:54.978949', lact: 0, typ: CHECK}
+- {age: 1024, dim: null, dslh: 194, dte: !!timestamp '2017-03-28 09:36:23.221712', lact: 0, typ: CLEAR}
+- {age: 1024, dim: null, dslh: 194, dte: !!timestamp '2017-03-28 09:37:03.317793', lact: 0, typ: CHECK}
+- {age: 1052, dim: null, dslh: 222, dte: !!timestamp '2017-04-25 06:56:18.091307', lact: 0, typ: CHECK}
+- {age: 1059, dim: null, dslh: 229, dte: !!timestamp '2017-05-02 11:44:00.875803', lact: 0, typ: CHECK}
+- {age: 1059, dim: null, dslh: 229, dte: &id002 !!timestamp '2017-05-02 14:53:01.155272', lact: 0, typ: SOLD}
+- {age: 1059, dim: null, dslh: 229, dte: *id002, lact: 0, typ: DEACTIVATED}
+- {age: 1087, dim: null, dslh: 257, dte: !!timestamp '2017-05-30 22:43:58.205915', lact: 0, typ: CHECK}
+- {age: 1088, dim: null, dslh: 258, dte: !!timestamp '2017-05-31 06:14:24.695519', lact: 0, typ: CHECK}
+- {age: 1115, dim: null, dslh: 285, dte: !!timestamp '2017-06-27 06:04:10.224322', lact: 0, typ: CHECK}
+- {age: 1143, dim: null, dslh: 313, dte: !!timestamp '2017-07-25 04:15:18.037991', lact: 0, typ: CHECK}
+- {age: 1206, dim: null, dslh: 376, dte: !!timestamp '2017-09-26 08:25:35.908268', lact: 0, typ: CHECK}
+- {age: 1249, dim: null, dslh: 419, dte: !!timestamp '2017-11-08 06:48:31.844547', lact: 0, typ: CHECK}
+- {age: 1268, dim: null, dslh: 438, dte: !!timestamp '2017-11-27 14:28:41.031022', lact: 0, typ: CHECK}
+lact: 0
+lactation_state: hfr
+life_state: alive
+pen: 4
+repro_state: bred
+usda: '0'
+vetck_rem: null
+vetck_state: normal

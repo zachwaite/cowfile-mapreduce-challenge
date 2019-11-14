@@ -1,0 +1,29 @@
+active_state: active
+bname: '959'
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '1900-01-01 00:00:00', lact: 2, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 2, rem: auto, typ: OPEN}
+- {age: 42638, dest: 8, dim: null, dslh: null, dte: !!timestamp '2016-09-27 00:00:00', lact: 2, typ: MOVE}
+- {age: 42389, dim: null, dslh: null, dte: &id002 !!timestamp '2016-01-22 00:00:00', lact: 2, typ: BRED}
+- {age: 42638, dim: null, dslh: 249, dte: !!timestamp '2016-09-27 00:00:00', lact: 2, typ: PREG}
+- {age: 42389, dim: null, dslh: 0, dte: *id002, lact: 2, rem: auto, typ: CONCEPTION}
+- {age: 42672, dim: null, dslh: null, dte: &id003 !!timestamp '2016-10-31 00:00:00', lact: 3, typ: FRESH}
+- {age: 42672, dim: 0, dslh: null, dte: *id003, lact: 3, rem: auto, typ: OPEN}
+- {age: 42820, dim: 148, dslh: null, dte: !!timestamp '2017-03-28 09:36:23.215938', lact: 3, typ: CLEAR}
+- {age: 42840, dest: 1, dim: 168, dslh: null, dte: !!timestamp '2017-04-17 00:00:00', lact: 3, typ: MOVE}
+- {age: 42865, dim: 193, dslh: null, dte: &id004 !!timestamp '2017-05-12 00:00:00', lact: 3, typ: BRED}
+- {age: 42911, dim: 239, dslh: 46, dte: !!timestamp '2017-06-27 06:04:10.224322', lact: 3, typ: CHECK}
+- {age: 42911, dim: 239, dslh: 46, dte: !!timestamp '2017-06-27 17:08:30.670173', lact: 3, typ: PREG}
+- {age: 42865, dim: 193, dslh: 0, dte: *id004, lact: 3, rem: auto, typ: CONCEPTION}
+- {admin: IM, age: 42911, ampm: am, bfdays: 21, by: Zach Waite, dim: 239, dosage: 5ml, dslh: 46, dte: !!timestamp '2017-06-27 17:09:03.737865', lact: 3, mkdays: 0, trt: Triangle 10 vaccine, typ: TREATMENT}
+- {age: 43142, calf: '21PCT8607,21PCT8608', dim: null, dslh: null, dte: &id005 !!timestamp '2018-02-13 00:00:00', lact: 4, typ: FRESH}
+- {age: 43142, dim: 0, dslh: null, dte: *id005, lact: 4, rem: auto, typ: OPEN}
+- {age: 43255, dim: 113, dslh: null, dte: !!timestamp '2018-06-06 00:00:00', lact: 4, typ: BRED}
+lact: 4
+lactation_state: inmilk
+life_state: alive
+pen: 1
+repro_state: bred
+usda: '-'
+vetck_rem: null
+vetck_state: normal

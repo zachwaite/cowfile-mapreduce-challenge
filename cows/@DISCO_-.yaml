@@ -1,0 +1,32 @@
+active_state: inactive
+bname: DISCO
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '1900-01-01 00:00:00', lact: 2, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 2, rem: auto, typ: OPEN}
+- {age: 42638, dest: 1, dim: null, dslh: null, dte: !!timestamp '2016-09-27 00:00:00', lact: 2, typ: MOVE}
+- {age: 42600, dim: null, dslh: null, dte: &id002 !!timestamp '2016-08-20 00:00:00', lact: 3, typ: FRESH}
+- {age: 42600, dim: 0, dslh: null, dte: *id002, lact: 3, rem: auto, typ: OPEN}
+- {age: 42660, dim: 60, dslh: null, dte: &id003 !!timestamp '2016-10-19 00:00:00', lact: 3, typ: BRED}
+- {age: 42764, dim: 164, dslh: 104, dte: !!timestamp '2017-01-31 08:57:00.481285', lact: 3, typ: CHECK}
+- {age: 42764, dim: 164, dslh: 104, dte: !!timestamp '2017-01-31 00:00:00', lact: 3, typ: PREG}
+- {age: 42660, dim: 60, dslh: 0, dte: *id003, lact: 3, rem: auto, typ: CONCEPTION}
+- {age: 42764, dim: 164, dslh: 104, dte: !!timestamp '2017-01-31 00:00:00', lact: 3, typ: CLEAR}
+- {admin: IM, age: 42764, ampm: am, bfdays: 21, by: Zach Waite, dim: 164, dosage: 5ml, dslh: 104, dte: !!timestamp '2017-01-31 00:00:00', lact: 3, mkdays: 0, trt: Triangle 10 vaccine, typ: TREATMENT}
+- {age: 42820, dim: 220, dslh: 160, dte: !!timestamp '2017-03-28 09:36:23.185108', lact: 3, typ: CLEAR}
+- {age: 42909, dim: 309, dslh: 249, dte: !!timestamp '2017-06-25 19:33:53.940282', lact: 3, typ: DRY}
+- {age: 42928, calf: 21PCN4424, dim: null, dslh: null, dte: &id004 !!timestamp '2017-07-14 00:00:00', lact: 4, typ: FRESH}
+- {age: 42928, dim: 0, dslh: null, dte: *id004, lact: 4, rem: auto, typ: OPEN}
+- {age: 43044, dim: 116, dslh: null, dte: !!timestamp '2017-11-07 00:00:00', lact: 4, typ: BRED}
+- {age: 43074, dim: 146, dslh: 30, dte: !!timestamp '2017-12-07 00:00:00', lact: 4, typ: BRED}
+- {age: 43104, dim: 176, dslh: 30, dte: !!timestamp '2018-01-06 00:00:00', lact: 4, typ: BRED}
+- {age: 43126, dim: 198, dslh: 22, dte: !!timestamp '2018-01-28 00:00:00', lact: 4, typ: BRED}
+- {age: 43177, dim: 249, dslh: 51, dte: &id005 !!timestamp '2018-03-20 00:00:00', lact: 4, typ: SOLD}
+- {age: 43177, dim: 249, dslh: 51, dte: *id005, lact: 4, typ: DEACTIVATED}
+lact: 4
+lactation_state: inmilk
+life_state: alive
+pen: 1
+repro_state: bred
+usda: '-'
+vetck_rem: null
+vetck_state: normal

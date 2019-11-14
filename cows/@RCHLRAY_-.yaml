@@ -1,0 +1,29 @@
+active_state: inactive
+bname: RCHLRAY
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '1900-01-01 00:00:00', lact: 3, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 3, rem: auto, typ: OPEN}
+- {age: 42638, dest: 1, dim: null, dslh: null, dte: !!timestamp '2016-09-27 00:00:00', lact: 3, typ: MOVE}
+- {age: 42481, dim: null, dslh: null, dte: &id002 !!timestamp '2016-04-23 00:00:00', lact: 3, typ: BRED}
+- {age: 42638, dim: null, dslh: 157, dte: !!timestamp '2016-09-27 00:00:00', lact: 3, typ: PREG}
+- {age: 42481, dim: null, dslh: 0, dte: *id002, lact: 3, rem: auto, typ: CONCEPTION}
+- {age: 42648, dest: 2, dim: null, dslh: 167, dte: !!timestamp '2016-10-07 21:27:19.304769', lact: 3, typ: MOVE}
+- {REM: NOTUBES, age: 42707, dim: null, dslh: 226, dte: !!timestamp '2016-12-05 00:00:00', lact: 3, typ: DRY}
+- {age: 42714, dest: 5, dim: null, dslh: 233, dte: !!timestamp '2016-12-12 00:00:00', lact: 3, typ: MOVE}
+- {admin: NA, age: 42709, ampm: am, bfdays: 0, by: Zach Waite, dim: null, dosage: NA, dslh: 228, dte: !!timestamp '2016-12-07 00:00:00', lact: 3, mkdays: 0, trt: Footrim, typ: TREATMENT}
+- {admin: IM, age: 42709, ampm: am, bfdays: 21, by: Zach Waite, dim: null, dosage: 5ml, dslh: 228, dte: !!timestamp '2016-12-07 00:00:00', lact: 3, mkdays: 0, trt: Triangle 10 vaccine, typ: TREATMENT}
+- {age: 42734, dim: null, dslh: null, dte: &id003 !!timestamp '2017-01-01 00:00:00', lact: 4, typ: FRESH}
+- {age: 42734, dim: 0, dslh: null, dte: *id003, lact: 4, rem: auto, typ: OPEN}
+- {age: 42820, dim: 86, dslh: null, dte: !!timestamp '2017-03-28 09:36:23.227367', lact: 4, typ: CLEAR}
+- {age: 42840, dest: 1, dim: 106, dslh: null, dte: !!timestamp '2017-04-17 00:00:00', lact: 4, typ: MOVE}
+- {age: 42884, dim: 150, dslh: null, dte: !!timestamp '2017-05-31 06:32:22.929504', lact: 4, typ: CHECK}
+- {age: 42925, dim: 191, dslh: null, dte: &id004 !!timestamp '2017-07-11 00:00:00', lact: 4, typ: SOLD}
+- {age: 42925, dim: 191, dslh: null, dte: *id004, lact: 4, typ: DEACTIVATED}
+lact: 4
+lactation_state: inmilk
+life_state: alive
+pen: 1
+repro_state: open
+usda: '-'
+vetck_rem: null
+vetck_state: normal

@@ -1,0 +1,25 @@
+active_state: inactive
+bname: PO
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '1900-01-01 00:00:00', lact: 1, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 1, rem: auto, typ: OPEN}
+- {age: 42638, dest: 1, dim: null, dslh: null, dte: !!timestamp '2016-09-27 00:00:00', lact: 1, typ: MOVE}
+- {age: 42493, dim: null, dslh: null, dte: &id002 !!timestamp '2016-05-05 00:00:00', lact: 1, typ: BRED}
+- {age: 42638, dim: null, dslh: 145, dte: !!timestamp '2016-09-27 00:00:00', lact: 1, typ: PREG}
+- {age: 42493, dim: null, dslh: 0, dte: *id002, lact: 1, rem: auto, typ: CONCEPTION}
+- {age: 42696, ampm: am, by: zach, dig: joint, dim: null, dslh: 325, dte: !!timestamp '2016-11-24 00:00:00', lact: 1, typ: DIAGNOSIS}
+- {admin: IM, age: 42696, ampm: am, bfdays: 10, by: Zach Waite, dim: null, dosage: 20cc, dslh: 203, dte: !!timestamp '2016-11-24 00:00:00', lact: 1, mkdays: 4, trt: Polyflex, typ: TREATMENT}
+- {admin: IM, age: 42697, ampm: am, bfdays: 10, by: Zach Waite, dim: null, dosage: 20cc, dslh: 204, dte: !!timestamp '2016-11-25 00:00:00', lact: 1, mkdays: 4, trt: Polyflex, typ: TREATMENT}
+- {admin: IM, age: 42699, ampm: am, bfdays: 10, by: Zach Waite, dim: null, dosage: 20cc, dslh: 206, dte: !!timestamp '2016-11-27 00:00:00', lact: 1, mkdays: 4, trt: Polyflex, typ: TREATMENT}
+- {admin: IM, age: 42700, ampm: am, bfdays: 10, by: Zach Waite, dim: null, dosage: 20cc, dslh: 207, dte: !!timestamp '2016-11-28 00:00:00', lact: 1, mkdays: 4, trt: Polyflex, typ: TREATMENT}
+- {age: 42723, dim: null, dslh: 230, dte: &id003 !!timestamp '2016-12-21 00:00:00', lact: 1, rem: injured-down, typ: DIED}
+- {age: 42723, dim: null, dslh: 230, dte: *id003, lact: 1, typ: DEACTIVATED}
+- {age: 42820, dim: null, dslh: 327, dte: !!timestamp '2017-03-28 09:36:23.240893', lact: 1, typ: CLEAR}
+lact: 1
+lactation_state: hfr
+life_state: dead
+pen: 1
+repro_state: preg
+usda: '-'
+vetck_rem: null
+vetck_state: normal

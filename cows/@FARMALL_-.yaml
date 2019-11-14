@@ -1,0 +1,31 @@
+active_state: active
+bname: FARMALL
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '1900-01-01 00:00:00', lact: 1, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 1, rem: auto, typ: OPEN}
+- {age: 42638, dest: 2, dim: null, dslh: null, dte: !!timestamp '2016-09-27 00:00:00', lact: 1, typ: MOVE}
+- {age: 42494, dim: null, dslh: null, dte: &id002 !!timestamp '2016-05-06 00:00:00', lact: 1, typ: BRED}
+- {age: 42638, dim: null, dslh: 144, dte: !!timestamp '2016-09-27 00:00:00', lact: 1, typ: PREG}
+- {age: 42494, dim: null, dslh: 0, dte: *id002, lact: 1, rem: auto, typ: CONCEPTION}
+- {admin: NA, age: 42680, ampm: am, bfdays: 0, by: Zach Waite, dim: null, dosage: NA, dslh: 186, dte: !!timestamp '2016-11-08 00:00:00', lact: 1, mkdays: 0, trt: Footrim, typ: TREATMENT}
+- {age: 42723, dim: null, dslh: 229, dte: !!timestamp '2016-12-21 00:00:00', lact: 1, rem: notubes, typ: DRY}
+- {age: 42775, dim: null, dslh: null, dte: &id003 !!timestamp '2017-02-11 00:00:00', lact: 2, typ: FRESH}
+- {age: 42775, dim: 0, dslh: null, dte: *id003, lact: 2, rem: auto, typ: OPEN}
+- {age: 42820, dim: 45, dslh: null, dte: !!timestamp '2017-03-28 09:36:23.241642', lact: 2, typ: CLEAR}
+- {age: 42835, dim: 60, dslh: null, dte: &id004 !!timestamp '2017-04-12 00:00:00', lact: 2, typ: BRED}
+- {age: 42883, dim: 108, dslh: 48, dte: !!timestamp '2017-05-30 22:43:58.205915', lact: 2, typ: CHECK}
+- {age: 42884, dim: 109, dslh: 49, dte: !!timestamp '2017-05-31 06:14:24.695519', lact: 2, typ: CHECK}
+- {age: 42884, dim: 109, dslh: 49, dte: !!timestamp '2017-05-31 17:59:20.118384', lact: 2, typ: PREG}
+- {age: 42835, dim: 60, dslh: 0, dte: *id004, lact: 2, rem: auto, typ: CONCEPTION}
+- {admin: IM, age: 42884, ampm: am, bfdays: 21, by: Zach Waite, dim: 109, dosage: 5ml, dslh: 49, dte: !!timestamp '2017-05-31 18:27:11.742509', lact: 2, mkdays: 0, trt: Triangle 10 vaccine, typ: TREATMENT}
+- {age: 43099, calf: null, dim: null, dslh: null, dte: &id005 !!timestamp '2018-01-01 00:00:00', lact: 3, typ: FRESH}
+- {age: 43099, dim: 0, dslh: null, dte: *id005, lact: 3, rem: auto, typ: OPEN}
+- {age: 43209, dim: 110, dslh: null, dte: !!timestamp '2018-04-21 00:00:00', lact: 3, typ: BRED}
+lact: 3
+lactation_state: inmilk
+life_state: alive
+pen: 2
+repro_state: bred
+usda: '-'
+vetck_rem: null
+vetck_state: normal

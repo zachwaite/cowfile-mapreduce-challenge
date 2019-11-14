@@ -1,0 +1,33 @@
+active_state: inactive
+bname: '974'
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '1900-01-01 00:00:00', lact: 3, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 3, rem: auto, typ: OPEN}
+- {age: 42638, dest: 1, dim: null, dslh: null, dte: !!timestamp '2016-09-27 00:00:00', lact: 3, typ: MOVE}
+- {age: 42546, dim: null, dslh: null, dte: !!timestamp '2016-06-27 00:00:00', lact: 3, typ: BRED}
+- {age: 42638, dim: null, dslh: 92, dte: !!timestamp '2016-09-27 00:00:00', lact: 3, typ: OPEN}
+- {age: 42651, dim: null, dslh: null, dte: !!timestamp '2016-10-10 00:00:00', lact: 3, typ: BRED}
+- {age: 42670, dim: null, dslh: 19, dte: !!timestamp '2016-10-29 00:00:00', lact: 3, typ: BRED}
+- {age: 42692, dim: null, dslh: 22, dte: &id002 !!timestamp '2016-11-20 00:00:00', lact: 3, typ: BRED}
+- {age: 42764, dim: null, dslh: 72, dte: !!timestamp '2017-01-31 08:57:00.481285', lact: 3, typ: CHECK}
+- {age: 42764, dim: null, dslh: 72, dte: !!timestamp '2017-01-31 00:00:00', lact: 3, typ: PREG}
+- {age: 42692, dim: null, dslh: 0, dte: *id002, lact: 3, rem: auto, typ: CONCEPTION}
+- {age: 42764, dim: null, dslh: 72, dte: !!timestamp '2017-01-31 00:00:00', lact: 3, typ: CLEAR}
+- {admin: IM, age: 42764, ampm: am, bfdays: 21, by: Zach Waite, dim: null, dosage: 5ml, dslh: 72, dte: !!timestamp '2017-01-31 00:00:00', lact: 3, mkdays: 0, trt: Triangle 10 vaccine, typ: TREATMENT}
+- {age: 42820, dim: null, dslh: 128, dte: !!timestamp '2017-03-28 09:36:23.232732', lact: 3, typ: CLEAR}
+- {admin: NA, age: 42897, ampm: pm, bfdays: 0, by: Zach Waite, dim: null, dosage: NA, dslh: 205, dte: !!timestamp '2017-06-13 00:00:00', lact: 3, mkdays: 0, trt: Footrim, typ: TREATMENT}
+- {age: 42944, dim: null, dslh: 252, dte: !!timestamp '2017-07-30 00:00:00', lact: 3, rem: ORB2, typ: DRY}
+- {admin: IMM, age: 42944, ampm: pm, bfdays: 28, by: Zach Waite, dim: null, dosage: 1tube, dslh: 252, dte: !!timestamp '2017-07-30 00:00:00', lact: 3, mkdays: 28, trt: Orbenin DC, typ: TREATMENT}
+- {admin: NA, age: 42944, ampm: am, bfdays: 0, by: Zach Waite, dim: null, dosage: NA, dslh: 252, dte: !!timestamp '2017-07-30 00:00:00', lact: 3, mkdays: 0, trt: Footrim, typ: TREATMENT}
+- {age: 42995, calf: 21PCN4456, dim: null, dslh: null, dte: &id003 !!timestamp '2017-09-19 00:00:00', lact: 4, typ: FRESH}
+- {age: 42995, dim: 0, dslh: null, dte: *id003, lact: 4, rem: auto, typ: OPEN}
+- {age: 43004, dim: 9, dslh: null, dte: &id004 !!timestamp '2017-09-28 09:05:18.640671', lact: 4, typ: SOLD}
+- {age: 43004, dim: 9, dslh: null, dte: *id004, lact: 4, typ: DEACTIVATED}
+lact: 4
+lactation_state: inmilk
+life_state: alive
+pen: 1
+repro_state: open
+usda: '-'
+vetck_rem: null
+vetck_state: normal

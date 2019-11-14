@@ -1,0 +1,37 @@
+active_state: inactive
+bname: '905'
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '1900-01-01 00:00:00', lact: 3, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 3, rem: auto, typ: OPEN}
+- {age: 42638, dest: 1, dim: null, dslh: null, dte: !!timestamp '2016-09-27 00:00:00', lact: 3, typ: MOVE}
+- {age: 42602, dim: null, dslh: null, dte: !!timestamp '2016-08-22 00:00:00', lact: 3, typ: BRED}
+- {age: 42648, dest: 1, dim: null, dslh: 46, dte: !!timestamp '2016-10-07 21:30:15.340596', lact: 3, typ: MOVE}
+- {age: 42648, dest: 1, dim: null, dslh: 46, dte: !!timestamp '2016-10-07 00:00:00', lact: 3, typ: MOVE}
+- {age: 42638, dim: null, dslh: 36, dte: !!timestamp '2016-09-27 00:00:00', lact: 3, typ: OPEN}
+- {admin: NA, age: 42645, ampm: am, bfdays: 0, by: Zach Waite, dim: null, dosage: NA, dslh: null, dte: !!timestamp '2016-10-04 00:00:00', lact: 3, mkdays: 0, trt: Footrim, typ: TREATMENT}
+- {admin: topical, age: 42645, ampm: am, bfdays: 0, by: Zach Waite, dim: null, dosage: 1scoop, dslh: null, dte: !!timestamp '2016-10-04 00:00:00', lact: 3, mkdays: 0, trt: Oxytet powder, typ: TREATMENT}
+- {age: 42644, dim: null, dslh: null, dte: &id002 !!timestamp '2016-10-03 00:00:00', lact: 3, typ: BRED}
+- {age: 42764, dim: null, dslh: 120, dte: !!timestamp '2017-01-31 08:57:00.481285', lact: 3, typ: CHECK}
+- {age: 42764, dim: null, dslh: 120, dte: !!timestamp '2017-01-31 00:00:00', lact: 3, typ: PREG}
+- {age: 42644, dim: null, dslh: 0, dte: *id002, lact: 3, rem: auto, typ: CONCEPTION}
+- {age: 42764, dim: null, dslh: 120, dte: !!timestamp '2017-01-31 00:00:00', lact: 3, typ: CLEAR}
+- {admin: IM, age: 42764, ampm: am, bfdays: 21, by: Zach Waite, dim: null, dosage: 5ml, dslh: 120, dte: !!timestamp '2017-01-31 00:00:00', lact: 3, mkdays: 0, trt: Triangle 10 vaccine, typ: TREATMENT}
+- {age: 42820, dim: null, dslh: 176, dte: !!timestamp '2017-03-28 09:36:23.198250', lact: 3, typ: CLEAR}
+- {age: 42840, dest: 2, dim: null, dslh: 196, dte: !!timestamp '2017-04-17 00:00:00', lact: 3, typ: MOVE}
+- {age: 42844, dim: null, dslh: 200, dte: !!timestamp '2017-04-21 00:00:00', lact: 3, typ: DRY}
+- {age: 42845, dest: 4, dim: null, dslh: 201, dte: !!timestamp '2017-04-22 00:00:00', lact: 3, typ: MOVE}
+- {admin: NA, age: 42845, ampm: am, bfdays: 0, by: Zach Waite, dim: null, dosage: NA, dslh: 201, dte: !!timestamp '2017-04-22 00:00:00', lact: 3, mkdays: 0, trt: Footrim, typ: TREATMENT}
+- {admin: NA, age: 42913, ampm: am, bfdays: 0, by: Zach Waite, dim: null, dosage: NA, dslh: 269, dte: !!timestamp '2017-06-29 00:00:00', lact: 3, mkdays: 0, trt: Footrim RF only, typ: TREATMENT}
+- {admin: IM, age: 42914, ampm: am, bfdays: 4, by: Mike Waite, dim: null, dosage: 20cc, dslh: 270, dte: !!timestamp '2017-06-30 00:00:00', lact: 3, mkdays: 0, trt: Ceftiflex, typ: TREATMENT}
+- {admin: IM, age: 42915, ampm: am, bfdays: 4, by: Mike Waite, dim: null, dosage: 20cc, dslh: 271, dte: !!timestamp '2017-07-01 00:00:00', lact: 3, mkdays: 0, trt: Ceftiflex, typ: TREATMENT}
+- {admin: IM, age: 42916, ampm: am, bfdays: 4, by: Mike Waite, dim: null, dosage: 20cc, dslh: 272, dte: !!timestamp '2017-07-02 00:00:00', lact: 3, mkdays: 0, trt: Ceftiflex, typ: TREATMENT}
+- {age: 42926, dim: null, dslh: 282, dte: &id003 !!timestamp '2017-07-12 00:00:00', lact: 3, typ: DIED}
+- {age: 42926, dim: null, dslh: 282, dte: *id003, lact: 3, typ: DEACTIVATED}
+lact: 3
+lactation_state: dry
+life_state: dead
+pen: 4
+repro_state: preg
+usda: '-'
+vetck_rem: null
+vetck_state: normal

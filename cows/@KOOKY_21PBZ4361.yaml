@@ -1,0 +1,26 @@
+active_state: active
+bname: KOOKY
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '2015-12-18 00:00:00', lact: 0, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 0, rem: auto, typ: OPEN}
+- {age: 284, dest: 5, dim: null, dslh: null, dte: !!timestamp '2016-09-27 00:00:00', lact: 0, typ: MOVE}
+- {age: 466, dim: null, dslh: null, dte: !!timestamp '2017-03-28 09:36:23.228073', lact: 0, typ: CLEAR}
+- {age: 547, dest: 4, dim: null, dslh: null, dte: !!timestamp '2017-06-17 00:00:00', lact: 0, typ: MOVE}
+- {age: 554, dim: null, dslh: null, dte: !!timestamp '2017-06-24 00:00:00', lact: 0, typ: BRED}
+- {age: 648, dim: null, dslh: 94, dte: !!timestamp '2017-09-26 08:25:35.908268', lact: 0, typ: CHECK}
+- {age: 691, dim: null, dslh: 137, dte: !!timestamp '2017-11-08 06:48:31.844547', lact: 0, typ: CHECK}
+- {age: 710, dim: null, dslh: 156, dte: !!timestamp '2017-11-27 14:28:41.031022', lact: 0, typ: CHECK}
+- {age: 828, calf: 21PCT8621, dim: null, dslh: null, dte: &id002 !!timestamp '2018-03-25 00:00:00', lact: 1, typ: FRESH}
+- {age: 828, dim: 0, dslh: null, dte: *id002, lact: 1, rem: auto, typ: OPEN}
+- {age: 828, calf: 21PCT8621, dim: null, dslh: null, dte: &id003 !!timestamp '2018-03-25 00:00:00', lact: 2, typ: FRESH}
+- {age: 828, dim: 0, dslh: null, dte: *id003, lact: 2, rem: auto, typ: OPEN}
+- {age: 889, dim: 61, dslh: null, dte: !!timestamp '2018-05-25 00:00:00', lact: 2, typ: BRED}
+- {age: 938, dim: 110, dslh: 49, dte: !!timestamp '2018-07-13 00:00:00', lact: 2, typ: BRED}
+lact: 2
+lactation_state: inmilk
+life_state: alive
+pen: 4
+repro_state: bred
+usda: 21PBZ4361
+vetck_rem: null
+vetck_state: normal

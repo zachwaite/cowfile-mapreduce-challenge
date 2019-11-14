@@ -1,0 +1,31 @@
+active_state: active
+bname: TOON
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '1900-01-01 00:00:00', lact: 1, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 1, rem: auto, typ: OPEN}
+- {age: 42638, dest: 1, dim: null, dslh: null, dte: !!timestamp '2016-09-27 00:00:00', lact: 1, typ: MOVE}
+- {age: 42573, dim: null, dslh: null, dte: &id002 !!timestamp '2016-07-24 00:00:00', lact: 1, typ: BRED}
+- {age: 42638, dim: null, dslh: 65, dte: !!timestamp '2016-09-27 00:00:00', lact: 1, typ: PREG}
+- {age: 42573, dim: null, dslh: 0, dte: *id002, lact: 1, rem: auto, typ: CONCEPTION}
+- {age: 42812, dim: null, dslh: 239, dte: !!timestamp '2017-03-20 00:00:00', lact: 1, typ: DRY}
+- {age: 42849, dim: null, dslh: null, dte: &id003 !!timestamp '2017-04-26 00:00:00', lact: 2, typ: FRESH}
+- {age: 42849, dim: 0, dslh: null, dte: *id003, lact: 2, rem: auto, typ: OPEN}
+- {admin: NA, age: 42849, ampm: am, bfdays: 0, by: Zach Waite, dim: 0, dosage: NA, dslh: null, dte: !!timestamp '2017-04-26 00:00:00', lact: 2, mkdays: 0, trt: Footrim RR only, typ: TREATMENT}
+- {age: 42849, ampm: am, by: zach, dig: wart3, dim: 0, dslh: null, dte: !!timestamp '2017-04-26 00:00:00', lact: 2, typ: DIAGNOSIS}
+- {admin: topical, age: 42849, ampm: am, bfdays: 0, by: Zach Waite, dim: 0, dosage: 1scoop, dslh: null, dte: !!timestamp '2017-04-26 00:00:00', lact: 2, mkdays: 0, trt: Copper Sulfate, typ: TREATMENT}
+- {age: 42970, dim: 121, dslh: null, dte: !!timestamp '2017-08-25 00:00:00', lact: 2, typ: BRED}
+- {age: 43004, dim: 155, dslh: 34, dte: &id004 !!timestamp '2017-09-28 00:00:00', lact: 2, typ: BRED}
+- {age: 43045, dim: 196, dslh: 41, dte: !!timestamp '2017-11-08 06:48:31.844547', lact: 2, typ: CHECK}
+- {age: 43045, dim: 196, dslh: 41, dte: !!timestamp '2017-11-08 00:00:00', lact: 2, typ: PREG}
+- {age: 43004, dim: 155, dslh: 0, dte: *id004, lact: 2, rem: auto, typ: CONCEPTION}
+- {admin: IM, age: 43045, ampm: am, bfdays: 21, by: Zach Waite, dim: 196, dosage: 5ml, dslh: 41, dte: !!timestamp '2017-11-08 00:00:00', lact: 2, mkdays: 0, trt: Triangle 10 vaccine, typ: TREATMENT}
+- {age: 43281, calf: null, dim: null, dslh: null, dte: &id005 !!timestamp '2018-07-02 00:00:00', lact: 3, typ: FRESH}
+- {age: 43281, dim: 0, dslh: null, dte: *id005, lact: 3, rem: auto, typ: OPEN}
+lact: 3
+lactation_state: inmilk
+life_state: alive
+pen: 1
+repro_state: open
+usda: 21PBD1010
+vetck_rem: null
+vetck_state: normal

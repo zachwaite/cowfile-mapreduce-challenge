@@ -1,0 +1,18 @@
+active_state: active
+bname: '10588'
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '2015-06-28 00:00:00', lact: 0, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 0, rem: auto, typ: OPEN}
+- {age: 457, dest: 7, dim: null, dslh: null, dte: !!timestamp '2016-09-27 00:00:00', lact: 0, typ: MOVE}
+- {age: 639, dim: null, dslh: null, dte: !!timestamp '2017-03-28 09:36:23.212619', lact: 0, typ: CLEAR}
+- {age: 796, dim: null, dslh: null, dte: !!timestamp '2017-09-01 00:00:00', lact: 0, typ: BRED}
+- {age: 864, dim: null, dslh: 68, dte: !!timestamp '2017-11-08 06:48:31.844547', lact: 0, typ: CHECK}
+- {age: 883, dim: null, dslh: 87, dte: !!timestamp '2017-11-27 14:28:41.031022', lact: 0, typ: CHECK}
+lact: 0
+lactation_state: hfr
+life_state: alive
+pen: 7
+repro_state: bred
+usda: 21PBS0585
+vetck_rem: null
+vetck_state: normal

@@ -1,0 +1,22 @@
+active_state: active
+bname: WHEY
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '1900-01-01 00:00:00', lact: 1, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 1, rem: auto, typ: OPEN}
+- {age: 42638, dest: 1, dim: null, dslh: null, dte: !!timestamp '2016-09-27 00:00:00', lact: 1, typ: MOVE}
+- {age: 42535, dim: null, dslh: null, dte: &id002 !!timestamp '2016-06-16 00:00:00', lact: 1, typ: BRED}
+- {age: 42638, dim: null, dslh: 103, dte: !!timestamp '2016-09-27 00:00:00', lact: 1, typ: PREG}
+- {age: 42535, dim: null, dslh: 0, dte: *id002, lact: 1, rem: auto, typ: CONCEPTION}
+- {age: 42734, dim: null, dslh: 199, dte: !!timestamp '2017-01-01 00:00:00', lact: 1, rem: notubes, typ: DRY}
+- {age: 42808, dim: null, dslh: null, dte: &id003 !!timestamp '2017-03-16 00:00:00', lact: 2, typ: FRESH}
+- {age: 42808, dim: 0, dslh: null, dte: *id003, lact: 2, rem: auto, typ: OPEN}
+- {age: 42820, dim: 12, dslh: null, dte: !!timestamp '2017-03-28 09:36:23.200454', lact: 2, typ: CLEAR}
+- {age: 42840, dest: 2, dim: 32, dslh: null, dte: !!timestamp '2017-04-17 00:00:00', lact: 2, typ: MOVE}
+lact: 2
+lactation_state: inmilk
+life_state: alive
+pen: 2
+repro_state: open
+usda: '-'
+vetck_rem: null
+vetck_state: normal

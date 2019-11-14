@@ -1,0 +1,23 @@
+active_state: active
+bname: CHEERIO
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '1900-01-01 00:00:00', lact: 0, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 0, rem: auto, typ: OPEN}
+- {age: 42638, dest: 5, dim: null, dslh: null, dte: !!timestamp '2016-09-27 00:00:00', lact: 0, typ: MOVE}
+- {age: 42820, dim: null, dslh: null, dte: !!timestamp '2017-03-28 09:36:23.207890', lact: 0, typ: CLEAR}
+- {admin: IM, age: 42849, ampm: am, bfdays: 21, by: Zach Waite, dim: null, dosage: 5ml, dslh: null, dte: !!timestamp '2017-04-26 00:00:00', lact: 0, mkdays: 0, trt: Triangle 10 vaccine, typ: TREATMENT}
+- {age: 42849, dest: 4, dim: null, dslh: null, dte: !!timestamp '2017-04-26 00:00:00', lact: 0, typ: MOVE}
+- {age: 42936, dim: null, dslh: null, dte: !!timestamp '2017-07-22 00:00:00', lact: 0, typ: BRED}
+- {age: 43002, dim: null, dslh: 66, dte: !!timestamp '2017-09-26 08:25:35.908268', lact: 0, typ: CHECK}
+- {age: 43045, dim: null, dslh: 109, dte: !!timestamp '2017-11-08 06:48:31.844547', lact: 0, typ: CHECK}
+- {age: 43064, dim: null, dslh: 128, dte: !!timestamp '2017-11-27 14:28:41.031022', lact: 0, typ: CHECK}
+- {age: 43218, calf: null, dim: null, dslh: null, dte: &id002 !!timestamp '2018-04-30 00:00:00', lact: 1, typ: FRESH}
+- {age: 43218, dim: 0, dslh: null, dte: *id002, lact: 1, rem: auto, typ: OPEN}
+lact: 1
+lactation_state: inmilk
+life_state: alive
+pen: 4
+repro_state: open
+usda: 21PBZ4374
+vetck_rem: null
+vetck_state: normal

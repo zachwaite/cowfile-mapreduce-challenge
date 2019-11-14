@@ -1,0 +1,36 @@
+active_state: active
+bname: FLOUNDE
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '1900-01-01 00:00:00', lact: 1, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 1, rem: auto, typ: OPEN}
+- {age: 42638, dest: 8, dim: null, dslh: null, dte: !!timestamp '2016-09-27 00:00:00', lact: 1, typ: MOVE}
+- {age: 42359, dim: null, dslh: null, dte: &id002 !!timestamp '2015-12-23 00:00:00', lact: 1, typ: BRED}
+- {age: 42638, dim: null, dslh: 279, dte: !!timestamp '2016-09-27 00:00:00', lact: 1, typ: PREG}
+- {age: 42359, dim: null, dslh: 0, dte: *id002, lact: 1, rem: auto, typ: CONCEPTION}
+- {age: 42624, dim: null, dslh: null, dte: &id003 !!timestamp '2016-09-13 00:00:00', lact: 2, typ: FRESH}
+- {age: 42624, dim: 0, dslh: null, dte: *id003, lact: 2, rem: auto, typ: OPEN}
+- {age: 42685, dim: 61, dslh: null, dte: !!timestamp '2016-11-13 00:00:00', lact: 2, typ: BRED}
+- {age: 42764, dim: 140, dslh: 79, dte: !!timestamp '2017-01-31 08:57:00.481285', lact: 2, typ: CHECK}
+- {age: 42775, dim: 151, dslh: 90, dte: !!timestamp '2017-02-11 00:08:42.211938', lact: 2, typ: OPEN}
+- {age: 42764, dim: 140, dslh: null, dte: !!timestamp '2017-01-31 00:00:00', lact: 2, typ: CLEAR}
+- {age: 42820, dim: 196, dslh: null, dte: !!timestamp '2017-03-28 09:36:23.214982', lact: 2, typ: CLEAR}
+- {age: 42840, dest: 2, dim: 216, dslh: null, dte: !!timestamp '2017-04-17 00:00:00', lact: 2, typ: MOVE}
+- {age: 42828, dim: 204, dslh: null, dte: !!timestamp '2017-04-05 00:00:00', lact: 2, typ: BRED}
+- {age: 42853, dim: 229, dslh: 25, dte: !!timestamp '2017-04-30 00:00:00', lact: 2, typ: BRED}
+- {age: 42911, dim: 287, dslh: 58, dte: !!timestamp '2017-06-27 06:04:10.224322', lact: 2, typ: CHECK}
+- {age: 42911, dim: 287, dslh: 58, dte: !!timestamp '2017-06-27 17:07:59.362876', lact: 2, typ: OPEN}
+- {age: 42968, dim: 344, dslh: null, dte: &id004 !!timestamp '2017-08-23 00:00:00', lact: 2, typ: BRED}
+- {age: 43031, dim: 407, dslh: 63, dte: !!timestamp '2017-10-25 00:00:00', lact: 2, typ: BRED}
+- {age: 43093, dim: 469, dslh: 62, dte: !!timestamp '2017-12-26 00:00:00', lact: 2, typ: PREG}
+- {age: 43031, dim: 407, dslh: 0, dte: *id004, lact: 2, rem: auto, typ: CONCEPTION}
+- {admin: IM, age: 43093, ampm: am, bfdays: 21, by: Mike Waite, dim: 469, dosage: 5ml, dslh: 62, dte: !!timestamp '2017-12-26 00:00:00', lact: 2, mkdays: 0, trt: Triangle 10 vaccine, typ: TREATMENT}
+- {age: 43240, calf: null, dim: null, dslh: null, dte: &id005 !!timestamp '2018-05-22 00:00:00', lact: 3, typ: FRESH}
+- {age: 43240, dim: 0, dslh: null, dte: *id005, lact: 3, rem: auto, typ: OPEN}
+lact: 3
+lactation_state: inmilk
+life_state: alive
+pen: 2
+repro_state: open
+usda: '-'
+vetck_rem: null
+vetck_state: normal

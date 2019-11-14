@@ -1,0 +1,40 @@
+active_state: active
+bname: '14383'
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '2014-10-01 00:00:00', lact: 0, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 0, rem: auto, typ: OPEN}
+- {age: 727, dest: 4, dim: null, dslh: null, dte: !!timestamp '2016-09-27 00:00:00', lact: 0, typ: MOVE}
+- {age: 509, dim: null, dslh: null, dte: !!timestamp '2016-02-22 00:00:00', lact: 0, typ: BRED}
+- {age: 755, dim: null, dslh: 246, dte: !!timestamp '2016-10-25 09:33:28.426652', lact: 0, typ: CHECK}
+- {age: 853, dim: null, dslh: 344, dte: !!timestamp '2017-01-31 08:42:16.067255', lact: 0, typ: CHECK}
+- {age: 853, dim: null, dslh: 344, dte: !!timestamp '2017-01-31 08:57:00.481285', lact: 0, typ: CHECK}
+- {age: 868, dim: null, dslh: 359, dte: !!timestamp '2017-02-15 00:00:00', lact: 0, typ: BRED}
+- {age: 909, dim: null, dslh: 41, dte: !!timestamp '2017-03-28 08:40:21.619388', lact: 0, typ: CHECK}
+- {age: 909, dim: null, dslh: 41, dte: !!timestamp '2017-03-28 08:45:09.017339', lact: 0, typ: CHECK}
+- {age: 909, dim: null, dslh: 41, dte: !!timestamp '2017-03-28 08:47:15.098099', lact: 0, typ: CHECK}
+- {age: 909, dim: null, dslh: 41, dte: !!timestamp '2017-03-28 08:49:03.649555', lact: 0, typ: CHECK}
+- {age: 909, dim: null, dslh: 41, dte: !!timestamp '2017-03-28 08:55:54.155583', lact: 0, typ: CHECK}
+- {age: 909, dim: null, dslh: 41, dte: !!timestamp '2017-03-28 09:02:19.512446', lact: 0, typ: CHECK}
+- {age: 909, dim: null, dslh: 41, dte: !!timestamp '2017-03-28 09:06:20.799403', lact: 0, typ: CHECK}
+- {age: 909, dim: null, dslh: 41, dte: !!timestamp '2017-03-28 09:29:54.978949', lact: 0, typ: CHECK}
+- {age: 909, dim: null, dslh: 41, dte: !!timestamp '2017-03-28 09:36:23.161832', lact: 0, typ: CLEAR}
+- {age: 909, dim: null, dslh: 41, dte: !!timestamp '2017-03-28 09:37:03.317793', lact: 0, typ: CHECK}
+- {age: 929, dest: 1, dim: null, dslh: 61, dte: !!timestamp '2017-04-17 00:00:00', lact: 0, typ: MOVE}
+- {age: 912, dim: null, dslh: 44, dte: !!timestamp '2017-03-31 00:00:00', lact: 0, typ: BRED}
+- {age: 933, dim: null, dslh: 21, dte: !!timestamp '2017-04-21 00:00:00', lact: 0, typ: BRED}
+- {age: 972, dim: null, dslh: 39, dte: !!timestamp '2017-05-30 22:43:58.205915', lact: 0, typ: CHECK}
+- {age: 973, dim: null, dslh: 40, dte: !!timestamp '2017-05-31 06:14:24.695519', lact: 0, typ: CHECK}
+- {age: 1000, dim: null, dslh: 67, dte: !!timestamp '2017-06-27 06:04:10.224322', lact: 0, typ: CHECK}
+- {age: 1028, dim: null, dslh: 95, dte: !!timestamp '2017-07-25 04:15:18.037991', lact: 0, typ: CHECK}
+- {age: 1091, dim: null, dslh: 158, dte: !!timestamp '2017-09-26 08:25:35.908268', lact: 0, typ: CHECK}
+- {age: 1134, dim: null, dslh: 201, dte: !!timestamp '2017-11-08 06:48:31.844547', lact: 0, typ: CHECK}
+- {age: 1153, dim: null, dslh: 220, dte: !!timestamp '2017-11-27 14:28:41.031022', lact: 0, typ: CHECK}
+- {age: 1321, dim: null, dslh: 388, dte: !!timestamp '2018-05-14 00:00:00', lact: 0, typ: BRED}
+lact: 0
+lactation_state: hfr
+life_state: alive
+pen: 1
+repro_state: bred
+usda: 21PBZ4383
+vetck_rem: null
+vetck_state: normal

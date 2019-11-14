@@ -1,0 +1,38 @@
+active_state: inactive
+bname: '11032'
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '2014-05-01 00:00:00', lact: 1, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 1, rem: auto, typ: OPEN}
+- {age: 880, dest: 1, dim: null, dslh: null, dte: !!timestamp '2016-09-27 00:00:00', lact: 1, typ: MOVE}
+- {age: 865, dim: null, dslh: null, dte: &id002 !!timestamp '2016-09-12 00:00:00', lact: 2, typ: FRESH}
+- {age: 865, dim: 0, dslh: null, dte: *id002, lact: 2, rem: auto, typ: OPEN}
+- {age: 895, dim: 30, dslh: null, dte: &id003 !!timestamp '2016-10-12 00:00:00', lact: 2, typ: BRED}
+- {age: 1006, dim: 141, dslh: 111, dte: !!timestamp '2017-01-31 08:42:16.067255', lact: 2, typ: CHECK}
+- {age: 1006, dim: 141, dslh: 111, dte: !!timestamp '2017-01-31 08:57:00.481285', lact: 2, typ: CHECK}
+- {age: 1006, dim: 141, dslh: 111, dte: !!timestamp '2017-01-31 00:00:00', lact: 2, typ: PREG}
+- {age: 895, dim: 30, dslh: 0, dte: *id003, lact: 2, rem: auto, typ: CONCEPTION}
+- {age: 1006, dim: 141, dslh: 111, dte: !!timestamp '2017-01-31 00:00:00', lact: 2, typ: CLEAR}
+- {admin: IM, age: 1006, ampm: am, bfdays: 21, by: Zach Waite, dim: 141, dosage: 5ml, dslh: 111, dte: !!timestamp '2017-01-31 00:00:00', lact: 2, mkdays: 0, trt: Triangle 10 vaccine, typ: TREATMENT}
+- {age: 1062, dim: 197, dslh: 167, dte: !!timestamp '2017-03-28 09:36:23.241078', lact: 2, typ: CLEAR}
+- {age: 1110, dim: 245, dslh: 215, dte: !!timestamp '2017-05-15 00:00:00', lact: 2, typ: DRY}
+- {age: 1114, dest: 4, dim: 249, dslh: 219, dte: !!timestamp '2017-05-19 00:00:00', lact: 2, typ: MOVE}
+- {admin: NA, age: 1111, ampm: pm, bfdays: 0, by: Zach Waite, dim: 246, dosage: NA, dslh: 216, dte: !!timestamp '2017-05-16 00:00:00', lact: 2, mkdays: 0, trt: Footrim, typ: TREATMENT}
+- {admin: IM, age: 1111, ampm: pm, bfdays: 21, by: Zach Waite, dim: 246, dosage: 5ml, dslh: 216, dte: !!timestamp '2017-05-16 00:00:00', lact: 2, mkdays: 0, trt: Triangle 10 vaccine, typ: TREATMENT}
+- {admin: topical, age: 1111, ampm: pm, bfdays: 0, by: Zach Waite, dim: 246, dosage: 1scoop, dslh: 216, dte: !!timestamp '2017-05-16 00:00:00', lact: 2, mkdays: 0, trt: Copper Sulfate, typ: TREATMENT}
+- {admin: topical, age: 1111, ampm: pm, bfdays: 0, by: Zach Waite, dim: 246, dosage: 1scoop, dslh: 216, dte: !!timestamp '2017-05-16 00:00:00', lact: 2, mkdays: 0, trt: Copper Sulfate, typ: TREATMENT}
+- {admin: IM, age: 1126, ampm: am, bfdays: 4, by: Mike Waite, dim: 261, dosage: 20cc, dslh: 231, dte: !!timestamp '2017-05-31 00:00:00', lact: 2, mkdays: 0, trt: Ceftiflex, typ: TREATMENT}
+- {admin: IM, age: 1127, ampm: am, bfdays: 4, by: Mike Waite, dim: 262, dosage: 20cc, dslh: 232, dte: !!timestamp '2017-06-01 00:00:00', lact: 2, mkdays: 0, trt: Ceftiflex, typ: TREATMENT}
+- {admin: IM, age: 1128, ampm: am, bfdays: 4, by: Mike Waite, dim: 263, dosage: 20cc, dslh: 233, dte: !!timestamp '2017-06-02 00:00:00', lact: 2, mkdays: 0, trt: Ceftiflex, typ: TREATMENT}
+- {admin: IV, age: 1128, ampm: am, bfdays: 28, by: Mike Waite, dim: 263, dosage: 45cc, dslh: 233, dte: !!timestamp '2017-06-02 00:00:00', lact: 2, mkdays: 4, trt: Oxytetracycline 200, typ: TREATMENT}
+- {admin: IV, age: 1129, ampm: am, bfdays: 28, by: Mike Waite, dim: 264, dosage: 45cc, dslh: 234, dte: !!timestamp '2017-06-03 00:00:00', lact: 2, mkdays: 4, trt: Oxytetracycline 200, typ: TREATMENT}
+- {admin: IV, age: 1130, ampm: am, bfdays: 28, by: Mike Waite, dim: 265, dosage: 45cc, dslh: 235, dte: !!timestamp '2017-06-04 00:00:00', lact: 2, mkdays: 4, trt: Oxytetracycline 200, typ: TREATMENT}
+- {age: 1131, dim: 266, dslh: 236, dte: &id004 !!timestamp '2017-06-05 00:00:00', lact: 2, typ: DIED}
+- {age: 1131, dim: 266, dslh: 236, dte: *id004, lact: 2, typ: DEACTIVATED}
+lact: 2
+lactation_state: dry
+life_state: dead
+pen: 4
+repro_state: preg
+usda: 21PBD1032
+vetck_rem: null
+vetck_state: normal

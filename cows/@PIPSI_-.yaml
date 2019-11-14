@@ -1,0 +1,39 @@
+active_state: inactive
+bname: PIPSI
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '1900-01-01 00:00:00', lact: 1, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 1, rem: auto, typ: OPEN}
+- {age: 42638, dest: 8, dim: null, dslh: null, dte: !!timestamp '2016-09-27 00:00:00', lact: 1, typ: MOVE}
+- {age: 42335, dim: null, dslh: null, dte: &id002 !!timestamp '2015-11-29 00:00:00', lact: 1, typ: BRED}
+- {age: 42638, dim: null, dslh: 303, dte: !!timestamp '2016-09-27 00:00:00', lact: 1, typ: PREG}
+- {age: 42335, dim: null, dslh: 0, dte: *id002, lact: 1, rem: auto, typ: CONCEPTION}
+- {admin: IM, age: 42660, ampm: pm, bfdays: 4, by: Zach Waite, dim: null, dosage: 20cc, dslh: 325, dte: !!timestamp '2016-10-19 00:00:00', lact: 1, mkdays: 0, trt: Ceftiflex, typ: TREATMENT}
+- {age: 42660, ampm: am, by: zach, dig: footrot, dim: null, dslh: 325, dte: !!timestamp '2016-10-19 00:00:00', lact: 1, typ: DIAGNOSIS}
+- {admin: IM, age: 42661, ampm: am, bfdays: 4, by: Zach Waite, dim: null, dosage: 20cc, dslh: 326, dte: !!timestamp '2016-10-20 00:00:00', lact: 1, mkdays: 0, trt: Ceftiflex, typ: TREATMENT}
+- {admin: IM, age: 42662, ampm: am, bfdays: 4, by: Zach Waite, dim: null, dosage: 20cc, dslh: 327, dte: !!timestamp '2016-10-21 00:00:00', lact: 1, mkdays: 0, trt: Ceftiflex, typ: TREATMENT}
+- {age: 42612, dim: null, dslh: null, dte: &id003 !!timestamp '2016-09-01 00:00:00', lact: 2, typ: FRESH}
+- {age: 42612, dim: 0, dslh: null, dte: *id003, lact: 2, rem: auto, typ: OPEN}
+- {age: 42711, dim: 99, dslh: null, dte: !!timestamp '2016-12-09 00:00:00', lact: 2, typ: BRED}
+- {age: 42764, dim: 152, dslh: 53, dte: !!timestamp '2017-01-31 08:57:00.481285', lact: 2, typ: CHECK}
+- {age: 42820, dim: 208, dslh: 109, dte: !!timestamp '2017-03-28 09:29:54.978949', lact: 2, typ: CHECK}
+- {age: 42820, dim: 208, dslh: 109, dte: !!timestamp '2017-03-28 09:36:23.236267', lact: 2, typ: CLEAR}
+- {age: 42820, dim: 208, dslh: 109, dte: !!timestamp '2017-03-28 09:37:03.317793', lact: 2, typ: CHECK}
+- {age: 42834, dim: 222, dslh: 123, dte: &id004 !!timestamp '2017-04-11 18:25:35.602572', lact: 2, typ: SOLD}
+- {age: 42834, dim: 222, dslh: 123, dte: *id004, lact: 2, typ: DEACTIVATED}
+- {age: 42848, dim: 236, dslh: 137, dte: !!timestamp '2017-04-25 06:56:18.091307', lact: 2, typ: CHECK}
+- {age: 42855, dim: 243, dslh: 144, dte: !!timestamp '2017-05-02 11:44:00.875803', lact: 2, typ: CHECK}
+- {age: 42883, dim: 271, dslh: 172, dte: !!timestamp '2017-05-30 22:43:58.205915', lact: 2, typ: CHECK}
+- {age: 42884, dim: 272, dslh: 173, dte: !!timestamp '2017-05-31 06:14:24.695519', lact: 2, typ: CHECK}
+- {age: 42911, dim: 299, dslh: 200, dte: !!timestamp '2017-06-27 06:04:10.224322', lact: 2, typ: CHECK}
+- {age: 42939, dim: 327, dslh: 228, dte: !!timestamp '2017-07-25 04:15:18.037991', lact: 2, typ: CHECK}
+- {age: 43002, dim: 390, dslh: 291, dte: !!timestamp '2017-09-26 08:25:35.908268', lact: 2, typ: CHECK}
+- {age: 43045, dim: 433, dslh: 334, dte: !!timestamp '2017-11-08 06:48:31.844547', lact: 2, typ: CHECK}
+- {age: 43064, dim: 452, dslh: 353, dte: !!timestamp '2017-11-27 14:28:41.031022', lact: 2, typ: CHECK}
+lact: 2
+lactation_state: inmilk
+life_state: alive
+pen: 8
+repro_state: bred
+usda: '-'
+vetck_rem: null
+vetck_state: normal

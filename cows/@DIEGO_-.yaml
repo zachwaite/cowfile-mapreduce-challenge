@@ -1,0 +1,26 @@
+active_state: active
+bname: DIEGO
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '1900-01-01 00:00:00', lact: 0, rem: auto, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 0, rem: auto, typ: OPEN}
+- {age: 42816, dim: null, dslh: null, dte: !!timestamp '2017-03-24 00:00:00', lact: 0, typ: BRED}
+- {age: 42840, dest: 2, dim: null, dslh: 24, dte: !!timestamp '2017-04-17 00:00:00', lact: 0, typ: MOVE}
+- {age: 42836, dim: null, dslh: 20, dte: !!timestamp '2017-04-13 00:00:00', lact: 0, typ: BRED}
+- {age: 42883, dim: null, dslh: 47, dte: !!timestamp '2017-05-30 22:43:58.205915', lact: 0, typ: CHECK}
+- {age: 42884, dim: null, dslh: 48, dte: !!timestamp '2017-05-31 06:14:24.695519', lact: 0, typ: CHECK}
+- {age: 42889, dim: null, dslh: 53, dte: !!timestamp '2017-06-05 00:00:00', lact: 0, typ: BRED}
+- {age: 42908, dim: null, dslh: 19, dte: !!timestamp '2017-06-24 00:00:00', lact: 0, typ: BRED}
+- {age: 42975, dim: null, dslh: 67, dte: !!timestamp '2017-08-30 00:00:00', lact: 0, typ: BRED}
+- {age: 43045, dim: null, dslh: 70, dte: !!timestamp '2017-11-08 06:48:31.844547', lact: 0, typ: CHECK}
+- {age: 43064, dim: null, dslh: 89, dte: !!timestamp '2017-11-27 14:28:41.031022', lact: 0, typ: CHECK}
+- {age: 43250, calf: null, dim: null, dslh: null, dte: &id002 !!timestamp '2018-06-01 00:00:00', lact: 1, typ: FRESH}
+- {age: 43250, dim: 0, dslh: null, dte: *id002, lact: 1, rem: auto, typ: OPEN}
+- {age: 43301, dim: 51, dslh: null, dte: !!timestamp '2018-07-22 00:00:00', lact: 1, typ: BRED}
+lact: 1
+lactation_state: inmilk
+life_state: alive
+pen: 2
+repro_state: bred
+usda: '-'
+vetck_rem: null
+vetck_state: normal

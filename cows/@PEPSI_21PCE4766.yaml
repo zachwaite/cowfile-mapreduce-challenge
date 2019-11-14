@@ -1,0 +1,17 @@
+active_state: active
+bname: PEPSI
+events:
+- {age: null, dest: 5, dim: null, dslh: null, dte: !!timestamp '2017-02-17 00:00:00', lact: 0, typ: MOVE}
+- {age: null, dim: null, dslh: null, dte: !!timestamp '2017-03-28 09:36:23.189567', lact: 0, typ: CLEAR}
+- {age: null, dim: null, dslh: null, dte: !!timestamp '1900-01-01 00:00:00', lact: 0, typ: OPEN}
+- {age: null, dim: null, dslh: null, dte: !!timestamp '2018-06-12 00:00:00', lact: 0, typ: BRED}
+- {age: null, dest: 4, dim: null, dslh: -2, dte: !!timestamp '2018-06-10 00:00:00', lact: 0, typ: MOVE}
+- {admin: IM, age: null, ampm: am, bfdays: 21, by: Mike Waite, dim: null, dosage: 5ml, dslh: -2, dte: !!timestamp '2018-06-10 00:00:00', lact: 0, mkdays: 0, trt: Triangle 10 vaccine, typ: TREATMENT}
+lact: 0
+lactation_state: hfr
+life_state: alive
+pen: 4
+repro_state: bred
+usda: 21PCE4766
+vetck_rem: null
+vetck_state: normal

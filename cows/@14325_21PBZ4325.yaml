@@ -1,0 +1,15 @@
+active_state: active
+bname: '14325'
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '2015-09-30 00:00:00', lact: 0, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 0, rem: auto, typ: OPEN}
+- {age: 363, dest: 7, dim: null, dslh: null, dte: !!timestamp '2016-09-27 00:00:00', lact: 0, typ: MOVE}
+- {age: 545, dim: null, dslh: null, dte: !!timestamp '2017-03-28 09:36:23.240255', lact: 0, typ: CLEAR}
+lact: 0
+lactation_state: hfr
+life_state: alive
+pen: 7
+repro_state: open
+usda: 21PBZ4325
+vetck_rem: null
+vetck_state: normal

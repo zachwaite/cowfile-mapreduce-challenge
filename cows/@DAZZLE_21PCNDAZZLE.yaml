@@ -1,0 +1,14 @@
+active_state: active
+bname: DAZZLE
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '2017-10-26 00:00:00', lact: 0, rem: auto, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 0, rem: auto, typ: OPEN}
+- {age: 178, dest: 5, dim: null, dslh: null, dte: !!timestamp '2018-04-22 07:29:17.667240', lact: 0, typ: MOVE}
+lact: 0
+lactation_state: hfr
+life_state: alive
+pen: 5
+repro_state: open
+usda: 21PCNDAZZLE
+vetck_rem: null
+vetck_state: normal

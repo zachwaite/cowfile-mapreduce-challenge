@@ -1,0 +1,29 @@
+active_state: active
+bname: APRIL
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '2014-10-25 00:00:00', lact: 0, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 0, rem: auto, typ: OPEN}
+- {age: 703, dest: 4, dim: null, dslh: null, dte: !!timestamp '2016-09-27 00:00:00', lact: 0, typ: MOVE}
+- {age: 573, dim: null, dslh: null, dte: !!timestamp '2016-05-20 00:00:00', lact: 0, typ: BRED}
+- {age: 731, dim: null, dslh: 158, dte: !!timestamp '2016-10-25 09:33:28.426652', lact: 0, typ: CHECK}
+- {age: 829, dim: null, dslh: 256, dte: !!timestamp '2017-01-31 08:57:00.481285', lact: 0, typ: CHECK}
+- {age: 852, dim: null, dslh: null, dte: &id002 !!timestamp '2017-02-23 00:00:00', lact: 1, typ: FRESH}
+- {age: 852, dim: 0, dslh: null, dte: *id002, lact: 1, rem: auto, typ: OPEN}
+- {age: 885, dim: 33, dslh: null, dte: !!timestamp '2017-03-28 09:36:23.216480', lact: 1, typ: CLEAR}
+- {age: 905, dest: 2, dim: 53, dslh: null, dte: !!timestamp '2017-04-17 00:00:00', lact: 1, typ: MOVE}
+- {age: 1047, dim: 195, dslh: null, dte: !!timestamp '2017-09-06 00:00:00', lact: 1, typ: BRED}
+- {age: 1090, dim: 238, dslh: 43, dte: &id003 !!timestamp '2017-10-19 00:00:00', lact: 1, typ: BRED}
+- {age: 1129, dim: 277, dslh: 39, dte: !!timestamp '2017-11-27 14:28:41.031022', lact: 1, typ: CHECK}
+- {age: 1130, dim: 278, dslh: 40, dte: !!timestamp '2017-11-28 00:00:00', lact: 1, typ: PREG}
+- {age: 1090, dim: 238, dslh: 0, dte: *id003, lact: 1, rem: auto, typ: CONCEPTION}
+- {admin: IM, age: 1130, ampm: am, bfdays: 21, by: Mike Waite, dim: 278, dosage: 5ml, dslh: 40, dte: !!timestamp '2017-11-28 00:00:00', lact: 1, mkdays: 0, trt: Triangle 10 vaccine, typ: TREATMENT}
+- {age: 1371, calf: null, dim: null, dslh: null, dte: &id004 !!timestamp '2018-07-27 00:00:00', lact: 2, typ: FRESH}
+- {age: 1371, dim: 0, dslh: null, dte: *id004, lact: 2, rem: auto, typ: OPEN}
+lact: 2
+lactation_state: inmilk
+life_state: alive
+pen: 2
+repro_state: open
+usda: '0'
+vetck_rem: null
+vetck_state: normal

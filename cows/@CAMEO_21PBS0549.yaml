@@ -1,0 +1,25 @@
+active_state: active
+bname: CAMEO
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '2015-04-22 00:00:00', lact: 0, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 0, rem: auto, typ: OPEN}
+- {age: 524, dest: 4, dim: null, dslh: null, dte: !!timestamp '2016-09-27 00:00:00', lact: 0, typ: MOVE}
+- {age: 706, dim: null, dslh: null, dte: !!timestamp '2017-03-28 09:36:23.200592', lact: 0, typ: CLEAR}
+- {age: 741, dim: null, dslh: null, dte: !!timestamp '2017-05-02 14:52:28.914806', lact: 0, typ: OPEN}
+- {admin: IM, age: 741, ampm: am, bfdays: 0, by: Zach Waite, dim: null, dosage: 5cc, dslh: null, dte: !!timestamp '2017-05-02 14:52:49.402958', lact: 0, mkdays: 0, trt: Lutalyse, typ: TREATMENT}
+- {age: 744, dim: null, dslh: null, dte: !!timestamp '2017-05-05 00:00:00', lact: 0, typ: BRED}
+- {age: 797, dim: null, dslh: 53, dte: !!timestamp '2017-06-27 06:04:10.224322', lact: 0, typ: CHECK}
+- {age: 825, dim: null, dslh: 81, dte: !!timestamp '2017-07-25 04:15:18.037991', lact: 0, typ: CHECK}
+- {age: 888, dim: null, dslh: 144, dte: !!timestamp '2017-09-26 08:25:35.908268', lact: 0, typ: CHECK}
+- {age: 931, dim: null, dslh: 187, dte: !!timestamp '2017-11-08 06:48:31.844547', lact: 0, typ: CHECK}
+- {age: 950, dim: null, dslh: 206, dte: !!timestamp '2017-11-27 14:28:41.031022', lact: 0, typ: CHECK}
+- {age: 1026, calf: 21PCT8606, dim: null, dslh: null, dte: &id002 !!timestamp '2018-02-11 00:00:00', lact: 1, typ: FRESH}
+- {age: 1026, dim: 0, dslh: null, dte: *id002, lact: 1, rem: auto, typ: OPEN}
+lact: 1
+lactation_state: inmilk
+life_state: alive
+pen: 4
+repro_state: open
+usda: 21PBS0549
+vetck_rem: null
+vetck_state: normal

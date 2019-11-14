@@ -1,0 +1,38 @@
+active_state: inactive
+bname: 3A
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '1900-01-01 00:00:00', lact: 2, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 2, rem: auto, typ: OPEN}
+- {age: 42638, dest: 1, dim: null, dslh: null, dte: !!timestamp '2016-09-27 00:00:00', lact: 2, typ: MOVE}
+- {age: 42403, dim: null, dslh: null, dte: &id002 !!timestamp '2016-02-05 00:00:00', lact: 2, typ: BRED}
+- {age: 42638, dim: null, dslh: 235, dte: !!timestamp '2016-09-27 00:00:00', lact: 2, typ: PREG}
+- {age: 42403, dim: null, dslh: 0, dte: *id002, lact: 2, rem: auto, typ: CONCEPTION}
+- {age: 42648, dest: 2, dim: null, dslh: 245, dte: !!timestamp '2016-10-07 21:22:21.060112', lact: 2, typ: MOVE}
+- {age: 42649, dim: null, dslh: 246, dte: !!timestamp '2016-10-08 08:23:49.221323', lact: 2, rem: NOTUBES, typ: DRY}
+- {admin: NA, age: 42647, ampm: pm, bfdays: 0, by: Zach Waite, dim: null, dosage: NA, dslh: 244, dte: !!timestamp '2016-10-06 00:00:00', lact: 2, mkdays: 0, trt: Footrim, typ: TREATMENT}
+- {age: 42672, dim: null, dslh: null, dte: &id003 !!timestamp '2016-10-31 00:00:00', lact: 3, typ: FRESH}
+- {age: 42672, dim: 0, dslh: null, dte: *id003, lact: 3, rem: auto, typ: OPEN}
+- {age: 42758, dim: 86, dslh: null, dte: &id004 !!timestamp '2017-01-25 00:00:00', lact: 3, typ: BRED}
+- {age: 42820, dim: 148, dslh: 62, dte: !!timestamp '2017-03-28 08:40:21.619388', lact: 3, typ: CHECK}
+- {age: 42820, dim: 148, dslh: 62, dte: !!timestamp '2017-03-28 08:45:09.017339', lact: 3, typ: CHECK}
+- {age: 42820, dim: 148, dslh: 62, dte: !!timestamp '2017-03-28 08:47:15.098099', lact: 3, typ: CHECK}
+- {age: 42820, dim: 148, dslh: 62, dte: !!timestamp '2017-03-28 08:49:03.649555', lact: 3, typ: CHECK}
+- {age: 42820, dim: 148, dslh: 62, dte: !!timestamp '2017-03-28 08:55:54.155583', lact: 3, typ: CHECK}
+- {age: 42820, dim: 148, dslh: 62, dte: !!timestamp '2017-03-28 09:02:19.512446', lact: 3, typ: CHECK}
+- {age: 42820, dim: 148, dslh: 62, dte: !!timestamp '2017-03-28 09:06:20.799403', lact: 3, typ: CHECK}
+- {age: 42820, dim: 148, dslh: 62, dte: !!timestamp '2017-03-28 09:29:54.978949', lact: 3, typ: CHECK}
+- {age: 42820, dim: 148, dslh: 62, dte: !!timestamp '2017-03-28 09:36:23.173602', lact: 3, typ: CLEAR}
+- {age: 42820, dim: 148, dslh: 62, dte: !!timestamp '2017-03-28 09:37:03.317793', lact: 3, typ: CHECK}
+- {age: 42820, dim: 148, dslh: 62, dte: !!timestamp '2017-03-28 00:00:00', lact: 3, typ: PREG}
+- {age: 42758, dim: 86, dslh: 0, dte: *id004, lact: 3, rem: auto, typ: CONCEPTION}
+- {admin: IM, age: 42820, ampm: am, bfdays: 21, by: Zach Waite, dim: 148, dosage: 5ml, dslh: 62, dte: !!timestamp '2017-03-28 00:00:00', lact: 3, mkdays: 0, trt: Triangle 10 vaccine, typ: TREATMENT}
+- {age: 43072, dim: 400, dslh: 314, dte: &id005 !!timestamp '2017-12-05 00:00:00', lact: 3, typ: SOLD}
+- {age: 43072, dim: 400, dslh: 314, dte: *id005, lact: 3, typ: DEACTIVATED}
+lact: 3
+lactation_state: inmilk
+life_state: alive
+pen: 2
+repro_state: preg
+usda: '-'
+vetck_rem: null
+vetck_state: normal

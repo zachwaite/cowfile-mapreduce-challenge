@@ -1,0 +1,19 @@
+active_state: active
+bname: MOZZARELLA
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '1900-01-01 00:00:00', lact: 0, rem: auto, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 0, rem: auto, typ: OPEN}
+- {age: 42971, dest: 4, dim: null, dslh: null, dte: !!timestamp '2017-08-26 00:00:00', lact: 0, typ: MOVE}
+- {admin: IM, age: 42971, ampm: am, bfdays: 21, by: Zach Waite, dim: null, dosage: 5ml, dslh: null, dte: !!timestamp '2017-08-26 00:00:00', lact: 0, mkdays: 0, trt: Triangle 10 vaccine, typ: TREATMENT}
+- {age: 43000, dim: null, dslh: null, dte: !!timestamp '2017-09-24 00:00:00', lact: 0, typ: BRED}
+- {age: 43045, dim: null, dslh: 45, dte: !!timestamp '2017-11-08 06:48:31.844547', lact: 0, typ: CHECK}
+- {age: 43064, dim: null, dslh: 64, dte: !!timestamp '2017-11-27 14:28:41.031022', lact: 0, typ: CHECK}
+- {age: 43288, dim: null, dslh: 288, dte: !!timestamp '2018-07-09 00:00:00', lact: 0, typ: BRED}
+lact: 0
+lactation_state: hfr
+life_state: alive
+pen: 4
+repro_state: bred
+usda: '-'
+vetck_rem: null
+vetck_state: normal

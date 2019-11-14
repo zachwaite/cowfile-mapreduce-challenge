@@ -1,0 +1,16 @@
+active_state: active
+bname: MATTI
+events:
+- {age: 1, dim: null, dslh: null, dte: !!timestamp '1900-01-01 09:36:23.204818', lact: 0, typ: OPEN}
+- {age: null, dest: 5, dim: null, dslh: null, dte: !!timestamp '2017-04-11 00:00:00', lact: 0, typ: MOVE}
+- {age: null, dest: 4, dim: null, dslh: null, dte: !!timestamp '2018-03-18 06:39:40.352375', lact: 0, typ: MOVE}
+- {admin: IM, age: null, ampm: am, bfdays: 21, by: Zach Waite, dim: null, dosage: 5ml, dslh: null, dte: !!timestamp '2018-03-18 06:42:44.996025', lact: 0, mkdays: 0, trt: Triangle 10 vaccine, typ: TREATMENT}
+- {age: null, dim: null, dslh: null, dte: !!timestamp '2018-05-03 00:00:00', lact: 0, typ: BRED}
+lact: 0
+lactation_state: hfr
+life_state: alive
+pen: 4
+repro_state: bred
+usda: 21PCE4775
+vetck_rem: null
+vetck_state: normal

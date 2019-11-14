@@ -1,0 +1,24 @@
+active_state: inactive
+bname: '16'
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '1900-01-01 00:00:00', lact: 2, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 2, rem: auto, typ: OPEN}
+- {age: 42638, dest: 2, dim: null, dslh: null, dte: !!timestamp '2016-09-27 00:00:00', lact: 2, typ: MOVE}
+- {age: 42478, dim: null, dslh: null, dte: &id002 !!timestamp '2016-04-20 00:00:00', lact: 2, typ: BRED}
+- {age: 42638, dim: null, dslh: 160, dte: !!timestamp '2016-09-27 00:00:00', lact: 2, typ: PREG}
+- {age: 42478, dim: null, dslh: 0, dte: *id002, lact: 2, rem: auto, typ: CONCEPTION}
+- {age: 42722, dim: null, dslh: 244, dte: !!timestamp '2016-12-20 00:00:00', lact: 2, rem: notubes, typ: DRY}
+- {age: 42734, dim: null, dslh: null, dte: &id003 !!timestamp '2017-01-01 00:00:00', lact: 3, typ: FRESH}
+- {age: 42734, dim: 0, dslh: null, dte: *id003, lact: 3, rem: auto, typ: OPEN}
+- {age: 42820, dim: 86, dslh: null, dte: !!timestamp '2017-03-28 09:36:23.199221', lact: 3, typ: CLEAR}
+- {age: 42884, dim: 150, dslh: null, dte: !!timestamp '2017-05-31 06:30:25.212147', lact: 3, typ: CHECK}
+- {age: 43197, dim: 463, dslh: null, dte: &id004 !!timestamp '2018-04-09 13:19:26.144871', lact: 3, typ: SOLD}
+- {age: 43197, dim: 463, dslh: null, dte: *id004, lact: 3, typ: DEACTIVATED}
+lact: 3
+lactation_state: inmilk
+life_state: alive
+pen: 2
+repro_state: open
+usda: '-'
+vetck_rem: DNB
+vetck_state: normal

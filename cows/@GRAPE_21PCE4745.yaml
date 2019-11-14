@@ -1,0 +1,19 @@
+active_state: active
+bname: GRAPE
+events:
+- {age: null, dest: 5, dim: null, dslh: null, dte: !!timestamp '2016-10-21 00:00:00', lact: 0, typ: MOVE}
+- {age: null, dim: null, dslh: null, dte: !!timestamp '2017-03-28 09:36:23.171372', lact: 0, typ: CLEAR}
+- {age: null, dim: null, dslh: null, dte: !!timestamp '1900-01-01 00:00:00', lact: 0, typ: OPEN}
+- {age: null, dest: 4, dim: null, dslh: null, dte: !!timestamp '2018-03-18 06:39:40.470318', lact: 0, typ: MOVE}
+- {admin: IM, age: null, ampm: am, bfdays: 21, by: Zach Waite, dim: null, dosage: 5ml, dslh: null, dte: !!timestamp '2018-03-18 06:42:45.132746', lact: 0, mkdays: 0, trt: Triangle 10 vaccine, typ: TREATMENT}
+- {age: null, dim: null, dslh: null, dte: !!timestamp '2018-03-25 00:00:00', lact: 0, typ: BRED}
+- {age: null, dim: null, dslh: 0, dte: !!timestamp '2018-03-25 00:00:00', lact: 0, typ: BRED}
+- {age: null, dim: null, dslh: 18, dte: !!timestamp '2018-04-12 00:00:00', lact: 0, typ: BRED}
+lact: 0
+lactation_state: hfr
+life_state: alive
+pen: 4
+repro_state: bred
+usda: 21PCE4745
+vetck_rem: null
+vetck_state: normal

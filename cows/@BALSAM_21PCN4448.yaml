@@ -1,0 +1,14 @@
+active_state: active
+bname: BALSAM
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '2017-09-06 00:00:00', lact: 0, rem: auto, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 0, rem: auto, typ: OPEN}
+- {age: 43091, dest: 5, dim: null, dslh: null, dte: !!timestamp '2017-12-24 00:00:00', lact: 0, typ: MOVE}
+lact: 0
+lactation_state: hfr
+life_state: alive
+pen: 5
+repro_state: open
+usda: 21PCN4448
+vetck_rem: null
+vetck_state: normal

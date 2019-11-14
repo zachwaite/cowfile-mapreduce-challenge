@@ -1,0 +1,25 @@
+active_state: active
+bname: MOOSPAP
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '1900-01-01 00:00:00', lact: 0, rem: auto, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 0, rem: auto, typ: OPEN}
+- {age: 42779, dest: 4, dim: null, dslh: null, dte: !!timestamp '2017-02-15 00:00:00', lact: 0, typ: MOVE}
+- {admin: IM, age: 42779, ampm: am, bfdays: 21, by: Zach Waite, dim: null, dosage: 5ml, dslh: null, dte: !!timestamp '2017-02-15 00:00:00', lact: 0, mkdays: 0, trt: Triangle 10 vaccine, typ: TREATMENT}
+- {age: 42813, dim: null, dslh: null, dte: !!timestamp '2017-03-21 00:00:00', lact: 0, typ: BRED}
+- {age: 42848, dim: null, dslh: 35, dte: !!timestamp '2017-04-25 06:56:18.091307', lact: 0, typ: CHECK}
+- {age: 42855, dim: null, dslh: 42, dte: !!timestamp '2017-05-02 11:44:00.875803', lact: 0, typ: CHECK}
+- {age: 42883, dim: null, dslh: 70, dte: !!timestamp '2017-05-30 22:43:58.205915', lact: 0, typ: CHECK}
+- {age: 42884, dim: null, dslh: 71, dte: !!timestamp '2017-05-31 06:14:24.695519', lact: 0, typ: CHECK}
+- {age: 42911, dim: null, dslh: 98, dte: !!timestamp '2017-06-27 06:04:10.224322', lact: 0, typ: CHECK}
+- {age: 42939, dim: null, dslh: 126, dte: !!timestamp '2017-07-25 04:15:18.037991', lact: 0, typ: CHECK}
+- {age: 43002, dim: null, dslh: 189, dte: !!timestamp '2017-09-26 08:25:35.908268', lact: 0, typ: CHECK}
+- {age: 43045, dim: null, dslh: 232, dte: !!timestamp '2017-11-08 06:48:31.844547', lact: 0, typ: CHECK}
+- {age: 43064, dim: null, dslh: 251, dte: !!timestamp '2017-11-27 14:28:41.031022', lact: 0, typ: CHECK}
+lact: 0
+lactation_state: hfr
+life_state: alive
+pen: 4
+repro_state: bred
+usda: 21PCE4764
+vetck_rem: null
+vetck_state: normal

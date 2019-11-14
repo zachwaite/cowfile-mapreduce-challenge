@@ -1,0 +1,16 @@
+active_state: active
+bname: HERSHEY
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '1900-01-01 00:00:00', lact: 2, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 2, rem: auto, typ: OPEN}
+- {age: 42638, dest: 3, dim: null, dslh: null, dte: !!timestamp '2016-09-27 00:00:00', lact: 2, typ: MOVE}
+- {age: 42763, ampm: am, by: zach, dig: indig, dim: null, dslh: null, dte: !!timestamp '2017-01-30 00:00:00', lact: 2, typ: DIAGNOSIS}
+- {age: 42820, dim: null, dslh: null, dte: !!timestamp '2017-03-28 09:36:23.226813', lact: 2, typ: CLEAR}
+lact: 2
+lactation_state: hfr
+life_state: alive
+pen: 3
+repro_state: open
+usda: '-'
+vetck_rem: null
+vetck_state: normal

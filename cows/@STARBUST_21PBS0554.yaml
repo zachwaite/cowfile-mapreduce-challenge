@@ -1,0 +1,22 @@
+active_state: active
+bname: STARBUST
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '2015-04-30 00:00:00', lact: 0, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 0, rem: auto, typ: OPEN}
+- {age: 516, dest: 7, dim: null, dslh: null, dte: !!timestamp '2016-09-27 00:00:00', lact: 0, typ: MOVE}
+- {age: 657, dest: 4, dim: null, dslh: null, dte: !!timestamp '2017-02-15 00:00:00', lact: 0, typ: MOVE}
+- {admin: IM, age: 657, ampm: am, bfdays: 21, by: Zach Waite, dim: null, dosage: 5ml, dslh: null, dte: !!timestamp '2017-02-15 00:00:00', lact: 0, mkdays: 0, trt: Triangle 10 vaccine, typ: TREATMENT}
+- {age: 698, dim: null, dslh: null, dte: !!timestamp '2017-03-28 09:36:23.226061', lact: 0, typ: CLEAR}
+- {age: 761, dim: null, dslh: null, dte: !!timestamp '2017-05-30 00:00:00', lact: 0, typ: BRED}
+- {age: 817, dim: null, dslh: 56, dte: !!timestamp '2017-07-25 04:15:18.037991', lact: 0, typ: CHECK}
+- {age: 880, dim: null, dslh: 119, dte: !!timestamp '2017-09-26 08:25:35.908268', lact: 0, typ: CHECK}
+- {age: 923, dim: null, dslh: 162, dte: !!timestamp '2017-11-08 06:48:31.844547', lact: 0, typ: CHECK}
+- {age: 931, dim: null, dslh: 170, dte: !!timestamp '2017-11-16 00:00:00', lact: 0, typ: BRED}
+lact: 0
+lactation_state: hfr
+life_state: alive
+pen: 4
+repro_state: bred
+usda: 21PBS0554
+vetck_rem: null
+vetck_state: normal

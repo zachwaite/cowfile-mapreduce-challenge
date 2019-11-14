@@ -1,0 +1,31 @@
+active_state: active
+bname: RAINBOW
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '2014-12-01 00:00:00', lact: 0, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 0, rem: auto, typ: OPEN}
+- {age: 666, dest: 4, dim: null, dslh: null, dte: !!timestamp '2016-09-27 00:00:00', lact: 0, typ: MOVE}
+- {age: 555, dim: null, dslh: null, dte: !!timestamp '2016-06-08 00:00:00', lact: 0, typ: BRED}
+- {age: 694, dim: null, dslh: 139, dte: !!timestamp '2016-10-25 09:33:28.426652', lact: 0, typ: CHECK}
+- {age: 792, dim: null, dslh: 237, dte: !!timestamp '2017-01-31 08:57:00.481285', lact: 0, typ: CHECK}
+- {age: 831, dim: null, dslh: null, dte: &id002 !!timestamp '2017-03-11 00:00:00', lact: 1, typ: FRESH}
+- {age: 831, dim: 0, dslh: null, dte: *id002, lact: 1, rem: auto, typ: OPEN}
+- {age: 848, dim: 17, dslh: null, dte: !!timestamp '2017-03-28 09:36:23.210811', lact: 1, typ: CLEAR}
+- {age: 868, dest: 1, dim: 37, dslh: null, dte: !!timestamp '2017-04-17 00:00:00', lact: 1, typ: MOVE}
+- {age: 919, dim: 88, dslh: null, dte: !!timestamp '2017-06-07 00:00:00', lact: 1, typ: BRED}
+- {age: 967, dim: 136, dslh: 48, dte: !!timestamp '2017-07-25 04:15:18.037991', lact: 1, typ: CHECK}
+- {age: 967, dim: 136, dslh: 48, dte: !!timestamp '2017-07-25 00:00:00', lact: 1, typ: OPEN}
+- {age: 1048, dim: 217, dslh: null, dte: &id003 !!timestamp '2017-10-14 00:00:00', lact: 1, typ: BRED}
+- {age: 1092, dim: 261, dslh: 44, dte: !!timestamp '2017-11-27 14:28:41.031022', lact: 1, typ: CHECK}
+- {age: 1093, dim: 262, dslh: 45, dte: !!timestamp '2017-11-28 00:00:00', lact: 1, typ: PREG}
+- {age: 1048, dim: 217, dslh: 0, dte: *id003, lact: 1, rem: auto, typ: CONCEPTION}
+- {admin: IM, age: 1093, ampm: am, bfdays: 21, by: Mike Waite, dim: 262, dosage: 5ml, dslh: 45, dte: !!timestamp '2017-11-28 00:00:00', lact: 1, mkdays: 0, trt: Triangle 10 vaccine, typ: TREATMENT}
+- {age: 1322, calf: null, dim: null, dslh: null, dte: &id004 !!timestamp '2018-07-15 00:00:00', lact: 2, typ: FRESH}
+- {age: 1322, dim: 0, dslh: null, dte: *id004, lact: 2, rem: auto, typ: OPEN}
+lact: 2
+lactation_state: inmilk
+life_state: alive
+pen: 1
+repro_state: open
+usda: 21PBZ4395
+vetck_rem: null
+vetck_state: normal

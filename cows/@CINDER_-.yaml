@@ -1,0 +1,23 @@
+active_state: inactive
+bname: CINDER
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '1900-01-01 00:00:00', lact: 3, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 3, rem: auto, typ: OPEN}
+- {age: 42638, dest: 4, dim: null, dslh: null, dte: !!timestamp '2016-09-27 00:00:00', lact: 3, typ: MOVE}
+- {age: 42387, dim: null, dslh: null, dte: &id002 !!timestamp '2016-01-20 00:00:00', lact: 3, typ: BRED}
+- {age: 42638, dim: null, dslh: 251, dte: !!timestamp '2016-09-27 00:00:00', lact: 3, typ: PREG}
+- {age: 42387, dim: null, dslh: 0, dte: *id002, lact: 3, rem: auto, typ: CONCEPTION}
+- {admin: IV, age: 42676, ampm: am, bfdays: 0, by: Zach Waite, dim: null, dosage: 500ml, dslh: 289, dte: !!timestamp '2016-11-04 00:00:00', lact: 3, mkdays: 0, trt: CMPK, typ: TREATMENT}
+- {REM: No Idea, age: 42676, dim: null, dslh: 289, dte: &id003 !!timestamp '2016-11-04 00:00:00', lact: 3, typ: DIED}
+- {age: 42676, dim: null, dslh: 289, dte: *id003, lact: 3, typ: DEACTIVATED}
+- {age: 42672, dim: null, dslh: null, dte: &id004 !!timestamp '2016-10-31 00:00:00', lact: 4, typ: FRESH}
+- {age: 42672, dim: 0, dslh: null, dte: *id004, lact: 4, rem: auto, typ: OPEN}
+- {age: 42820, dim: 148, dslh: null, dte: !!timestamp '2017-03-28 09:36:23.238362', lact: 4, typ: CLEAR}
+lact: 4
+lactation_state: inmilk
+life_state: dead
+pen: 4
+repro_state: open
+usda: '-'
+vetck_rem: null
+vetck_state: normal

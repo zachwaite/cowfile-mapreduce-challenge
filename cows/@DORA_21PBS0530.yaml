@@ -1,0 +1,29 @@
+active_state: active
+bname: DORA
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '2015-02-27 00:00:00', lact: 0, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 0, rem: auto, typ: OPEN}
+- {age: 578, dest: 4, dim: null, dslh: null, dte: !!timestamp '2016-09-27 00:00:00', lact: 0, typ: MOVE}
+- {age: 663, dim: null, dslh: null, dte: !!timestamp '2016-12-21 00:00:00', lact: 0, typ: BRED}
+- {age: 704, dim: null, dslh: 41, dte: !!timestamp '2017-01-31 08:57:00.481285', lact: 0, typ: CHECK}
+- {age: 760, dim: null, dslh: 97, dte: !!timestamp '2017-03-28 09:29:54.978949', lact: 0, typ: CHECK}
+- {age: 760, dim: null, dslh: 97, dte: !!timestamp '2017-03-28 09:36:23.222189', lact: 0, typ: CLEAR}
+- {age: 760, dim: null, dslh: 97, dte: !!timestamp '2017-03-28 09:37:03.317793', lact: 0, typ: CHECK}
+- {age: 788, dim: null, dslh: 125, dte: !!timestamp '2017-04-25 06:56:18.091307', lact: 0, typ: CHECK}
+- {age: 795, dim: null, dslh: 132, dte: !!timestamp '2017-05-02 11:44:00.875803', lact: 0, typ: CHECK}
+- {age: 823, dim: null, dslh: 160, dte: !!timestamp '2017-05-30 22:43:58.205915', lact: 0, typ: CHECK}
+- {age: 824, dim: null, dslh: 161, dte: !!timestamp '2017-05-31 06:14:24.695519', lact: 0, typ: CHECK}
+- {age: 851, dim: null, dslh: 188, dte: !!timestamp '2017-06-27 06:04:10.224322', lact: 0, typ: CHECK}
+- {age: 879, dim: null, dslh: 216, dte: !!timestamp '2017-07-25 04:15:18.037991', lact: 0, typ: CHECK}
+- {age: 942, dim: null, dslh: 279, dte: !!timestamp '2017-09-26 08:25:35.908268', lact: 0, typ: CHECK}
+- {age: 981, dim: null, dslh: 318, dte: !!timestamp '2017-11-04 00:00:00', lact: 0, typ: BRED}
+- {age: 1221, calf: null, dim: null, dslh: null, dte: &id002 !!timestamp '2018-07-02 00:00:00', lact: 1, typ: FRESH}
+- {age: 1221, dim: 0, dslh: null, dte: *id002, lact: 1, rem: auto, typ: OPEN}
+lact: 1
+lactation_state: inmilk
+life_state: alive
+pen: 4
+repro_state: open
+usda: 21PBS0530
+vetck_rem: null
+vetck_state: normal

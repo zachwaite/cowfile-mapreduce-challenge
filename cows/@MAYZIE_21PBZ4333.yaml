@@ -1,0 +1,29 @@
+active_state: inactive
+bname: MAYZIE
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '1900-01-01 00:00:00', lact: 2, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 2, rem: auto, typ: OPEN}
+- {age: 42638, dest: 3, dim: null, dslh: null, dte: !!timestamp '2016-09-27 00:00:00', lact: 2, typ: MOVE}
+- {age: 42564, dim: null, dslh: null, dte: &id002 !!timestamp '2016-07-15 00:00:00', lact: 3, typ: FRESH}
+- {age: 42564, dim: 0, dslh: null, dte: *id002, lact: 3, rem: auto, typ: OPEN}
+- {age: 42820, dim: 256, dslh: null, dte: !!timestamp '2017-03-28 09:36:23.229338', lact: 3, typ: CLEAR}
+- {age: 42858, calf: 21PCE4788, dim: null, dslh: null, dte: &id003 !!timestamp '2017-05-05 00:00:00', lact: 4, typ: FRESH}
+- {age: 42858, dim: 0, dslh: null, dte: *id003, lact: 4, rem: auto, typ: OPEN}
+- {age: 42884, dim: 26, dslh: null, dte: !!timestamp '2017-05-31 00:00:00', lact: 4, typ: BRED}
+- {age: 42939, dim: 81, dslh: 55, dte: !!timestamp '2017-07-25 04:15:18.037991', lact: 4, typ: CHECK}
+- {age: 42939, dim: 81, dslh: 55, dte: !!timestamp '2017-07-25 00:00:00', lact: 4, typ: OPEN}
+- {age: 42970, dim: 112, dslh: null, dte: !!timestamp '2017-08-25 00:00:00', lact: 4, typ: BRED}
+- {age: 42992, dim: 134, dslh: 22, dte: !!timestamp '2017-09-16 00:00:00', lact: 4, typ: BRED}
+- {age: 43018, dim: 160, dslh: 26, dte: !!timestamp '2017-10-12 00:00:00', lact: 4, typ: BRED}
+- {age: 43041, dim: 183, dslh: 23, dte: !!timestamp '2017-11-04 00:00:00', lact: 4, typ: BRED}
+- {age: 43094, dim: 236, dslh: 53, dte: !!timestamp '2017-12-27 00:00:00', lact: 4, typ: BRED}
+- {age: 43197, dim: 339, dslh: 103, dte: &id004 !!timestamp '2018-04-09 13:19:26.022665', lact: 4, typ: SOLD}
+- {age: 43197, dim: 339, dslh: 103, dte: *id004, lact: 4, typ: DEACTIVATED}
+lact: 4
+lactation_state: inmilk
+life_state: alive
+pen: 3
+repro_state: bred
+usda: 21PBZ4333
+vetck_rem: PYMET
+vetck_state: normal

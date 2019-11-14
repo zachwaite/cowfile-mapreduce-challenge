@@ -1,0 +1,17 @@
+active_state: active
+bname: ZIA
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '1900-01-01 00:00:00', lact: 1, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 1, rem: auto, typ: OPEN}
+- {age: 42638, dest: 3, dim: null, dslh: null, dte: !!timestamp '2016-09-27 00:00:00', lact: 1, typ: MOVE}
+- {age: 41873, dim: null, dslh: null, dte: !!timestamp '2014-08-24 00:00:00', lact: 1, typ: BRED}
+- {age: 42638, dim: null, dslh: 765, dte: !!timestamp '2016-09-27 00:00:00', lact: 1, typ: OPEN}
+- {age: 42820, dim: null, dslh: null, dte: !!timestamp '2017-03-28 09:36:23.189189', lact: 1, typ: CLEAR}
+lact: 1
+lactation_state: hfr
+life_state: alive
+pen: 3
+repro_state: open
+usda: '-'
+vetck_rem: null
+vetck_state: normal

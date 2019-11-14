@@ -1,0 +1,38 @@
+active_state: active
+bname: OLEOPRY
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '2014-06-13 00:00:00', lact: 1, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 1, rem: auto, typ: OPEN}
+- {age: 837, dest: 1, dim: null, dslh: null, dte: !!timestamp '2016-09-27 00:00:00', lact: 1, typ: MOVE}
+- {age: 801, dim: null, dslh: null, dte: !!timestamp '2016-08-22 00:00:00', lact: 1, typ: BRED}
+- {age: 837, dim: null, dslh: 36, dte: !!timestamp '2016-09-27 00:00:00', lact: 1, typ: OPEN}
+- {age: 856, dim: null, dslh: null, dte: !!timestamp '2016-10-16 00:00:00', lact: 1, typ: BRED}
+- {age: 877, dim: null, dslh: 21, dte: !!timestamp '2016-11-06 00:00:00', lact: 1, typ: BRED}
+- {age: 901, dim: null, dslh: 24, dte: !!timestamp '2016-11-30 00:00:00', lact: 1, typ: BRED}
+- {age: 951, dim: null, dslh: 50, dte: !!timestamp '2017-01-19 00:00:00', lact: 1, typ: BRED}
+- {age: 975, dim: null, dslh: 24, dte: !!timestamp '2017-02-12 00:00:00', lact: 1, typ: BRED}
+- {age: 997, dim: null, dslh: 22, dte: !!timestamp '2017-03-06 00:00:00', lact: 1, typ: BRED}
+- {age: 1019, dim: null, dslh: 22, dte: !!timestamp '2017-03-28 09:36:23.167714', lact: 1, typ: CLEAR}
+- {age: 1039, dest: 2, dim: null, dslh: 42, dte: !!timestamp '2017-04-17 00:00:00', lact: 1, typ: MOVE}
+- {age: 1020, dim: null, dslh: 23, dte: !!timestamp '2017-03-29 00:00:00', lact: 1, typ: BRED}
+- {admin: NA, age: 1048, ampm: pm, bfdays: 0, by: Zach Waite, dim: null, dosage: NA, dslh: 28, dte: !!timestamp '2017-04-26 00:00:00', lact: 1, mkdays: 0, trt: Footrim LR and RR, typ: TREATMENT}
+- {admin: topical, age: 1048, ampm: pm, bfdays: 0, by: Zach Waite, dim: null, dosage: 1scoop, dslh: 28, dte: !!timestamp '2017-04-26 00:00:00', lact: 1, mkdays: 0, trt: Copper Sulfate, typ: TREATMENT}
+- {age: 1082, dim: null, dslh: 62, dte: !!timestamp '2017-05-30 22:43:58.205915', lact: 1, typ: CHECK}
+- {age: 1083, dim: null, dslh: 63, dte: !!timestamp '2017-05-31 06:14:24.695519', lact: 1, typ: CHECK}
+- {age: 1083, dim: null, dslh: 63, dte: !!timestamp '2017-05-31 17:34:46.534434', lact: 1, typ: OPEN}
+- {age: 1208, dim: null, dslh: null, dte: !!timestamp '2017-10-03 00:00:00', lact: 1, typ: BRED}
+- {age: 1244, dim: null, dslh: 36, dte: !!timestamp '2017-11-08 06:48:31.844547', lact: 1, typ: CHECK}
+- {age: 1263, dim: null, dslh: 55, dte: !!timestamp '2017-11-27 14:28:41.031022', lact: 1, typ: CHECK}
+- {age: 1264, dim: null, dslh: 56, dte: !!timestamp '2017-11-28 00:00:00', lact: 1, typ: OPEN}
+- {admin: IM, age: 1264, ampm: am, bfdays: 0, by: Zach Waite, dim: null, dosage: 5cc, dslh: null, dte: !!timestamp '2017-11-28 00:00:00', lact: 1, mkdays: 0, trt: Lutalyse, typ: TREATMENT}
+- {age: 1290, dim: null, dslh: null, dte: !!timestamp '2017-12-24 00:00:00', lact: 1, typ: BRED}
+- {age: 1312, dim: null, dslh: 22, dte: !!timestamp '2018-01-15 00:00:00', lact: 1, typ: BRED}
+- {age: 1383, dim: null, dslh: 71, dte: !!timestamp '2018-03-27 00:00:00', lact: 1, typ: OPEN}
+lact: 1
+lactation_state: inmilk
+life_state: alive
+pen: 2
+repro_state: open
+usda: '0'
+vetck_rem: null
+vetck_state: normal

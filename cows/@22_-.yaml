@@ -1,0 +1,29 @@
+active_state: active
+bname: '22'
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '1900-01-01 00:00:00', lact: 2, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 2, rem: auto, typ: OPEN}
+- {age: 42638, dest: 1, dim: null, dslh: null, dte: !!timestamp '2016-09-27 00:00:00', lact: 2, typ: MOVE}
+- {age: 42594, dim: null, dslh: null, dte: &id002 !!timestamp '2016-08-14 00:00:00', lact: 3, typ: FRESH}
+- {age: 42594, dim: 0, dslh: null, dte: *id002, lact: 3, rem: auto, typ: OPEN}
+- {age: 42664, dim: 70, dslh: null, dte: !!timestamp '2016-10-23 00:00:00', lact: 3, typ: BRED}
+- {age: 42709, dim: 115, dslh: 45, dte: &id003 !!timestamp '2016-12-07 00:00:00', lact: 3, typ: BRED}
+- {age: 42764, dim: 170, dslh: 55, dte: !!timestamp '2017-01-31 08:57:00.481285', lact: 3, typ: CHECK}
+- {age: 42764, dim: 170, dslh: 55, dte: !!timestamp '2017-01-31 00:00:00', lact: 3, typ: PREG}
+- {age: 42709, dim: 115, dslh: 0, dte: *id003, lact: 3, rem: auto, typ: CONCEPTION}
+- {age: 42764, dim: 170, dslh: 55, dte: !!timestamp '2017-01-31 00:00:00', lact: 3, typ: CLEAR}
+- {admin: IM, age: 42764, ampm: am, bfdays: 21, by: Zach Waite, dim: 170, dosage: 5ml, dslh: 55, dte: !!timestamp '2017-01-31 00:00:00', lact: 3, mkdays: 0, trt: Triangle 10 vaccine, typ: TREATMENT}
+- {age: 42820, dim: 226, dslh: 111, dte: !!timestamp '2017-03-28 09:36:23.186263', lact: 3, typ: CLEAR}
+- {age: 43004, dim: null, dslh: null, dte: &id004 !!timestamp '2017-09-28 09:05:37.713943', lact: 4, typ: FRESH}
+- {age: 43004, dim: 0, dslh: null, dte: *id004, lact: 4, rem: auto, typ: OPEN}
+- {admin: IM, age: 43057, ampm: am, bfdays: 4, by: Mike Waite, dim: 52, dosage: 20cc, dslh: null, dte: !!timestamp '2017-11-20 00:00:00', lact: 4, mkdays: 0, trt: Ceftiflex, typ: TREATMENT}
+- {age: 43070, dim: 65, dslh: null, dte: !!timestamp '2017-12-03 00:00:00', lact: 4, typ: BRED}
+- {age: 43128, dim: 123, dslh: 58, dte: !!timestamp '2018-01-30 00:00:00', lact: 4, typ: OPEN}
+lact: 4
+lactation_state: inmilk
+life_state: alive
+pen: 1
+repro_state: open
+usda: '-'
+vetck_rem: null
+vetck_state: normal

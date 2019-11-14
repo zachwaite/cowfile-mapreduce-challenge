@@ -1,0 +1,32 @@
+active_state: active
+bname: '10574'
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '2015-06-12 00:00:00', lact: 0, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 0, rem: auto, typ: OPEN}
+- {age: 473, dest: 4, dim: null, dslh: null, dte: !!timestamp '2016-09-27 00:00:00', lact: 0, typ: MOVE}
+- {age: 534, dest: 4, dim: null, dslh: null, dte: !!timestamp '2016-11-27 00:00:00', lact: 0, typ: MOVE}
+- {admin: IM, age: 534, ampm: pm, bfdays: 21, by: Zach Waite, dim: null, dosage: 5ml, dslh: null, dte: !!timestamp '2016-11-27 00:00:00', lact: 0, mkdays: 0, trt: Triangle 10 vaccine, typ: TREATMENT}
+- {age: 554, dim: null, dslh: null, dte: !!timestamp '2016-12-17 00:00:00', lact: 0, typ: BRED}
+- {age: 593, dim: null, dslh: 39, dte: !!timestamp '2017-01-25 00:00:00', lact: 0, typ: BRED}
+- {age: 596, dim: null, dslh: 3, dte: !!timestamp '2017-01-28 00:00:00', lact: 0, typ: BRED}
+- {age: 655, dim: null, dslh: 59, dte: !!timestamp '2017-03-28 09:29:54.978949', lact: 0, typ: CHECK}
+- {age: 655, dim: null, dslh: 59, dte: !!timestamp '2017-03-28 09:36:23.234144', lact: 0, typ: CLEAR}
+- {age: 655, dim: null, dslh: 59, dte: !!timestamp '2017-03-28 09:37:03.317793', lact: 0, typ: CHECK}
+- {age: 683, dim: null, dslh: 87, dte: !!timestamp '2017-04-25 06:56:18.091307', lact: 0, typ: CHECK}
+- {age: 690, dim: null, dslh: 94, dte: !!timestamp '2017-05-02 11:44:00.875803', lact: 0, typ: CHECK}
+- {age: 718, dim: null, dslh: 122, dte: !!timestamp '2017-05-30 22:43:58.205915', lact: 0, typ: CHECK}
+- {age: 719, dim: null, dslh: 123, dte: !!timestamp '2017-05-31 06:14:24.695519', lact: 0, typ: CHECK}
+- {age: 746, dim: null, dslh: 150, dte: !!timestamp '2017-06-27 06:04:10.224322', lact: 0, typ: CHECK}
+- {age: 774, dim: null, dslh: 178, dte: !!timestamp '2017-07-25 04:15:18.037991', lact: 0, typ: CHECK}
+- {age: 837, dim: null, dslh: 241, dte: !!timestamp '2017-09-26 08:25:35.908268', lact: 0, typ: CHECK}
+- {age: 880, dim: null, dslh: 284, dte: !!timestamp '2017-11-08 06:48:31.844547', lact: 0, typ: CHECK}
+- {age: 899, dim: null, dslh: 303, dte: !!timestamp '2017-11-27 14:28:41.031022', lact: 0, typ: CHECK}
+- {age: 899, dim: null, dslh: 303, dte: !!timestamp '2017-11-27 00:00:00', lact: 0, typ: BRED}
+lact: 0
+lactation_state: hfr
+life_state: alive
+pen: 4
+repro_state: bred
+usda: 21PBS0574
+vetck_rem: null
+vetck_state: normal

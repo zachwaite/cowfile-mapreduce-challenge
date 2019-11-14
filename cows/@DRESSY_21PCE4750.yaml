@@ -1,0 +1,22 @@
+active_state: active
+bname: DRESSY
+events:
+- {age: null, dest: 5, dim: null, dslh: null, dte: !!timestamp '2016-10-21 00:00:00', lact: 0, typ: MOVE}
+- {age: null, dim: null, dslh: null, dte: !!timestamp '2017-03-28 09:36:23.181357', lact: 0, typ: CLEAR}
+- {age: null, dim: null, dslh: null, dte: !!timestamp '1900-01-01 00:00:00', lact: 0, typ: OPEN}
+- {age: null, dest: 4, dim: null, dslh: null, dte: !!timestamp '2017-06-17 00:00:00', lact: 0, typ: MOVE}
+- {age: null, dim: null, dslh: null, dte: !!timestamp '2017-08-05 00:00:00', lact: 0, typ: BRED}
+- {age: null, dim: null, dslh: 52, dte: !!timestamp '2017-09-26 08:25:35.908268', lact: 0, typ: CHECK}
+- {age: null, dim: null, dslh: 95, dte: !!timestamp '2017-11-08 06:48:31.844547', lact: 0, typ: CHECK}
+- {age: null, dim: null, dslh: 114, dte: !!timestamp '2017-11-27 14:28:41.031022', lact: 0, typ: CHECK}
+- {age: null, dim: null, dslh: 128, dte: !!timestamp '2017-12-11 00:00:00', lact: 0, typ: BRED}
+- {age: null, dim: null, dslh: 27, dte: !!timestamp '2018-01-07 00:00:00', lact: 0, typ: BRED}
+- {age: null, dim: null, dslh: 14, dte: !!timestamp '2018-01-21 00:00:00', lact: 0, typ: BRED}
+lact: 0
+lactation_state: hfr
+life_state: alive
+pen: 4
+repro_state: bred
+usda: 21PCE4750
+vetck_rem: null
+vetck_state: normal

@@ -1,0 +1,21 @@
+active_state: active
+bname: KITKAT
+events:
+- {age: 1, dim: null, dslh: null, dte: !!timestamp '1900-01-01 09:36:23.204818', lact: 0, typ: OPEN}
+- {age: 1, dim: null, dslh: null, dte: !!timestamp '1900-01-01 09:36:23.204818', lact: 0, typ: OPEN}
+- {age: null, dest: 5, dim: null, dslh: null, dte: !!timestamp '2017-02-17 00:00:00', lact: 0, typ: MOVE}
+- {age: null, dim: null, dslh: null, dte: !!timestamp '2017-03-28 09:36:23.237825', lact: 0, typ: CLEAR}
+- {age: null, dest: 4, dim: null, dslh: null, dte: !!timestamp '2017-08-26 00:00:00', lact: 0, typ: MOVE}
+- {admin: IM, age: null, ampm: am, bfdays: 21, by: Zach Waite, dim: null, dosage: 5ml, dslh: null, dte: !!timestamp '2017-08-26 17:25:43.559521', lact: 0, mkdays: 0, trt: Triangle 10 vaccine, typ: TREATMENT}
+- {age: null, dim: null, dslh: null, dte: !!timestamp '2017-09-16 00:00:00', lact: 0, typ: BRED}
+- {age: null, dim: null, dslh: 53, dte: !!timestamp '2017-11-08 06:48:31.844547', lact: 0, typ: CHECK}
+- {age: null, dim: null, dslh: 72, dte: !!timestamp '2017-11-27 14:28:41.031022', lact: 0, typ: CHECK}
+- {age: null, dim: null, dslh: 134, dte: !!timestamp '2018-01-28 00:00:00', lact: 0, typ: BRED}
+lact: 0
+lactation_state: hfr
+life_state: alive
+pen: 4
+repro_state: bred
+usda: 21PCE4771
+vetck_rem: null
+vetck_state: normal

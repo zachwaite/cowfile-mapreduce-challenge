@@ -1,0 +1,15 @@
+active_state: active
+bname: J14405
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '1900-01-01 00:00:00', lact: 0, rem: auto, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 0, rem: auto, typ: OPEN}
+- {admin: NA, age: 42902, ampm: pm, bfdays: 0, by: Zach Waite, dim: null, dosage: NA, dslh: null, dte: !!timestamp '2017-06-18 00:00:00', lact: 0, mkdays: 0, trt: Footrim RF only, typ: TREATMENT}
+- {admin: topical, age: 42902, ampm: pm, bfdays: 0, by: Zach Waite, dim: null, dosage: 1scoop, dslh: null, dte: !!timestamp '2017-06-18 00:00:00', lact: 0, mkdays: 0, trt: Copper Sulfate, typ: TREATMENT}
+lact: 0
+lactation_state: inmilk
+life_state: alive
+pen: 3
+repro_state: open
+usda: 21PCN4405
+vetck_rem: DIRTY
+vetck_state: normal

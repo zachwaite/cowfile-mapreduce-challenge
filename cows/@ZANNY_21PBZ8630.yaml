@@ -1,0 +1,17 @@
+active_state: active
+bname: ZANNY
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '1900-01-01 00:00:00', lact: 0, rem: auto, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 0, rem: auto, typ: OPEN}
+- {age: 43259, dest: 4, dim: null, dslh: null, dte: !!timestamp '2018-06-10 00:00:00', lact: 0, typ: MOVE}
+- {admin: IM, age: 43259, ampm: am, bfdays: 21, by: Mike Waite, dim: null, dosage: 5ml, dslh: null, dte: !!timestamp '2018-06-10 00:00:00', lact: 0, mkdays: 0, trt: Triangle 10 vaccine, typ: TREATMENT}
+- {age: 43280, dim: null, dslh: null, dte: !!timestamp '2018-07-01 00:00:00', lact: 0, typ: BRED}
+- {age: 43306, dim: null, dslh: 26, dte: !!timestamp '2018-07-27 00:00:00', lact: 0, typ: BRED}
+lact: 0
+lactation_state: hfr
+life_state: alive
+pen: 4
+repro_state: bred
+usda: 21PBZ8630
+vetck_rem: null
+vetck_state: normal

@@ -1,0 +1,19 @@
+active_state: active
+bname: OPRAH
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '1900-01-01 00:00:00', lact: 3, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 3, rem: auto, typ: OPEN}
+- {age: 42638, dest: 3, dim: null, dslh: null, dte: !!timestamp '2016-09-27 00:00:00', lact: 3, typ: MOVE}
+- {age: 42596, dim: null, dslh: null, dte: !!timestamp '2016-08-16 00:00:00', lact: 3, typ: BRED}
+- {age: 42666, dim: null, dslh: 70, dte: !!timestamp '2016-10-25 09:33:28.426652', lact: 3, typ: CHECK}
+- {age: 42666, dim: null, dslh: 70, dte: !!timestamp '2016-10-25 00:00:00', lact: 3, typ: OPEN}
+- {age: 42764, dim: null, dslh: null, dte: !!timestamp '2017-01-31 00:00:00', lact: 3, typ: CLEAR}
+- {age: 42820, dim: null, dslh: null, dte: !!timestamp '2017-03-28 09:36:23.222759', lact: 3, typ: CLEAR}
+lact: 3
+lactation_state: hfr
+life_state: alive
+pen: 3
+repro_state: open
+usda: 21PBZ4305
+vetck_rem: null
+vetck_state: normal

@@ -1,0 +1,25 @@
+active_state: active
+bname: '947'
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '1900-01-01 00:00:00', lact: 3, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 3, rem: auto, typ: OPEN}
+- {age: 42638, dest: 1, dim: null, dslh: null, dte: !!timestamp '2016-09-27 00:00:00', lact: 3, typ: MOVE}
+- {age: 42613, dim: null, dslh: null, dte: !!timestamp '2016-09-02 00:00:00', lact: 3, typ: BRED}
+- {age: 42648, dest: 2, dim: null, dslh: 35, dte: !!timestamp '2016-10-07 21:22:54.354462', lact: 3, typ: MOVE}
+- {age: 42666, dim: null, dslh: 53, dte: !!timestamp '2016-10-25 09:33:28.426652', lact: 3, typ: CHECK}
+- {age: 42666, dim: null, dslh: 53, dte: !!timestamp '2016-10-25 00:00:00', lact: 3, typ: OPEN}
+- {admin: NA, age: 42680, ampm: am, bfdays: 0, by: Zach Waite, dim: null, dosage: NA, dslh: null, dte: !!timestamp '2016-11-08 00:00:00', lact: 3, mkdays: 0, trt: Footrim, typ: TREATMENT}
+- {age: 42715, dim: null, dslh: null, dte: !!timestamp '2016-12-13 00:00:00', lact: 3, typ: BRED}
+- {age: 42764, dim: null, dslh: 49, dte: !!timestamp '2017-01-31 08:57:00.481285', lact: 3, typ: CHECK}
+- {age: 42764, dim: null, dslh: 49, dte: !!timestamp '2017-01-31 00:00:00', lact: 3, typ: OPEN}
+- {age: 42764, dim: null, dslh: null, dte: !!timestamp '2017-01-31 00:00:00', lact: 3, typ: CLEAR}
+- {age: 42820, dim: null, dslh: null, dte: !!timestamp '2017-03-28 09:36:23.179602', lact: 3, typ: CLEAR}
+- {age: 42840, dest: 1, dim: null, dslh: null, dte: !!timestamp '2017-04-17 00:00:00', lact: 3, typ: MOVE}
+lact: 3
+lactation_state: hfr
+life_state: alive
+pen: 1
+repro_state: open
+usda: '-'
+vetck_rem: null
+vetck_state: normal

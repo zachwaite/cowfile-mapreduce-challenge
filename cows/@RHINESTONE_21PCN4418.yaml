@@ -1,0 +1,14 @@
+active_state: active
+bname: RHINESTONE
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '1900-01-01 00:00:00', lact: 0, rem: auto, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 0, rem: auto, typ: OPEN}
+- {age: 42920, dest: 5, dim: null, dslh: null, dte: !!timestamp '2017-07-06 00:00:00', lact: 0, typ: MOVE}
+lact: 0
+lactation_state: hfr
+life_state: alive
+pen: 5
+repro_state: open
+usda: 21PCN4418
+vetck_rem: null
+vetck_state: normal

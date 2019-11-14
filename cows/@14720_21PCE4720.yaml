@@ -1,0 +1,35 @@
+active_state: active
+bname: '14720'
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '1900-01-01 00:00:00', lact: 1, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 1, rem: auto, typ: OPEN}
+- {age: 42638, dest: 2, dim: null, dslh: null, dte: !!timestamp '2016-09-27 00:00:00', lact: 1, typ: MOVE}
+- {age: 42584, dim: null, dslh: null, dte: &id002 !!timestamp '2016-08-04 00:00:00', lact: 2, typ: FRESH}
+- {age: 42584, dim: 0, dslh: null, dte: *id002, lact: 2, rem: auto, typ: OPEN}
+- {age: 42678, dim: 94, dslh: null, dte: &id003 !!timestamp '2016-11-06 00:00:00', lact: 2, typ: BRED}
+- {age: 42764, dim: 180, dslh: 86, dte: !!timestamp '2017-01-31 08:42:16.067255', lact: 2, typ: CHECK}
+- {age: 42764, dim: 180, dslh: 86, dte: !!timestamp '2017-01-31 08:57:00.481285', lact: 2, typ: CHECK}
+- {age: 42764, dim: 180, dslh: 86, dte: !!timestamp '2017-01-31 00:00:00', lact: 2, typ: PREG}
+- {age: 42678, dim: 94, dslh: 0, dte: *id003, lact: 2, rem: auto, typ: CONCEPTION}
+- {age: 42764, dim: 180, dslh: 86, dte: !!timestamp '2017-01-31 00:00:00', lact: 2, typ: CLEAR}
+- {admin: IM, age: 42764, ampm: am, bfdays: 21, by: Zach Waite, dim: 180, dosage: 5ml, dslh: 86, dte: !!timestamp '2017-01-31 00:00:00', lact: 2, mkdays: 0, trt: Triangle 10 vaccine, typ: TREATMENT}
+- {age: 42820, dim: 236, dslh: 142, dte: !!timestamp '2017-03-28 09:36:23.212196', lact: 2, typ: CLEAR}
+- {age: 42905, dim: 321, dslh: 227, dte: !!timestamp '2017-06-21 00:00:00', lact: 2, typ: DRY}
+- {admin: NA, age: 42905, ampm: pm, bfdays: 0, by: Zach Waite, dim: 321, dosage: NA, dslh: 227, dte: !!timestamp '2017-06-21 00:00:00', lact: 2, mkdays: 0, trt: Footrim, typ: TREATMENT}
+- {admin: IM, age: 42905, ampm: pm, bfdays: 21, by: Zach Waite, dim: 321, dosage: 5ml, dslh: 227, dte: !!timestamp '2017-06-21 00:00:00', lact: 2, mkdays: 0, trt: Triangle 10 vaccine, typ: TREATMENT}
+- {age: 42953, calf: 21PCN4431, dim: null, dslh: null, dte: &id004 !!timestamp '2017-08-08 00:00:00', lact: 3, typ: FRESH}
+- {age: 42953, dim: 0, dslh: null, dte: *id004, lact: 3, rem: auto, typ: OPEN}
+- {age: 43047, dim: 94, dslh: null, dte: !!timestamp '2017-11-10 00:00:00', lact: 3, typ: BRED}
+- {age: 43093, dim: 140, dslh: 46, dte: !!timestamp '2017-12-26 00:00:00', lact: 3, typ: OPEN}
+- {age: 43108, dim: 155, dslh: null, dte: &id005 !!timestamp '2018-01-10 00:00:00', lact: 3, typ: BRED}
+- {age: 43184, dim: 231, dslh: 76, dte: !!timestamp '2018-03-27 00:00:00', lact: 3, typ: PREG}
+- {age: 43108, dim: 155, dslh: 0, dte: *id005, lact: 3, rem: auto, typ: CONCEPTION}
+- {admin: IM, age: 43184, ampm: am, bfdays: 21, by: Dr. John McDermott, dim: 231, dosage: 5ml, dslh: 76, dte: !!timestamp '2018-03-27 00:00:00', lact: 3, mkdays: 0, trt: Triangle 10 vaccine, typ: TREATMENT}
+lact: 3
+lactation_state: inmilk
+life_state: alive
+pen: 2
+repro_state: preg
+usda: 21PCE4720
+vetck_rem: null
+vetck_state: normal

@@ -1,0 +1,13 @@
+active_state: active
+bname: B18619
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '2018-03-24 00:00:00', lact: 0, rem: auto, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 0, rem: auto, typ: OPEN}
+lact: 0
+lactation_state: hfr
+life_state: alive
+pen: 0
+repro_state: open
+usda: 21PCT8619
+vetck_rem: null
+vetck_state: normal

@@ -1,0 +1,30 @@
+active_state: active
+bname: DAFFY
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '2015-11-15 00:00:00', lact: 0, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 0, rem: auto, typ: OPEN}
+- {age: 317, dest: 5, dim: null, dslh: null, dte: !!timestamp '2016-09-27 00:00:00', lact: 0, typ: MOVE}
+- {age: 499, dim: null, dslh: null, dte: !!timestamp '2017-03-28 09:36:23.227248', lact: 0, typ: CLEAR}
+- {admin: IM, age: 528, ampm: am, bfdays: 21, by: Zach Waite, dim: null, dosage: 5ml, dslh: null, dte: !!timestamp '2017-04-26 00:00:00', lact: 0, mkdays: 0, trt: Triangle 10 vaccine, typ: TREATMENT}
+- {age: 528, dest: 4, dim: null, dslh: null, dte: !!timestamp '2017-04-26 00:00:00', lact: 0, typ: MOVE}
+- {age: 538, dim: null, dslh: null, dte: !!timestamp '2017-05-06 00:00:00', lact: 0, typ: BRED}
+- {age: 590, dim: null, dslh: 52, dte: !!timestamp '2017-06-27 06:04:10.224322', lact: 0, typ: CHECK}
+- {age: 618, dim: null, dslh: 80, dte: !!timestamp '2017-07-25 04:15:18.037991', lact: 0, typ: CHECK}
+- {age: 681, dim: null, dslh: 143, dte: !!timestamp '2017-09-26 08:25:35.908268', lact: 0, typ: CHECK}
+- {age: 724, dim: null, dslh: 186, dte: !!timestamp '2017-11-08 06:48:31.844547', lact: 0, typ: CHECK}
+- {age: 743, dim: null, dslh: 205, dte: !!timestamp '2017-11-27 14:28:41.031022', lact: 0, typ: CHECK}
+- {age: 811, calf: 21PCT8603, dim: null, dslh: null, dte: &id002 !!timestamp '2018-02-03 00:00:00', lact: 1, typ: FRESH}
+- {age: 811, dim: 0, dslh: null, dte: *id002, lact: 1, rem: auto, typ: OPEN}
+- {age: 877, dim: 66, dslh: null, dte: !!timestamp '2018-04-10 00:00:00', lact: 1, typ: BRED}
+- {age: 904, dim: 93, dslh: 27, dte: !!timestamp '2018-05-07 00:00:00', lact: 1, typ: BRED}
+- {age: 917, dim: 106, dslh: 13, dte: !!timestamp '2018-05-20 00:00:00', lact: 1, typ: BRED}
+- {age: 937, dim: 126, dslh: 20, dte: !!timestamp '2018-06-09 00:00:00', lact: 1, typ: BRED}
+- {age: 981, dim: 170, dslh: 44, dte: !!timestamp '2018-07-23 00:00:00', lact: 1, typ: BRED}
+lact: 1
+lactation_state: inmilk
+life_state: alive
+pen: 4
+repro_state: bred
+usda: 21PBZ4347
+vetck_rem: null
+vetck_state: normal

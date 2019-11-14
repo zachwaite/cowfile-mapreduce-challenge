@@ -1,0 +1,21 @@
+active_state: active
+bname: NIXI
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '2016-03-05 00:00:00', lact: 0, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 0, rem: auto, typ: OPEN}
+- {age: 206, dest: 5, dim: null, dslh: null, dte: !!timestamp '2016-09-27 00:00:00', lact: 0, typ: MOVE}
+- {age: 388, dim: null, dslh: null, dte: !!timestamp '2017-03-28 09:36:23.216613', lact: 0, typ: CLEAR}
+- {age: 539, dest: 4, dim: null, dslh: null, dte: !!timestamp '2017-08-26 00:00:00', lact: 0, typ: MOVE}
+- {admin: IM, age: 539, ampm: am, bfdays: 21, by: Zach Waite, dim: null, dosage: 5ml, dslh: null, dte: !!timestamp '2017-08-26 00:00:00', lact: 0, mkdays: 0, trt: Triangle 10 vaccine, typ: TREATMENT}
+- {age: 583, dim: null, dslh: null, dte: !!timestamp '2017-10-09 00:00:00', lact: 0, typ: BRED}
+- {age: 632, dim: null, dslh: 49, dte: !!timestamp '2017-11-27 14:28:41.031022', lact: 0, typ: CHECK}
+- {age: 861, calf: null, dim: null, dslh: null, dte: &id002 !!timestamp '2018-07-14 00:00:00', lact: 1, typ: FRESH}
+- {age: 861, dim: 0, dslh: null, dte: *id002, lact: 1, rem: auto, typ: OPEN}
+lact: 1
+lactation_state: inmilk
+life_state: alive
+pen: 4
+repro_state: open
+usda: 21PBZ4391
+vetck_rem: null
+vetck_state: normal

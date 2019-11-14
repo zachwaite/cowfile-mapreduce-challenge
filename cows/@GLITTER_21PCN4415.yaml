@@ -1,0 +1,16 @@
+active_state: active
+bname: GLITTER
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '1900-01-01 00:00:00', lact: 0, rem: auto, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 0, rem: auto, typ: OPEN}
+- {age: 42920, dest: 5, dim: null, dslh: null, dte: !!timestamp '2017-07-06 00:00:00', lact: 0, typ: MOVE}
+- {age: 43259, dest: 4, dim: null, dslh: null, dte: !!timestamp '2018-06-10 00:00:00', lact: 0, typ: MOVE}
+- {admin: IM, age: 43259, ampm: am, bfdays: 21, by: Mike Waite, dim: null, dosage: 5ml, dslh: null, dte: !!timestamp '2018-06-10 00:00:00', lact: 0, mkdays: 0, trt: Triangle 10 vaccine, typ: TREATMENT}
+lact: 0
+lactation_state: hfr
+life_state: alive
+pen: 4
+repro_state: open
+usda: 21PCN4415
+vetck_rem: null
+vetck_state: normal

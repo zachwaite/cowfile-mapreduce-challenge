@@ -1,0 +1,30 @@
+active_state: inactive
+bname: TASHA
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '1900-01-01 00:00:00', lact: 2, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 2, rem: auto, typ: OPEN}
+- {age: 42638, dest: 2, dim: null, dslh: null, dte: !!timestamp '2016-09-27 00:00:00', lact: 2, typ: MOVE}
+- {age: 42514, dim: null, dslh: null, dte: &id002 !!timestamp '2016-05-26 00:00:00', lact: 2, typ: BRED}
+- {age: 42638, dim: null, dslh: 124, dte: !!timestamp '2016-09-27 00:00:00', lact: 2, typ: PREG}
+- {age: 42514, dim: null, dslh: 0, dte: *id002, lact: 2, rem: auto, typ: CONCEPTION}
+- {admin: NA, age: 42645, ampm: am, bfdays: 0, by: Zach Waite, dim: null, dosage: NA, dslh: 131, dte: !!timestamp '2016-10-04 00:00:00', lact: 2, mkdays: 0, trt: Footrim, typ: TREATMENT}
+- {age: 42693, dim: null, dslh: 179, dte: !!timestamp '2016-11-21 00:00:00', lact: 2, rem: NOTUBES, typ: DRY}
+- {age: 42792, dim: null, dslh: null, dte: &id003 !!timestamp '2017-02-28 00:00:00', lact: 3, typ: FRESH}
+- {age: 42792, dim: 0, dslh: null, dte: *id003, lact: 3, rem: auto, typ: OPEN}
+- {age: 42820, dim: 28, dslh: null, dte: !!timestamp '2017-03-28 09:36:23.231518', lact: 3, typ: CLEAR}
+- {age: 42840, dest: 1, dim: 48, dslh: null, dte: !!timestamp '2017-04-17 00:00:00', lact: 3, typ: MOVE}
+- {age: 42899, dim: 107, dslh: null, dte: &id004 !!timestamp '2017-06-15 00:00:00', lact: 3, typ: BRED}
+- {age: 42939, dim: 147, dslh: 40, dte: !!timestamp '2017-07-25 04:15:18.037991', lact: 3, typ: CHECK}
+- {age: 42939, dim: 147, dslh: 40, dte: !!timestamp '2017-07-25 00:00:00', lact: 3, typ: PREG}
+- {age: 42899, dim: 107, dslh: 0, dte: *id004, lact: 3, rem: auto, typ: CONCEPTION}
+- {admin: IM, age: 42939, ampm: am, bfdays: 21, by: Zach Waite, dim: 147, dosage: 5ml, dslh: 40, dte: !!timestamp '2017-07-25 00:00:00', lact: 3, mkdays: 0, trt: Triangle 10 vaccine, typ: TREATMENT}
+- {age: 43184, dim: 392, dslh: 285, dte: &id005 !!timestamp '2018-03-27 05:18:18.392799', lact: 3, typ: SOLD}
+- {age: 43184, dim: 392, dslh: 285, dte: *id005, lact: 3, typ: DEACTIVATED}
+lact: 3
+lactation_state: inmilk
+life_state: alive
+pen: 1
+repro_state: preg
+usda: '-'
+vetck_rem: null
+vetck_state: normal

@@ -1,0 +1,32 @@
+active_state: active
+bname: PRETTY
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '2015-06-25 00:00:00', lact: 0, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 0, rem: auto, typ: OPEN}
+- {age: 460, dest: 4, dim: null, dslh: null, dte: !!timestamp '2016-09-27 00:00:00', lact: 0, typ: MOVE}
+- {age: 463, dim: null, dslh: null, dte: &id002 !!timestamp '2016-09-30 00:00:00', lact: 0, typ: BRED}
+- {age: 586, dim: null, dslh: 123, dte: !!timestamp '2017-01-31 08:57:00.481285', lact: 0, typ: CHECK}
+- {age: 642, dim: null, dslh: 179, dte: !!timestamp '2017-03-28 09:29:54.978949', lact: 0, typ: CHECK}
+- {age: 642, dim: null, dslh: 179, dte: !!timestamp '2017-03-28 09:36:23.216850', lact: 0, typ: CLEAR}
+- {age: 642, dim: null, dslh: 179, dte: !!timestamp '2017-03-28 09:37:03.317793', lact: 0, typ: CHECK}
+- {age: 670, dim: null, dslh: 207, dte: !!timestamp '2017-04-25 06:56:18.091307', lact: 0, typ: CHECK}
+- {age: 677, dim: null, dslh: 214, dte: !!timestamp '2017-05-02 11:44:00.875803', lact: 0, typ: CHECK}
+- {age: 677, dim: null, dslh: 214, dte: !!timestamp '2017-05-02 14:51:42.194016', lact: 0, typ: PREG}
+- {age: 463, dim: null, dslh: 0, dte: *id002, lact: 0, rem: auto, typ: CONCEPTION}
+- {age: 743, calf: 21PCN4413, dim: null, dslh: null, dte: &id003 !!timestamp '2017-07-07 00:00:00', lact: 1, typ: FRESH}
+- {age: 743, dim: 0, dslh: null, dte: *id003, lact: 1, rem: auto, typ: OPEN}
+- {age: 798, dim: 55, dslh: null, dte: &id004 !!timestamp '2017-08-31 00:00:00', lact: 1, typ: BRED}
+- {age: 867, dim: 124, dslh: 69, dte: !!timestamp '2017-11-08 06:48:31.844547', lact: 1, typ: CHECK}
+- {age: 867, dim: 124, dslh: 69, dte: !!timestamp '2017-11-08 00:00:00', lact: 1, typ: PREG}
+- {age: 798, dim: 55, dslh: 0, dte: *id004, lact: 1, rem: auto, typ: CONCEPTION}
+- {admin: IM, age: 867, ampm: am, bfdays: 21, by: Zach Waite, dim: 124, dosage: 5ml, dslh: 69, dte: !!timestamp '2017-11-08 00:00:00', lact: 1, mkdays: 0, trt: Triangle 10 vaccine, typ: TREATMENT}
+- {age: 1077, calf: null, dim: null, dslh: null, dte: &id005 !!timestamp '2018-06-06 00:00:00', lact: 2, typ: FRESH}
+- {age: 1077, dim: 0, dslh: null, dte: *id005, lact: 2, rem: auto, typ: OPEN}
+lact: 2
+lactation_state: inmilk
+life_state: alive
+pen: 4
+repro_state: open
+usda: 21PBZ4340
+vetck_rem: null
+vetck_state: normal

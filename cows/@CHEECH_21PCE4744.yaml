@@ -1,0 +1,14 @@
+active_state: active
+bname: CHEECH
+events:
+- {age: 1, dim: null, dslh: null, dte: !!timestamp '1900-01-01 09:36:23.204818', lact: 0, typ: OPEN}
+- {age: null, dest: 5, dim: null, dslh: null, dte: !!timestamp '2016-10-21 00:00:00', lact: 0, typ: MOVE}
+- {age: null, dim: null, dslh: null, dte: !!timestamp '2017-03-28 09:36:23.208012', lact: 0, typ: CLEAR}
+lact: 0
+lactation_state: hfr
+life_state: alive
+pen: 5
+repro_state: open
+usda: 21PCE4744
+vetck_rem: null
+vetck_state: normal

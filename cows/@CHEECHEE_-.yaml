@@ -1,0 +1,19 @@
+active_state: active
+bname: CHEECHEE
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '1900-01-01 00:00:00', lact: 0, rem: auto, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 0, rem: auto, typ: OPEN}
+- {age: 42901, dest: 4, dim: null, dslh: null, dte: !!timestamp '2017-06-17 00:00:00', lact: 0, typ: MOVE}
+- {age: 42927, dim: null, dslh: null, dte: !!timestamp '2017-07-13 00:00:00', lact: 0, typ: BRED}
+- {age: 42950, dim: null, dslh: 23, dte: !!timestamp '2017-08-05 00:00:00', lact: 0, typ: BRED}
+- {age: 43002, dim: null, dslh: 52, dte: !!timestamp '2017-09-26 08:25:35.908268', lact: 0, typ: CHECK}
+- {age: 43045, dim: null, dslh: 95, dte: !!timestamp '2017-11-08 06:48:31.844547', lact: 0, typ: CHECK}
+- {age: 43064, dim: null, dslh: 114, dte: !!timestamp '2017-11-27 14:28:41.031022', lact: 0, typ: CHECK}
+lact: 0
+lactation_state: hfr
+life_state: alive
+pen: 4
+repro_state: bred
+usda: '-'
+vetck_rem: null
+vetck_state: normal

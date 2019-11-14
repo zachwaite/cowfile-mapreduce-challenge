@@ -1,0 +1,30 @@
+active_state: inactive
+bname: SNORKEL
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '2014-06-19 00:00:00', lact: 0, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 0, rem: auto, typ: OPEN}
+- {age: 831, dest: 4, dim: null, dslh: null, dte: !!timestamp '2016-09-27 00:00:00', lact: 0, typ: MOVE}
+- {age: 500, dim: null, dslh: null, dte: !!timestamp '2015-11-01 00:00:00', lact: 0, typ: BRED}
+- {age: 841, dest: 1, dim: null, dslh: 341, dte: !!timestamp '2016-10-07 21:29:42.667130', lact: 0, typ: MOVE}
+- {age: 836, dim: null, dslh: 336, dte: &id002 !!timestamp '2016-10-02 00:00:00', lact: 0, typ: BRED}
+- {age: 1013, dim: null, dslh: 177, dte: !!timestamp '2017-03-28 09:29:54.978949', lact: 0, typ: CHECK}
+- {age: 1013, dim: null, dslh: 177, dte: !!timestamp '2017-03-28 09:36:23.176523', lact: 0, typ: CLEAR}
+- {age: 1013, dim: null, dslh: 177, dte: !!timestamp '2017-03-28 09:37:03.317793', lact: 0, typ: CHECK}
+- {age: 1033, dest: 2, dim: null, dslh: 197, dte: !!timestamp '2017-04-17 00:00:00', lact: 0, typ: MOVE}
+- {age: 1041, dim: null, dslh: 205, dte: !!timestamp '2017-04-25 06:56:18.091307', lact: 0, typ: CHECK}
+- {age: 1041, dim: null, dslh: 205, dte: !!timestamp '2017-04-25 00:00:00', lact: 0, typ: PREG}
+- {age: 836, dim: null, dslh: 0, dte: *id002, lact: 0, rem: auto, typ: CONCEPTION}
+- {age: 1193, dim: null, dslh: 357, dte: &id003 !!timestamp '2017-09-24 00:00:00', lact: 0, typ: BRED}
+- {age: 1238, dim: null, dslh: 45, dte: !!timestamp '2017-11-08 06:48:31.844547', lact: 0, typ: CHECK}
+- {age: 1207, dim: null, dslh: 14, dte: !!timestamp '2017-10-08 00:00:00', lact: 0, typ: PREG}
+- {age: 1193, dim: null, dslh: 0, dte: *id003, lact: 0, rem: auto, typ: CONCEPTION}
+- {age: 1503, dim: null, dslh: 310, dte: &id004 !!timestamp '2018-07-31 08:08:27.831548', lact: 0, typ: SOLD}
+- {age: 1503, dim: null, dslh: 310, dte: *id004, lact: 0, typ: DEACTIVATED}
+lact: 0
+lactation_state: inmilk
+life_state: alive
+pen: 2
+repro_state: preg
+usda: '0'
+vetck_rem: null
+vetck_state: normal

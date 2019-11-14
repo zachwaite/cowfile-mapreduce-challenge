@@ -1,0 +1,30 @@
+active_state: active
+bname: '11073'
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '2014-07-19 00:00:00', lact: 0, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 0, rem: auto, typ: OPEN}
+- {age: 801, dest: 4, dim: null, dslh: null, dte: !!timestamp '2016-09-27 00:00:00', lact: 0, typ: MOVE}
+- {age: 558, dim: null, dslh: null, dte: !!timestamp '2016-01-28 00:00:00', lact: 0, typ: BRED}
+- {age: 829, dim: null, dslh: 271, dte: !!timestamp '2016-10-25 09:33:28.426652', lact: 0, typ: CHECK}
+- {age: 835, dim: null, dslh: null, dte: &id002 !!timestamp '2016-10-31 00:00:00', lact: 1, typ: FRESH}
+- {age: 835, dim: 0, dslh: null, dte: *id002, lact: 1, rem: auto, typ: OPEN}
+- {age: 927, dim: 92, dslh: null, dte: !!timestamp '2017-01-31 00:00:00', lact: 1, typ: CLEAR}
+- {age: 983, dim: 148, dslh: null, dte: !!timestamp '2017-03-28 09:36:23.228508', lact: 1, typ: CLEAR}
+- {age: 1003, dest: 1, dim: 168, dslh: null, dte: !!timestamp '2017-04-17 00:00:00', lact: 1, typ: MOVE}
+- {age: 1023, dim: 188, dslh: null, dte: !!timestamp '2017-05-07 00:00:00', lact: 1, typ: BRED}
+- {age: 1044, dim: 209, dslh: 21, dte: !!timestamp '2017-05-28 00:00:00', lact: 1, typ: BRED}
+- {age: 1068, dim: 233, dslh: 24, dte: !!timestamp '2017-06-21 00:00:00', lact: 1, typ: BRED}
+- {age: 1137, dim: 302, dslh: 69, dte: !!timestamp '2017-08-29 00:00:00', lact: 1, typ: BRED}
+- {age: 1174, dim: 339, dslh: 37, dte: !!timestamp '2017-10-05 00:00:00', lact: 1, typ: BRED}
+- {age: 1198, dim: 363, dslh: 24, dte: &id003 !!timestamp '2017-10-29 00:00:00', lact: 1, typ: BRED}
+- {age: 1256, dim: 421, dslh: 58, dte: !!timestamp '2017-12-26 00:00:00', lact: 1, typ: PREG}
+- {age: 1198, dim: 363, dslh: 0, dte: *id003, lact: 1, rem: auto, typ: CONCEPTION}
+- {admin: IM, age: 1256, ampm: am, bfdays: 21, by: Mike Waite, dim: 421, dosage: 5ml, dslh: 58, dte: !!timestamp '2017-12-26 00:00:00', lact: 1, mkdays: 0, trt: Triangle 10 vaccine, typ: TREATMENT}
+lact: 1
+lactation_state: inmilk
+life_state: alive
+pen: 1
+repro_state: preg
+usda: 210BD1073
+vetck_rem: null
+vetck_state: normal

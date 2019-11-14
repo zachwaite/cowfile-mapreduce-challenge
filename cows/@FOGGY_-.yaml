@@ -1,0 +1,20 @@
+active_state: active
+bname: FOGGY
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '1900-01-01 00:00:00', lact: 0, rem: auto, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 0, rem: auto, typ: OPEN}
+- {age: 42915, dim: null, dslh: null, dte: !!timestamp '2017-07-01 00:00:00', lact: 0, typ: BRED}
+- {age: 42936, dim: null, dslh: 21, dte: !!timestamp '2017-07-22 00:00:00', lact: 0, typ: BRED}
+- {age: 42989, dim: null, dslh: 53, dte: !!timestamp '2017-09-13 00:00:00', lact: 0, typ: BRED}
+- {age: 43045, dim: null, dslh: 56, dte: !!timestamp '2017-11-08 06:48:31.844547', lact: 0, typ: CHECK}
+- {age: 43064, dim: null, dslh: 75, dte: !!timestamp '2017-11-27 14:28:41.031022', lact: 0, typ: CHECK}
+- {age: 43264, calf: null, dim: null, dslh: null, dte: &id002 !!timestamp '2018-06-15 00:00:00', lact: 1, typ: FRESH}
+- {age: 43264, dim: 0, dslh: null, dte: *id002, lact: 1, rem: auto, typ: OPEN}
+lact: 1
+lactation_state: inmilk
+life_state: alive
+pen: 0
+repro_state: open
+usda: '-'
+vetck_rem: null
+vetck_state: normal

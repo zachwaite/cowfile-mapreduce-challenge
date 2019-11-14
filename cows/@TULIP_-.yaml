@@ -1,0 +1,31 @@
+active_state: inactive
+bname: TULIP
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '1900-01-01 00:00:00', lact: 2, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 2, rem: auto, typ: OPEN}
+- {age: 42638, dest: 1, dim: null, dslh: null, dte: !!timestamp '2016-09-27 00:00:00', lact: 2, typ: MOVE}
+- {age: 42623, dim: null, dslh: null, dte: !!timestamp '2016-09-12 00:00:00', lact: 2, typ: BRED}
+- {age: 42652, dim: null, dslh: 29, dte: &id002 !!timestamp '2016-10-11 00:00:00', lact: 2, typ: SOLD}
+- {age: 42652, dim: null, dslh: 29, dte: *id002, lact: 2, typ: DEACTIVATED}
+- {age: 42666, dim: null, dslh: 43, dte: !!timestamp '2016-10-25 09:33:28.426652', lact: 2, typ: CHECK}
+- {age: 42764, dim: null, dslh: 141, dte: !!timestamp '2017-01-31 08:57:00.481285', lact: 2, typ: CHECK}
+- {age: 42734, dim: null, dslh: 111, dte: !!timestamp '2017-01-01 00:00:00', lact: 2, typ: CLEAR}
+- {age: 42820, dim: null, dslh: 197, dte: !!timestamp '2017-03-28 09:29:54.978949', lact: 2, typ: CHECK}
+- {age: 42820, dim: null, dslh: 197, dte: !!timestamp '2017-03-28 09:36:23.238638', lact: 2, typ: CLEAR}
+- {age: 42848, dim: null, dslh: 225, dte: !!timestamp '2017-04-25 06:56:18.091307', lact: 2, typ: CHECK}
+- {age: 42855, dim: null, dslh: 232, dte: !!timestamp '2017-05-02 11:44:00.875803', lact: 2, typ: CHECK}
+- {age: 42883, dim: null, dslh: 260, dte: !!timestamp '2017-05-30 22:43:58.205915', lact: 2, typ: CHECK}
+- {age: 42884, dim: null, dslh: 261, dte: !!timestamp '2017-05-31 06:14:24.695519', lact: 2, typ: CHECK}
+- {age: 42911, dim: null, dslh: 288, dte: !!timestamp '2017-06-27 06:04:10.224322', lact: 2, typ: CHECK}
+- {age: 42939, dim: null, dslh: 316, dte: !!timestamp '2017-07-25 04:15:18.037991', lact: 2, typ: CHECK}
+- {age: 43002, dim: null, dslh: 379, dte: !!timestamp '2017-09-26 08:25:35.908268', lact: 2, typ: CHECK}
+- {age: 43045, dim: null, dslh: 422, dte: !!timestamp '2017-11-08 06:48:31.844547', lact: 2, typ: CHECK}
+- {age: 43064, dim: null, dslh: 441, dte: !!timestamp '2017-11-27 14:28:41.031022', lact: 2, typ: CHECK}
+lact: 2
+lactation_state: hfr
+life_state: alive
+pen: 1
+repro_state: bred
+usda: '-'
+vetck_rem: null
+vetck_state: normal

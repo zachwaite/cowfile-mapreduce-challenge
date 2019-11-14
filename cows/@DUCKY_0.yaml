@@ -1,0 +1,32 @@
+active_state: inactive
+bname: DUCKY
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '2014-12-02 00:00:00', lact: 0, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 0, rem: auto, typ: OPEN}
+- {age: 665, dest: 4, dim: null, dslh: null, dte: !!timestamp '2016-09-27 00:00:00', lact: 0, typ: MOVE}
+- {age: 553, dim: null, dslh: null, dte: !!timestamp '2016-06-07 00:00:00', lact: 0, typ: BRED}
+- {age: 693, dim: null, dslh: 140, dte: !!timestamp '2016-10-25 09:33:28.426652', lact: 0, typ: CHECK}
+- {age: 791, dim: null, dslh: 238, dte: !!timestamp '2017-01-31 08:57:00.481285', lact: 0, typ: CHECK}
+- {age: 828, dim: null, dslh: null, dte: &id002 !!timestamp '2017-03-09 00:00:00', lact: 1, typ: FRESH}
+- {age: 828, dim: 0, dslh: null, dte: *id002, lact: 1, rem: auto, typ: OPEN}
+- {age: 847, dim: 19, dslh: null, dte: !!timestamp '2017-03-28 09:36:23.187051', lact: 1, typ: CLEAR}
+- {age: 867, dest: 1, dim: 39, dslh: null, dte: !!timestamp '2017-04-17 00:00:00', lact: 1, typ: MOVE}
+- {age: 926, dim: 98, dslh: null, dte: !!timestamp '2017-06-15 00:00:00', lact: 1, typ: BRED}
+- {age: 966, dim: 138, dslh: 40, dte: !!timestamp '2017-07-25 04:15:18.037991', lact: 1, typ: CHECK}
+- {age: 966, dim: 138, dslh: 40, dte: !!timestamp '2017-07-25 00:00:00', lact: 1, typ: OPEN}
+- {age: 1017, dim: 189, dslh: null, dte: !!timestamp '2017-09-14 00:00:00', lact: 1, typ: BRED}
+- {age: 1045, dim: 217, dslh: 28, dte: !!timestamp '2017-10-12 00:00:00', lact: 1, typ: BRED}
+- {age: 1091, dim: 263, dslh: 46, dte: !!timestamp '2017-11-27 14:28:41.031022', lact: 1, typ: CHECK}
+- {age: 1092, dim: 264, dslh: 47, dte: !!timestamp '2017-11-28 00:00:00', lact: 1, typ: OPEN}
+- {age: 1101, dim: 273, dslh: null, dte: !!timestamp '2017-12-07 00:00:00', lact: 1, typ: BRED}
+- {age: 1155, dim: 327, dslh: 54, dte: !!timestamp '2018-01-30 00:00:00', lact: 1, typ: OPEN}
+- {age: 1337, dim: 509, dslh: null, dte: &id003 !!timestamp '2018-07-31 09:12:02.636575', lact: 1, typ: SOLD}
+- {age: 1337, dim: 509, dslh: null, dte: *id003, lact: 1, typ: DEACTIVATED}
+lact: 1
+lactation_state: inmilk
+life_state: alive
+pen: 1
+repro_state: open
+usda: '0'
+vetck_rem: null
+vetck_state: normal

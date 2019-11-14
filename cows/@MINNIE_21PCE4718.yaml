@@ -1,0 +1,22 @@
+active_state: active
+bname: MINNIE
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '2016-05-01 00:00:00', lact: 0, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 0, rem: auto, typ: OPEN}
+- {age: 149, dest: 5, dim: null, dslh: null, dte: !!timestamp '2016-09-27 00:00:00', lact: 0, typ: MOVE}
+- {age: 331, dim: null, dslh: null, dte: !!timestamp '2017-03-28 09:36:23.163358', lact: 0, typ: CLEAR}
+- {age: 412, dest: 4, dim: null, dslh: null, dte: !!timestamp '2017-06-17 00:00:00', lact: 0, typ: MOVE}
+- {age: 421, dim: null, dslh: null, dte: !!timestamp '2017-06-26 00:00:00', lact: 0, typ: BRED}
+- {age: 421, dim: null, dslh: 0, dte: !!timestamp '2017-06-26 00:00:00', lact: 0, typ: BRED}
+- {age: 440, dim: null, dslh: 19, dte: !!timestamp '2017-07-15 00:00:00', lact: 0, typ: BRED}
+- {age: 513, dim: null, dslh: 73, dte: !!timestamp '2017-09-26 08:25:35.908268', lact: 0, typ: CHECK}
+- {age: 556, dim: null, dslh: 116, dte: !!timestamp '2017-11-08 06:48:31.844547', lact: 0, typ: CHECK}
+- {age: 575, dim: null, dslh: 135, dte: !!timestamp '2017-11-27 14:28:41.031022', lact: 0, typ: CHECK}
+lact: 0
+lactation_state: hfr
+life_state: alive
+pen: 4
+repro_state: bred
+usda: 21PCE4718
+vetck_rem: null
+vetck_state: normal

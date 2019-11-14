@@ -1,0 +1,20 @@
+active_state: inactive
+bname: DUMPLIN
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '1900-01-01 00:00:00', lact: 2, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 2, rem: auto, typ: OPEN}
+- {age: 42638, dest: 1, dim: null, dslh: null, dte: !!timestamp '2016-09-27 00:00:00', lact: 2, typ: MOVE}
+- {age: 42459, dim: null, dslh: null, dte: &id002 !!timestamp '2016-04-01 00:00:00', lact: 3, typ: FRESH}
+- {age: 42459, dim: 0, dslh: null, dte: *id002, lact: 3, rem: auto, typ: OPEN}
+- {age: 42648, dest: 2, dim: 189, dslh: null, dte: !!timestamp '2016-10-07 21:23:16.543040', lact: 3, typ: MOVE}
+- {age: 42652, dim: 193, dslh: null, dte: &id003 !!timestamp '2016-10-11 00:00:00', lact: 3, typ: SOLD}
+- {age: 42652, dim: 193, dslh: null, dte: *id003, lact: 3, typ: DEACTIVATED}
+- {age: 42820, dim: 361, dslh: null, dte: !!timestamp '2017-03-28 09:36:23.202456', lact: 3, typ: CLEAR}
+lact: 3
+lactation_state: inmilk
+life_state: alive
+pen: 2
+repro_state: open
+usda: '-'
+vetck_rem: null
+vetck_state: normal

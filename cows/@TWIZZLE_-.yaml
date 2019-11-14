@@ -1,0 +1,40 @@
+active_state: inactive
+bname: TWIZZLE
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '1900-01-01 00:00:00', lact: 2, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 2, rem: auto, typ: OPEN}
+- {age: 42638, dest: 2, dim: null, dslh: null, dte: !!timestamp '2016-09-27 00:00:00', lact: 2, typ: MOVE}
+- {age: 42520, dim: null, dslh: null, dte: &id002 !!timestamp '2016-06-01 00:00:00', lact: 2, typ: BRED}
+- {age: 42638, dim: null, dslh: 118, dte: !!timestamp '2016-09-27 00:00:00', lact: 2, typ: PREG}
+- {age: 42520, dim: null, dslh: 0, dte: *id002, lact: 2, rem: auto, typ: CONCEPTION}
+- {admin: IM, age: 42717, ampm: am, bfdays: 10, by: Zach Waite, dim: null, dosage: 20cc, dslh: 197, dte: !!timestamp '2016-12-15 00:00:00', lact: 2, mkdays: 4, trt: Polyflex, typ: TREATMENT}
+- {admin: IM, age: 42718, ampm: am, bfdays: 10, by: Zach Waite, dim: null, dosage: 20cc, dslh: 198, dte: !!timestamp '2016-12-16 00:00:00', lact: 2, mkdays: 4, trt: Polyflex, typ: TREATMENT}
+- {admin: IM, age: 42719, ampm: am, bfdays: 10, by: Zach Waite, dim: null, dosage: 20cc, dslh: 199, dte: !!timestamp '2016-12-17 00:00:00', lact: 2, mkdays: 4, trt: Polyflex, typ: TREATMENT}
+- {admin: IM, age: 42722, ampm: am, bfdays: 10, by: Zach Waite, dim: null, dosage: 20cc, dslh: 202, dte: !!timestamp '2016-12-20 00:00:00', lact: 2, mkdays: 4, trt: Polyflex, typ: TREATMENT}
+- {admin: IM, age: 42723, ampm: am, bfdays: 10, by: Zach Waite, dim: null, dosage: 20cc, dslh: 203, dte: !!timestamp '2016-12-21 00:00:00', lact: 2, mkdays: 4, trt: Polyflex, typ: TREATMENT}
+- {age: 42717, ampm: am, by: zach, dig: footrot, dim: null, dslh: 197, dte: !!timestamp '2016-12-15 00:00:00', lact: 2, typ: DIAGNOSIS}
+- {age: 42717, dim: null, dslh: 197, dte: !!timestamp '2016-12-15 00:00:00', lact: 2, rem: notubes, typ: DRY}
+- {admin: NA, age: 42717, ampm: am, bfdays: 0, by: Zach Waite, dim: null, dosage: NA, dslh: 197, dte: !!timestamp '2016-12-15 00:00:00', lact: 2, mkdays: 0, trt: Footrim, typ: TREATMENT}
+- {admin: IM, age: 42717, ampm: am, bfdays: 21, by: Zach Waite, dim: null, dosage: 5ml, dslh: 197, dte: !!timestamp '2016-12-15 00:00:00', lact: 2, mkdays: 0, trt: Triangle 10 vaccine, typ: TREATMENT}
+- {age: 42785, ampm: am, by: zach, dig: footrot, dim: null, dslh: 265, dte: !!timestamp '2017-02-21 00:00:00', lact: 2, typ: DIAGNOSIS}
+- {admin: IM, age: 42785, ampm: pm, bfdays: 4, by: Mike Waite, dim: null, dosage: 20cc, dslh: 265, dte: !!timestamp '2017-02-21 00:00:00', lact: 2, mkdays: 0, trt: Ceftiflex, typ: TREATMENT}
+- {admin: IM, age: 42787, ampm: am, bfdays: 4, by: Mike Waite, dim: null, dosage: 20cc, dslh: 267, dte: !!timestamp '2017-02-23 00:00:00', lact: 2, mkdays: 0, trt: Ceftiflex, typ: TREATMENT}
+- {admin: IM, age: 42789, ampm: am, bfdays: 4, by: Mike Waite, dim: null, dosage: 20cc, dslh: 269, dte: !!timestamp '2017-02-25 00:00:00', lact: 2, mkdays: 0, trt: Ceftiflex, typ: TREATMENT}
+- {admin: IM, age: 42790, ampm: am, bfdays: 4, by: Mike Waite, dim: null, dosage: 20cc, dslh: 270, dte: !!timestamp '2017-02-26 00:00:00', lact: 2, mkdays: 0, trt: Ceftiflex, typ: TREATMENT}
+- {admin: IM, age: 42797, ampm: am, bfdays: 10, by: Mike Waite, dim: null, dosage: 20cc, dslh: 277, dte: !!timestamp '2017-03-05 00:00:00', lact: 2, mkdays: 4, trt: Polyflex, typ: TREATMENT}
+- {admin: IM, age: 42798, ampm: am, bfdays: 10, by: Mike Waite, dim: null, dosage: 20cc, dslh: 278, dte: !!timestamp '2017-03-06 00:00:00', lact: 2, mkdays: 4, trt: Polyflex, typ: TREATMENT}
+- {admin: IM, age: 42799, ampm: am, bfdays: 10, by: Mike Waite, dim: null, dosage: 20cc, dslh: 279, dte: !!timestamp '2017-03-07 00:00:00', lact: 2, mkdays: 4, trt: Polyflex, typ: TREATMENT}
+- {admin: IM, age: 42800, ampm: am, bfdays: 10, by: Mike Waite, dim: null, dosage: 20cc, dslh: 280, dte: !!timestamp '2017-03-08 00:00:00', lact: 2, mkdays: 4, trt: Polyflex, typ: TREATMENT}
+- {age: 42786, dim: null, dslh: 266, dte: &id003 !!timestamp '2017-02-22 00:00:00', lact: 2, typ: DIED}
+- {age: 42786, dim: null, dslh: 266, dte: *id003, lact: 2, typ: DEACTIVATED}
+- {age: 42791, dim: null, dslh: null, dte: &id004 !!timestamp '2017-02-27 00:00:00', lact: 3, typ: FRESH}
+- {age: 42791, dim: 0, dslh: null, dte: *id004, lact: 3, rem: auto, typ: OPEN}
+- {age: 42820, dim: 29, dslh: null, dte: !!timestamp '2017-03-28 09:36:23.212744', lact: 3, typ: CLEAR}
+lact: 3
+lactation_state: inmilk
+life_state: dead
+pen: 2
+repro_state: open
+usda: '-'
+vetck_rem: null
+vetck_state: normal

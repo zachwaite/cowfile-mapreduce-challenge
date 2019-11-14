@@ -1,0 +1,18 @@
+active_state: active
+bname: MERRY
+events:
+- {age: null, dest: 5, dim: null, dslh: null, dte: !!timestamp '2016-12-07 00:00:00', lact: 0, typ: MOVE}
+- {age: 1, dim: null, dslh: null, dte: !!timestamp '1900-01-01 09:36:23.204818', lact: 0, typ: OPEN}
+- {age: null, dim: null, dslh: null, dte: !!timestamp '2017-03-28 09:36:23.229860', lact: 0, typ: CLEAR}
+- {age: null, dest: 4, dim: null, dslh: null, dte: !!timestamp '2018-03-18 06:39:40.429969', lact: 0, typ: MOVE}
+- {admin: IM, age: null, ampm: am, bfdays: 21, by: Zach Waite, dim: null, dosage: 5ml, dslh: null, dte: !!timestamp '2018-03-18 06:42:45.085374', lact: 0, mkdays: 0, trt: Triangle 10 vaccine, typ: TREATMENT}
+- {age: null, dim: null, dslh: null, dte: !!timestamp '2018-03-25 00:00:00', lact: 0, typ: BRED}
+- {age: null, dim: null, dslh: 0, dte: !!timestamp '2018-03-25 00:00:00', lact: 0, typ: BRED}
+lact: 0
+lactation_state: hfr
+life_state: alive
+pen: 4
+repro_state: bred
+usda: 21PCE4754
+vetck_rem: null
+vetck_state: normal

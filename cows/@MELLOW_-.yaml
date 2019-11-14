@@ -1,0 +1,34 @@
+active_state: active
+bname: MELLOW
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '1900-01-01 00:00:00', lact: 1, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 1, rem: auto, typ: OPEN}
+- {age: 42638, dest: 1, dim: null, dslh: null, dte: !!timestamp '2016-09-27 00:00:00', lact: 1, typ: MOVE}
+- {age: 42407, dim: null, dslh: null, dte: &id002 !!timestamp '2016-02-09 00:00:00', lact: 1, typ: BRED}
+- {age: 42638, dim: null, dslh: 231, dte: !!timestamp '2016-09-27 00:00:00', lact: 1, typ: PREG}
+- {age: 42407, dim: null, dslh: 0, dte: *id002, lact: 1, rem: auto, typ: CONCEPTION}
+- {age: 42648, dest: 2, dim: null, dslh: 241, dte: !!timestamp '2016-10-07 21:27:07.675231', lact: 1, typ: MOVE}
+- {age: 42649, dim: null, dslh: 242, dte: !!timestamp '2016-10-08 08:24:00.239368', lact: 1, rem: NOTUBES, typ: DRY}
+- {admin: NA, age: 42647, ampm: pm, bfdays: 0, by: Zach Waite, dim: null, dosage: NA, dslh: 240, dte: !!timestamp '2016-10-06 00:00:00', lact: 1, mkdays: 0, trt: Footrim, typ: TREATMENT}
+- {age: 42673, dim: null, dslh: null, dte: &id003 !!timestamp '2016-11-01 00:00:00', lact: 2, typ: FRESH}
+- {age: 42673, dim: 0, dslh: null, dte: *id003, lact: 2, rem: auto, typ: OPEN}
+- {age: 42751, dim: 78, dslh: null, dte: &id004 !!timestamp '2017-01-18 00:00:00', lact: 2, typ: BRED}
+- {age: 42820, dim: 147, dslh: 69, dte: !!timestamp '2017-03-28 09:29:54.978949', lact: 2, typ: CHECK}
+- {age: 42820, dim: 147, dslh: 69, dte: !!timestamp '2017-03-28 09:36:23.210609', lact: 2, typ: CLEAR}
+- {age: 42820, dim: 147, dslh: 69, dte: !!timestamp '2017-03-28 09:37:03.317793', lact: 2, typ: CHECK}
+- {age: 42820, dim: 147, dslh: 69, dte: !!timestamp '2017-03-28 00:00:00', lact: 2, typ: PREG}
+- {age: 42751, dim: 78, dslh: 0, dte: *id004, lact: 2, rem: auto, typ: CONCEPTION}
+- {admin: IM, age: 42820, ampm: am, bfdays: 21, by: Zach Waite, dim: 147, dosage: 5ml, dslh: 69, dte: !!timestamp '2017-03-28 00:00:00', lact: 2, mkdays: 0, trt: Triangle 10 vaccine, typ: TREATMENT}
+- {admin: NA, age: 42861, ampm: am, bfdays: 0, by: Zach Waite, dim: 188, dosage: NA, dslh: 110, dte: !!timestamp '2017-05-08 00:00:00', lact: 2, mkdays: 0, trt: Footrim LR only, typ: TREATMENT}
+- {admin: topical, age: 42861, ampm: am, bfdays: 0, by: Zach Waite, dim: 188, dosage: 1scoop, dslh: 110, dte: !!timestamp '2017-05-08 00:00:00', lact: 2, mkdays: 0, trt: Copper Sulfate, typ: TREATMENT}
+- {age: 42959, dim: 286, dslh: 208, dte: !!timestamp '2017-08-14 00:00:00', lact: 2, rem: ORB2, typ: DRY}
+- {age: 43158, calf: null, dim: null, dslh: null, dte: &id005 !!timestamp '2018-03-01 00:00:00', lact: 3, typ: FRESH}
+- {age: 43158, dim: 0, dslh: null, dte: *id005, lact: 3, rem: auto, typ: OPEN}
+lact: 3
+lactation_state: inmilk
+life_state: alive
+pen: 2
+repro_state: open
+usda: '-'
+vetck_rem: null
+vetck_state: normal

@@ -1,0 +1,20 @@
+active_state: active
+bname: BLOSSOM
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '1900-01-01 00:00:00', lact: 0, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 0, rem: auto, typ: OPEN}
+- {age: 42638, dest: 5, dim: null, dslh: null, dte: !!timestamp '2016-09-27 00:00:00', lact: 0, typ: MOVE}
+- {age: 42820, dim: null, dslh: null, dte: !!timestamp '2017-03-28 09:36:23.231836', lact: 0, typ: CLEAR}
+- {age: 43058, dim: null, dslh: null, dte: !!timestamp '2017-11-21 00:00:00', lact: 0, typ: BRED}
+- {age: 43055, dest: 4, dim: null, dslh: -3, dte: !!timestamp '2017-11-18 00:00:00', lact: 0, typ: MOVE}
+- {admin: IM, age: 43055, ampm: am, bfdays: 21, by: Zach Waite, dim: null, dosage: 5ml, dslh: -3, dte: !!timestamp '2017-11-18 00:00:00', lact: 0, mkdays: 0, trt: Triangle 10 vaccine, typ: TREATMENT}
+- {age: 43071, dim: null, dslh: 13, dte: !!timestamp '2017-12-04 00:00:00', lact: 0, typ: BRED}
+- {age: 43145, dim: null, dslh: 74, dte: !!timestamp '2018-02-16 00:00:00', lact: 0, typ: BRED}
+lact: 0
+lactation_state: hfr
+life_state: alive
+pen: 4
+repro_state: bred
+usda: 21PCE4731
+vetck_rem: null
+vetck_state: normal

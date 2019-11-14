@@ -1,0 +1,45 @@
+active_state: active
+bname: '11080'
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '2014-08-07 00:00:00', lact: 0, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 0, rem: auto, typ: OPEN}
+- {age: 782, dest: 4, dim: null, dslh: null, dte: !!timestamp '2016-09-27 00:00:00', lact: 0, typ: MOVE}
+- {age: 552, dim: null, dslh: null, dte: !!timestamp '2016-02-10 00:00:00', lact: 0, typ: BRED}
+- {age: 810, dim: null, dslh: 258, dte: !!timestamp '2016-10-25 09:33:28.426652', lact: 0, typ: CHECK}
+- {age: 888, dim: null, dslh: 336, dte: &id002 !!timestamp '2017-01-11 00:00:00', lact: 0, typ: BRED}
+- {age: 876, dim: null, dslh: -12, dte: !!timestamp '2016-12-30 00:00:00', lact: 0, typ: BRED}
+- {age: 964, dim: null, dslh: 76, dte: !!timestamp '2017-03-28 09:29:54.978949', lact: 0, typ: CHECK}
+- {age: 964, dim: null, dslh: 76, dte: !!timestamp '2017-03-28 09:36:23.206518', lact: 0, typ: CLEAR}
+- {age: 964, dim: null, dslh: 76, dte: !!timestamp '2017-03-28 09:37:03.317793', lact: 0, typ: CHECK}
+- {age: 984, dest: 2, dim: null, dslh: 96, dte: !!timestamp '2017-04-17 00:00:00', lact: 0, typ: MOVE}
+- {age: 992, dim: null, dslh: 104, dte: !!timestamp '2017-04-25 06:56:18.091307', lact: 0, typ: CHECK}
+- {age: 992, dim: null, dslh: 104, dte: !!timestamp '2017-04-25 00:00:00', lact: 0, typ: PREG}
+- {age: 888, dim: null, dslh: 0, dte: *id002, lact: 0, rem: auto, typ: CONCEPTION}
+- {admin: IM, age: 992, ampm: am, bfdays: 21, by: Zach Waite, dim: null, dosage: 5ml, dslh: 104, dte: !!timestamp '2017-04-25 00:00:00', lact: 0, mkdays: 0, trt: Triangle 10 vaccine, typ: TREATMENT}
+- {admin: IMM, age: 1060, ampm: am, bfdays: 28, by: Zach Waite, dim: null, dosage: 1tube, dslh: 172, dte: !!timestamp '2017-07-02 00:00:00', lact: 0, mkdays: 28, trt: Orbenin DC, typ: TREATMENT}
+- {age: 1124, dim: null, dslh: 236, dte: !!timestamp '2017-09-04 00:00:00', lact: 0, rem: orb2, typ: DRY}
+- {admin: NA, age: 1130, ampm: am, bfdays: 0, by: Zach Waite, dim: null, dosage: NA, dslh: 242, dte: !!timestamp '2017-09-10 00:00:00', lact: 0, mkdays: 0, trt: Footrim, typ: TREATMENT}
+- {admin: topical, age: 1130, ampm: am, bfdays: 0, by: Zach Waite, dim: null, dosage: 1scoop, dslh: 242, dte: !!timestamp '2017-09-10 00:00:00', lact: 0, mkdays: 0, trt: Copper Sulfate, typ: TREATMENT}
+- {age: 1164, ampm: am, by: mike, dig: met, dim: null, dslh: 276, dte: !!timestamp '2017-10-14 00:00:00', lact: 0, typ: DIAGNOSIS}
+- {admin: IM, age: 1164, ampm: am, bfdays: 4, by: Mike Waite, dim: null, dosage: 20cc, dslh: 276, dte: !!timestamp '2017-10-14 00:00:00', lact: 0, mkdays: 0, trt: Ceftiflex, typ: TREATMENT}
+- {admin: IM, age: 1165, ampm: am, bfdays: 4, by: Mike Waite, dim: null, dosage: 20cc, dslh: 277, dte: !!timestamp '2017-10-15 00:00:00', lact: 0, mkdays: 0, trt: Ceftiflex, typ: TREATMENT}
+- {admin: IM, age: 1166, ampm: am, bfdays: 4, by: Mike Waite, dim: null, dosage: 20cc, dslh: 278, dte: !!timestamp '2017-10-16 00:00:00', lact: 0, mkdays: 0, trt: Ceftiflex, typ: TREATMENT}
+- {admin: IM, age: 1164, ampm: am, bfdays: 0, by: Dr. Jason Weinstein, dim: null, dosage: 10cc, dslh: 276, dte: !!timestamp '2017-10-14 00:00:00', lact: 0, mkdays: 0, trt: Dexamethasone, typ: TREATMENT}
+- {admin: IM, age: 1165, ampm: am, bfdays: 0, by: Mike Waite, dim: null, dosage: 10cc, dslh: 277, dte: !!timestamp '2017-10-15 00:00:00', lact: 0, mkdays: 0, trt: Dexamethasone, typ: TREATMENT}
+- {admin: IM, age: 1166, ampm: am, bfdays: 0, by: Mike Waite, dim: null, dosage: 10cc, dslh: 278, dte: !!timestamp '2017-10-16 00:00:00', lact: 0, mkdays: 0, trt: Dexamethasone, typ: TREATMENT}
+- {age: 1164, dim: null, dslh: null, dte: &id003 !!timestamp '2017-10-14 00:00:00', lact: 1, typ: FRESH}
+- {age: 1164, dim: 0, dslh: null, dte: *id003, lact: 1, rem: auto, typ: OPEN}
+- {age: 1203, dim: 39, dslh: null, dte: !!timestamp '2017-11-22 00:00:00', lact: 1, typ: BRED}
+- {age: 1222, dim: 58, dslh: 19, dte: !!timestamp '2017-12-11 00:00:00', lact: 1, typ: BRED}
+- {age: 1272, dim: 108, dslh: 50, dte: !!timestamp '2018-01-30 00:00:00', lact: 1, typ: OPEN}
+- {age: 1332, dim: 168, dslh: null, dte: !!timestamp '2018-03-31 00:00:00', lact: 1, typ: BRED}
+- {age: 1348, dim: 184, dslh: 16, dte: !!timestamp '2018-04-16 00:00:00', lact: 1, typ: BRED}
+- {age: 1367, dim: 203, dslh: 19, dte: !!timestamp '2018-05-05 00:00:00', lact: 1, typ: BRED}
+lact: 1
+lactation_state: inmilk
+life_state: alive
+pen: 2
+repro_state: bred
+usda: '0'
+vetck_rem: null
+vetck_state: normal

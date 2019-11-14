@@ -1,0 +1,20 @@
+active_state: active
+bname: LILAC
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '1900-01-01 00:00:00', lact: 3, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 3, rem: auto, typ: OPEN}
+- {age: 42638, dest: 3, dim: null, dslh: null, dte: !!timestamp '2016-09-27 00:00:00', lact: 3, typ: MOVE}
+- {age: 42469, dim: null, dslh: null, dte: &id002 !!timestamp '2016-04-11 00:00:00', lact: 4, typ: FRESH}
+- {age: 42469, dim: 0, dslh: null, dte: *id002, lact: 4, rem: auto, typ: OPEN}
+- {age: 42820, dim: 351, dslh: null, dte: !!timestamp '2017-03-28 09:36:23.214470', lact: 4, typ: CLEAR}
+- {age: 42884, dim: 415, dslh: null, dte: !!timestamp '2017-05-31 06:31:24.044825', lact: 4, typ: CHECK}
+- {age: 42916, calf: 21PCN4410, dim: null, dslh: null, dte: &id003 !!timestamp '2017-07-02 00:00:00', lact: 5, typ: FRESH}
+- {age: 42916, dim: 0, dslh: null, dte: *id003, lact: 5, rem: auto, typ: OPEN}
+lact: 5
+lactation_state: inmilk
+life_state: alive
+pen: 3
+repro_state: open
+usda: 21PBZ4304
+vetck_rem: null
+vetck_state: normal

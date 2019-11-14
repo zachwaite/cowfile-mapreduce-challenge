@@ -1,0 +1,17 @@
+active_state: inactive
+bname: '10526'
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '2015-02-19 00:00:00', lact: 0, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 0, rem: auto, typ: OPEN}
+- {age: 586, dest: 4, dim: null, dslh: null, dte: !!timestamp '2016-09-27 00:00:00', lact: 0, typ: MOVE}
+- {age: 768, dim: null, dslh: null, dte: !!timestamp '2017-03-28 09:36:23.197458', lact: 0, typ: CLEAR}
+- {age: 1176, dim: null, dslh: null, dte: &id002 !!timestamp '2018-05-10 08:04:31.478521', lact: 0, typ: DIED}
+- {age: 1176, dim: null, dslh: null, dte: *id002, lact: 0, typ: DEACTIVATED}
+lact: 0
+lactation_state: hfr
+life_state: dead
+pen: 4
+repro_state: open
+usda: 21PBS0526
+vetck_rem: DEPR
+vetck_state: normal

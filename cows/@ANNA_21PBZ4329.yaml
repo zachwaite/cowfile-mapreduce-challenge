@@ -1,0 +1,25 @@
+active_state: active
+bname: ANNA
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '2015-10-16 00:00:00', lact: 0, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 0, rem: auto, typ: OPEN}
+- {age: 347, dest: 5, dim: null, dslh: null, dte: !!timestamp '2016-09-27 00:00:00', lact: 0, typ: MOVE}
+- {age: 529, dim: null, dslh: null, dte: !!timestamp '2017-03-28 09:36:23.243263', lact: 0, typ: CLEAR}
+- {admin: IM, age: 558, ampm: am, bfdays: 21, by: Zach Waite, dim: null, dosage: 5ml, dslh: null, dte: !!timestamp '2017-04-26 00:00:00', lact: 0, mkdays: 0, trt: Triangle 10 vaccine, typ: TREATMENT}
+- {age: 558, dest: 4, dim: null, dslh: null, dte: !!timestamp '2017-04-26 00:00:00', lact: 0, typ: MOVE}
+- {age: 591, dim: null, dslh: null, dte: !!timestamp '2017-05-29 00:00:00', lact: 0, typ: BRED}
+- {age: 597, dim: null, dslh: 6, dte: !!timestamp '2017-06-04 00:00:00', lact: 0, typ: BRED}
+- {age: 648, dim: null, dslh: 51, dte: !!timestamp '2017-07-25 04:15:18.037991', lact: 0, typ: CHECK}
+- {age: 711, dim: null, dslh: 114, dte: !!timestamp '2017-09-26 08:25:35.908268', lact: 0, typ: CHECK}
+- {age: 754, dim: null, dslh: 157, dte: !!timestamp '2017-11-08 06:48:31.844547', lact: 0, typ: CHECK}
+- {age: 773, dim: null, dslh: 176, dte: !!timestamp '2017-11-27 14:28:41.031022', lact: 0, typ: CHECK}
+- {age: 932, dim: null, dslh: 335, dte: !!timestamp '2018-05-05 00:00:00', lact: 0, typ: BRED}
+- {age: 960, dim: null, dslh: 28, dte: !!timestamp '2018-06-02 00:00:00', lact: 0, typ: BRED}
+lact: 0
+lactation_state: hfr
+life_state: alive
+pen: 4
+repro_state: bred
+usda: 21PBZ4329
+vetck_rem: null
+vetck_state: normal

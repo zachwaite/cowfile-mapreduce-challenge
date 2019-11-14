@@ -1,0 +1,20 @@
+active_state: inactive
+bname: '914'
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '1900-01-01 00:00:00', lact: 3, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 3, rem: auto, typ: OPEN}
+- {age: 42638, dest: 3, dim: null, dslh: null, dte: !!timestamp '2016-09-27 00:00:00', lact: 3, typ: MOVE}
+- {age: 42466, dim: null, dslh: null, dte: &id002 !!timestamp '2016-04-08 00:00:00', lact: 4, typ: FRESH}
+- {age: 42466, dim: 0, dslh: null, dte: *id002, lact: 4, rem: auto, typ: OPEN}
+- {admin: NA, age: 42647, ampm: am, bfdays: 0, by: Zach Waite, dim: 181, dosage: NA, dslh: null, dte: !!timestamp '2016-10-06 00:00:00', lact: 4, mkdays: 0, trt: Footrim LR and RR, typ: TREATMENT}
+- {age: 42715, dim: 249, dslh: null, dte: &id003 !!timestamp '2016-12-13 07:08:18.546912', lact: 4, typ: SOLD}
+- {age: 42715, dim: 249, dslh: null, dte: *id003, lact: 4, typ: DEACTIVATED}
+- {age: 42820, dim: 354, dslh: null, dte: !!timestamp '2017-03-28 09:36:23.220187', lact: 4, typ: CLEAR}
+lact: 4
+lactation_state: inmilk
+life_state: alive
+pen: 3
+repro_state: open
+usda: '-'
+vetck_rem: null
+vetck_state: normal

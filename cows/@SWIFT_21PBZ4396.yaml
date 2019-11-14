@@ -1,0 +1,26 @@
+active_state: active
+bname: SWIFT
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '2014-12-01 00:00:00', lact: 0, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 0, rem: auto, typ: OPEN}
+- {age: 666, dest: 4, dim: null, dslh: null, dte: !!timestamp '2016-09-27 00:00:00', lact: 0, typ: MOVE}
+- {age: 544, dim: null, dslh: null, dte: !!timestamp '2016-05-28 00:00:00', lact: 0, typ: BRED}
+- {age: 694, dim: null, dslh: 150, dte: !!timestamp '2016-10-25 09:33:28.426652', lact: 0, typ: CHECK}
+- {age: 792, dim: null, dslh: 248, dte: !!timestamp '2017-01-31 08:57:00.481285', lact: 0, typ: CHECK}
+- {age: 823, dim: null, dslh: null, dte: &id002 !!timestamp '2017-03-03 00:00:00', lact: 1, typ: FRESH}
+- {age: 823, dim: 0, dslh: null, dte: *id002, lact: 1, rem: auto, typ: OPEN}
+- {age: 848, dim: 25, dslh: null, dte: !!timestamp '2017-03-28 09:36:23.217310', lact: 1, typ: CLEAR}
+- {age: 868, dest: 1, dim: 45, dslh: null, dte: !!timestamp '2017-04-17 00:00:00', lact: 1, typ: MOVE}
+- {age: 1168, dim: 345, dslh: null, dte: &id003 !!timestamp '2018-02-11 00:00:00', lact: 1, typ: BRED}
+- {age: 1212, dim: 389, dslh: 44, dte: !!timestamp '2018-03-27 00:00:00', lact: 1, typ: PREG}
+- {age: 1168, dim: 345, dslh: 0, dte: *id003, lact: 1, rem: auto, typ: CONCEPTION}
+- {admin: IM, age: 1212, ampm: am, bfdays: 21, by: Dr. John McDermott, dim: 389, dosage: 5ml, dslh: 44, dte: !!timestamp '2018-03-27 00:00:00', lact: 1, mkdays: 0, trt: Triangle 10 vaccine, typ: TREATMENT}
+- {admin: IM, age: 1212, ampm: am, bfdays: 21, by: Dr. John McDermott, dim: 389, dosage: 5ml, dslh: 44, dte: !!timestamp '2018-03-27 00:00:00', lact: 1, mkdays: 0, trt: Triangle 10 vaccine, typ: TREATMENT}
+lact: 1
+lactation_state: inmilk
+life_state: alive
+pen: 1
+repro_state: preg
+usda: 21PBZ4396
+vetck_rem: null
+vetck_state: normal

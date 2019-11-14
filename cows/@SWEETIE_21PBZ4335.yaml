@@ -1,0 +1,28 @@
+active_state: active
+bname: SWEETIE
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '1900-01-01 00:00:00', lact: 2, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 2, rem: auto, typ: OPEN}
+- {age: 42638, dest: 3, dim: null, dslh: null, dte: !!timestamp '2016-09-27 00:00:00', lact: 2, typ: MOVE}
+- {age: 42474, dim: null, dslh: null, dte: &id002 !!timestamp '2016-04-16 00:00:00', lact: 3, typ: FRESH}
+- {age: 42474, dim: 0, dslh: null, dte: *id002, lact: 3, rem: auto, typ: OPEN}
+- {age: 42820, dim: 346, dslh: null, dte: !!timestamp '2017-03-28 09:36:23.177309', lact: 3, typ: CLEAR}
+- {age: 42860, calf: 21PCE4789, dim: null, dslh: null, dte: &id003 !!timestamp '2017-05-07 00:00:00', lact: 4, typ: FRESH}
+- {age: 42860, dim: 0, dslh: null, dte: *id003, lact: 4, rem: auto, typ: OPEN}
+- {age: 42950, dim: 90, dslh: null, dte: !!timestamp '2017-08-05 00:00:00', lact: 4, typ: BRED}
+- {age: 43002, dim: 142, dslh: 52, dte: !!timestamp '2017-09-26 08:25:35.908268', lact: 4, typ: CHECK}
+- {age: 43003, dim: 143, dslh: 53, dte: !!timestamp '2017-09-27 20:54:03.637919', lact: 4, typ: OPEN}
+- {age: 43031, dim: 171, dslh: null, dte: !!timestamp '2017-10-25 00:00:00', lact: 4, typ: BRED}
+- {age: 43053, dim: 193, dslh: 22, dte: !!timestamp '2017-11-16 00:00:00', lact: 4, typ: BRED}
+- {age: 43093, dim: 233, dslh: 40, dte: !!timestamp '2017-12-26 00:00:00', lact: 4, typ: OPEN}
+- {age: 43198, dim: 338, dslh: null, dte: !!timestamp '2018-04-10 00:00:00', lact: 4, typ: BRED}
+- {age: 43247, dim: 387, dslh: 49, dte: !!timestamp '2018-05-29 00:00:00', lact: 4, typ: OPEN}
+- {age: 43248, dim: 388, dslh: null, dte: !!timestamp '2018-05-30 00:00:00', lact: 4, typ: BRED}
+lact: 4
+lactation_state: inmilk
+life_state: alive
+pen: 3
+repro_state: bred
+usda: 21PBZ4335
+vetck_rem: null
+vetck_state: normal

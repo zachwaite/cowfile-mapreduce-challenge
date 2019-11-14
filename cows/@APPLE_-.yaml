@@ -1,0 +1,42 @@
+active_state: inactive
+bname: APPLE
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '1900-01-01 00:00:00', lact: 2, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 2, rem: auto, typ: OPEN}
+- {age: 42638, dest: 1, dim: null, dslh: null, dte: !!timestamp '2016-09-27 00:00:00', lact: 2, typ: MOVE}
+- {age: 42410, dim: null, dslh: null, dte: &id002 !!timestamp '2016-02-12 00:00:00', lact: 2, typ: BRED}
+- {age: 42638, dim: null, dslh: 228, dte: !!timestamp '2016-09-27 00:00:00', lact: 2, typ: PREG}
+- {age: 42410, dim: null, dslh: 0, dte: *id002, lact: 2, rem: auto, typ: CONCEPTION}
+- {age: 42648, dest: 4, dim: null, dslh: 238, dte: !!timestamp '2016-10-07 21:28:30.190255', lact: 2, typ: MOVE}
+- {age: 42645, ampm: am, by: zach, dig: met, dim: null, dslh: null, dte: !!timestamp '2016-11-27 00:00:00', lact: 1, typ: DIAGNOSIS}
+- {admin: NA, age: 42645, ampm: am, bfdays: 0, by: Zach Waite, dim: null, dosage: NA, dslh: 235, dte: !!timestamp '2016-10-04 00:00:00', lact: 2, mkdays: 0, trt: Footrim, typ: TREATMENT}
+- {admin: IM, age: 42699, ampm: am, bfdays: 4, by: Mike Waite, dim: null, dosage: 20cc, dslh: 289, dte: !!timestamp '2016-11-27 00:00:00', lact: 2, mkdays: 0, trt: Ceftiflex, typ: TREATMENT}
+- {admin: IM, age: 42700, ampm: am, bfdays: 4, by: Mike Waite, dim: null, dosage: 20cc, dslh: 290, dte: !!timestamp '2016-11-28 00:00:00', lact: 2, mkdays: 0, trt: Ceftiflex, typ: TREATMENT}
+- {admin: IM, age: 42701, ampm: am, bfdays: 4, by: Mike Waite, dim: null, dosage: 20cc, dslh: 291, dte: !!timestamp '2016-11-29 00:00:00', lact: 2, mkdays: 0, trt: Ceftiflex, typ: TREATMENT}
+- {age: 42692, dim: null, dslh: null, dte: &id003 !!timestamp '2016-11-20 00:00:00', lact: 3, typ: FRESH}
+- {age: 42692, dim: 0, dslh: null, dte: *id003, lact: 3, rem: auto, typ: OPEN}
+- {age: 42820, dim: 128, dslh: null, dte: !!timestamp '2017-03-28 09:36:23.194451', lact: 3, typ: CLEAR}
+- {age: 42840, dest: 1, dim: 148, dslh: null, dte: !!timestamp '2017-04-17 00:00:00', lact: 3, typ: MOVE}
+- {age: 42835, dim: 143, dslh: null, dte: !!timestamp '2017-04-12 00:00:00', lact: 3, typ: BRED}
+- {age: 42879, dim: 187, dslh: 44, dte: &id004 !!timestamp '2017-05-26 00:00:00', lact: 3, typ: BRED}
+- {age: 42939, dim: 247, dslh: 60, dte: !!timestamp '2017-07-25 04:15:18.037991', lact: 3, typ: CHECK}
+- {age: 42939, dim: 247, dslh: 60, dte: !!timestamp '2017-07-25 00:00:00', lact: 3, typ: PREG}
+- {age: 42879, dim: 187, dslh: 0, dte: *id004, lact: 3, rem: auto, typ: CONCEPTION}
+- {admin: IM, age: 42939, ampm: am, bfdays: 21, by: Zach Waite, dim: 247, dosage: 5ml, dslh: 60, dte: !!timestamp '2017-07-25 00:00:00', lact: 3, mkdays: 0, trt: Triangle 10 vaccine, typ: TREATMENT}
+- {age: 43119, ampm: am, by: Dr. John McDermott, dig: Right Displaced Abomasum, dim: 427, dslh: 240, dte: !!timestamp '2018-01-21 00:00:00', lact: 3, rem: surgery, typ: DIAGNOSIS}
+- {admin: IM, age: 43119, ampm: am, bfdays: 10, by: Mike Waite, dim: 427, dosage: 20cc, dslh: 240, dte: !!timestamp '2018-01-21 00:00:00', lact: 3, mkdays: 4, trt: Polyflex, typ: TREATMENT}
+- {admin: IM, age: 43120, ampm: am, bfdays: 10, by: Mike Waite, dim: 428, dosage: 20cc, dslh: 241, dte: !!timestamp '2018-01-22 00:00:00', lact: 3, mkdays: 4, trt: Polyflex, typ: TREATMENT}
+- {admin: IM, age: 43121, ampm: am, bfdays: 10, by: Mike Waite, dim: 429, dosage: 20cc, dslh: 242, dte: !!timestamp '2018-01-23 00:00:00', lact: 3, mkdays: 4, trt: Polyflex, typ: TREATMENT}
+- {admin: IM, age: 43122, ampm: am, bfdays: 10, by: Mike Waite, dim: 430, dosage: 20cc, dslh: 243, dte: !!timestamp '2018-01-24 00:00:00', lact: 3, mkdays: 4, trt: Polyflex, typ: TREATMENT}
+- {admin: IM, age: 43124, ampm: am, bfdays: 10, by: Mike Waite, dim: 432, dosage: 20cc, dslh: 245, dte: !!timestamp '2018-01-26 00:00:00', lact: 3, mkdays: 4, trt: Polyflex, typ: TREATMENT}
+- {admin: IM, age: 43125, ampm: am, bfdays: 10, by: Mike Waite, dim: 433, dosage: 20cc, dslh: 246, dte: !!timestamp '2018-01-27 00:00:00', lact: 3, mkdays: 4, trt: Polyflex, typ: TREATMENT}
+- {age: 43184, dim: 492, dslh: 305, dte: &id005 !!timestamp '2018-03-27 05:18:09.225425', lact: 3, typ: DIED}
+- {age: 43184, dim: 492, dslh: 305, dte: *id005, lact: 3, typ: DEACTIVATED}
+lact: 3
+lactation_state: inmilk
+life_state: dead
+pen: 1
+repro_state: preg
+usda: '-'
+vetck_rem: null
+vetck_state: normal

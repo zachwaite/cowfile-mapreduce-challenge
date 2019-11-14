@@ -1,0 +1,30 @@
+active_state: active
+bname: LILRACH
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '2014-09-13 00:00:00', lact: 0, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 0, rem: auto, typ: OPEN}
+- {age: 745, dest: 4, dim: null, dslh: null, dte: !!timestamp '2016-09-27 00:00:00', lact: 0, typ: MOVE}
+- {age: 612, dim: null, dslh: null, dte: !!timestamp '2016-05-17 00:00:00', lact: 0, typ: BRED}
+- {age: 773, dim: null, dslh: 161, dte: !!timestamp '2016-10-25 09:33:28.426652', lact: 0, typ: CHECK}
+- {age: 871, dim: null, dslh: 259, dte: !!timestamp '2017-01-31 08:57:00.481285', lact: 0, typ: CHECK}
+- {age: 895, dim: null, dslh: null, dte: &id002 !!timestamp '2017-02-24 00:00:00', lact: 1, typ: FRESH}
+- {age: 895, dim: 0, dslh: null, dte: *id002, lact: 1, rem: auto, typ: OPEN}
+- {age: 927, dim: 32, dslh: null, dte: !!timestamp '2017-03-28 09:36:23.169674', lact: 1, typ: CLEAR}
+- {age: 947, dest: 1, dim: 52, dslh: null, dte: !!timestamp '2017-04-17 00:00:00', lact: 1, typ: MOVE}
+- {age: 1035, dim: 140, dslh: null, dte: !!timestamp '2017-07-14 00:00:00', lact: 1, typ: BRED}
+- {age: 1101, dim: 206, dslh: 66, dte: !!timestamp '2017-09-18 00:00:00', lact: 1, typ: BRED}
+- {age: 1138, dim: 243, dslh: 37, dte: !!timestamp '2017-10-25 00:00:00', lact: 1, typ: BRED}
+- {age: 1160, dim: 265, dslh: 22, dte: !!timestamp '2017-11-16 00:00:00', lact: 1, typ: BRED}
+- {age: 1200, dim: 305, dslh: 40, dte: !!timestamp '2017-12-26 00:00:00', lact: 1, typ: OPEN}
+- {age: 1229, dim: 334, dslh: null, dte: &id003 !!timestamp '2018-01-24 00:00:00', lact: 1, typ: BRED}
+- {age: 1291, dim: 396, dslh: 62, dte: !!timestamp '2018-03-27 00:00:00', lact: 1, typ: PREG}
+- {age: 1229, dim: 334, dslh: 0, dte: *id003, lact: 1, rem: auto, typ: CONCEPTION}
+- {admin: IM, age: 1291, ampm: am, bfdays: 21, by: Dr. John McDermott, dim: 396, dosage: 5ml, dslh: 62, dte: !!timestamp '2018-03-27 00:00:00', lact: 1, mkdays: 0, trt: Triangle 10 vaccine, typ: TREATMENT}
+lact: 1
+lactation_state: inmilk
+life_state: alive
+pen: 1
+repro_state: preg
+usda: '0'
+vetck_rem: null
+vetck_state: normal

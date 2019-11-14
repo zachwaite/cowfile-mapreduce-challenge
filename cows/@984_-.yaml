@@ -1,0 +1,27 @@
+active_state: inactive
+bname: '984'
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '1900-01-01 00:00:00', lact: 3, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 3, rem: auto, typ: OPEN}
+- {age: 42638, dest: 1, dim: null, dslh: null, dte: !!timestamp '2016-09-27 00:00:00', lact: 3, typ: MOVE}
+- {age: 42586, dim: null, dslh: null, dte: &id002 !!timestamp '2016-08-06 00:00:00', lact: 3, typ: BRED}
+- {age: 42638, dim: null, dslh: 52, dte: !!timestamp '2016-09-27 00:00:00', lact: 3, typ: PREG}
+- {age: 42586, dim: null, dslh: 0, dte: *id002, lact: 3, rem: auto, typ: CONCEPTION}
+- {age: 42820, dim: null, dslh: 234, dte: !!timestamp '2017-03-28 09:36:23.237650', lact: 3, typ: CLEAR}
+- {age: 42827, dim: null, dslh: 241, dte: !!timestamp '2017-04-04 00:00:00', lact: 3, typ: DRY}
+- {age: 42853, dim: null, dslh: null, dte: &id003 !!timestamp '2017-04-30 00:00:00', lact: 4, typ: FRESH}
+- {age: 42853, dim: 0, dslh: null, dte: *id003, lact: 4, rem: auto, typ: OPEN}
+- {admin: IM, age: 42873, ampm: am, bfdays: 4, by: Mike Waite, dim: 20, dosage: 20cc, dslh: null, dte: !!timestamp '2017-05-20 00:00:00', lact: 4, mkdays: 0, trt: Ceftiflex, typ: TREATMENT}
+- {age: 42880, dim: 27, dslh: null, dte: &id004 !!timestamp '2017-05-27 22:05:27.742752', lact: 4, typ: DIED}
+- {age: 42880, dim: 27, dslh: null, dte: *id004, lact: 4, typ: DEACTIVATED}
+- {admin: IM, age: 42874, ampm: am, bfdays: 4, by: Mike Waite, dim: 21, dosage: 20cc, dslh: null, dte: !!timestamp '2017-05-21 00:00:00', lact: 4, mkdays: 0, trt: Ceftiflex, typ: TREATMENT}
+- {admin: IM, age: 42875, ampm: am, bfdays: 4, by: Mike Waite, dim: 22, dosage: 20cc, dslh: null, dte: !!timestamp '2017-05-22 00:00:00', lact: 4, mkdays: 0, trt: Ceftiflex, typ: TREATMENT}
+- {admin: IM, age: 42876, ampm: am, bfdays: 4, by: Mike Waite, dim: 23, dosage: 20cc, dslh: null, dte: !!timestamp '2017-05-23 00:00:00', lact: 4, mkdays: 0, trt: Ceftiflex, typ: TREATMENT}
+lact: 4
+lactation_state: inmilk
+life_state: dead
+pen: 1
+repro_state: open
+usda: '-'
+vetck_rem: null
+vetck_state: normal

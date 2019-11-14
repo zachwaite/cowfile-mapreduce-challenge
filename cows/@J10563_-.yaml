@@ -1,0 +1,18 @@
+active_state: inactive
+bname: J10563
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '2015-05-16 00:00:00', lact: 0, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 0, rem: auto, typ: OPEN}
+- {age: 500, dest: 0, dim: null, dslh: null, dte: !!timestamp '2016-09-27 00:00:00', lact: 0, typ: MOVE}
+- {age: 117, dim: null, dslh: null, dte: &id002 !!timestamp '2015-09-10 00:00:00', lact: 0, typ: BRED}
+- {age: 500, dim: null, dslh: 383, dte: !!timestamp '2016-09-27 00:00:00', lact: 0, typ: PREG}
+- {age: 117, dim: null, dslh: 0, dte: *id002, lact: 0, rem: auto, typ: CONCEPTION}
+- {age: 682, dim: null, dslh: 565, dte: !!timestamp '2017-03-28 09:36:23.230647', lact: 0, typ: CLEAR}
+lact: 0
+lactation_state: hfr
+life_state: alive
+pen: 0
+repro_state: preg
+usda: '-'
+vetck_rem: null
+vetck_state: normal

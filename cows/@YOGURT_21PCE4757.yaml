@@ -1,0 +1,17 @@
+active_state: active
+bname: YOGURT
+events:
+- {age: null, dest: 5, dim: null, dslh: null, dte: !!timestamp '2016-12-10 00:00:00', lact: 0, typ: MOVE}
+- {age: null, dim: null, dslh: null, dte: !!timestamp '2017-03-28 09:36:23.183956', lact: 0, typ: CLEAR}
+- {age: null, dim: null, dslh: null, dte: !!timestamp '1900-01-01 00:00:00', lact: 0, typ: OPEN}
+- {age: null, dest: 4, dim: null, dslh: null, dte: !!timestamp '2017-11-18 00:00:00', lact: 0, typ: MOVE}
+- {admin: IM, age: null, ampm: am, bfdays: 21, by: Zach Waite, dim: null, dosage: 5ml, dslh: null, dte: !!timestamp '2017-11-18 00:00:00', lact: 0, mkdays: 0, trt: Triangle 10 vaccine, typ: TREATMENT}
+- {age: null, dim: null, dslh: null, dte: !!timestamp '2018-02-06 00:00:00', lact: 0, typ: BRED}
+lact: 0
+lactation_state: hfr
+life_state: alive
+pen: 4
+repro_state: bred
+usda: 21PCE4757
+vetck_rem: null
+vetck_state: normal

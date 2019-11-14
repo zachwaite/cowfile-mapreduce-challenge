@@ -1,0 +1,38 @@
+active_state: active
+bname: REDDI
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '1900-01-01 00:00:00', lact: 0, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 0, rem: auto, typ: OPEN}
+- {age: 42638, dest: 0, dim: null, dslh: null, dte: !!timestamp '2016-09-27 00:00:00', lact: 0, typ: MOVE}
+- {age: 42427, dim: null, dslh: null, dte: !!timestamp '2016-02-29 00:00:00', lact: 0, typ: BRED}
+- {age: 42666, dim: null, dslh: 239, dte: !!timestamp '2016-10-25 09:33:28.426652', lact: 0, typ: CHECK}
+- {age: 42764, dim: null, dslh: 337, dte: !!timestamp '2017-01-31 08:57:00.481285', lact: 0, typ: CHECK}
+- {age: 42782, dim: null, dslh: 355, dte: &id002 !!timestamp '2017-02-18 00:00:00', lact: 0, typ: BRED}
+- {age: 42820, dim: null, dslh: 38, dte: !!timestamp '2017-03-28 08:40:21.619388', lact: 0, typ: CHECK}
+- {age: 42820, dim: null, dslh: 38, dte: !!timestamp '2017-03-28 08:45:09.017339', lact: 0, typ: CHECK}
+- {age: 42820, dim: null, dslh: 38, dte: !!timestamp '2017-03-28 08:47:15.098099', lact: 0, typ: CHECK}
+- {age: 42820, dim: null, dslh: 38, dte: !!timestamp '2017-03-28 08:49:03.649555', lact: 0, typ: CHECK}
+- {age: 42820, dim: null, dslh: 38, dte: !!timestamp '2017-03-28 08:55:54.155583', lact: 0, typ: CHECK}
+- {age: 42820, dim: null, dslh: 38, dte: !!timestamp '2017-03-28 09:02:19.512446', lact: 0, typ: CHECK}
+- {age: 42820, dim: null, dslh: 38, dte: !!timestamp '2017-03-28 09:06:20.799403', lact: 0, typ: CHECK}
+- {age: 42820, dim: null, dslh: 38, dte: !!timestamp '2017-03-28 09:29:54.978949', lact: 0, typ: CHECK}
+- {age: 42820, dim: null, dslh: 38, dte: !!timestamp '2017-03-28 09:36:23.172486', lact: 0, typ: CLEAR}
+- {age: 42820, dim: null, dslh: 38, dte: !!timestamp '2017-03-28 09:37:03.317793', lact: 0, typ: CHECK}
+- {age: 42840, dest: 1, dim: null, dslh: 58, dte: !!timestamp '2017-04-17 00:00:00', lact: 0, typ: MOVE}
+- {age: 42848, dim: null, dslh: 66, dte: !!timestamp '2017-04-25 06:56:18.091307', lact: 0, typ: CHECK}
+- {age: 42848, dim: null, dslh: 66, dte: !!timestamp '2017-04-25 00:00:00', lact: 0, typ: PREG}
+- {age: 42782, dim: null, dslh: 0, dte: *id002, lact: 0, rem: auto, typ: CONCEPTION}
+- {age: 43062, calf: 21PCN4475, dim: null, dslh: null, dte: &id003 !!timestamp '2017-11-25 00:00:00', lact: 1, typ: FRESH}
+- {age: 43062, dim: 0, dslh: null, dte: *id003, lact: 1, rem: auto, typ: OPEN}
+- {age: 43102, dim: 40, dslh: null, dte: &id004 !!timestamp '2018-01-04 00:00:00', lact: 1, typ: BRED}
+- {age: 43184, dim: 122, dslh: 82, dte: !!timestamp '2018-03-27 00:00:00', lact: 1, typ: PREG}
+- {age: 43102, dim: 40, dslh: 0, dte: *id004, lact: 1, rem: auto, typ: CONCEPTION}
+- {admin: IM, age: 43184, ampm: am, bfdays: 21, by: Dr. John McDermott, dim: 122, dosage: 5ml, dslh: 82, dte: !!timestamp '2018-03-27 00:00:00', lact: 1, mkdays: 0, trt: Triangle 10 vaccine, typ: TREATMENT}
+lact: 1
+lactation_state: inmilk
+life_state: alive
+pen: 1
+repro_state: preg
+usda: '-'
+vetck_rem: null
+vetck_state: normal

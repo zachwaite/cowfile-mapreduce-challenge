@@ -1,0 +1,20 @@
+active_state: inactive
+bname: JUMPER
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '1900-01-01 00:00:00', lact: 2, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 2, rem: auto, typ: OPEN}
+- {age: 42638, dest: 8, dim: null, dslh: null, dte: !!timestamp '2016-09-27 00:00:00', lact: 2, typ: MOVE}
+- {age: 42367, dim: null, dslh: null, dte: &id002 !!timestamp '2015-12-31 00:00:00', lact: 2, typ: BRED}
+- {age: 42638, dim: null, dslh: 271, dte: !!timestamp '2016-09-27 00:00:00', lact: 2, typ: PREG}
+- {age: 42367, dim: null, dslh: 0, dte: *id002, lact: 2, rem: auto, typ: CONCEPTION}
+- {age: 42656, dim: null, dslh: 289, dte: &id003 !!timestamp '2016-10-15 00:00:00', lact: 2, typ: DIED}
+- {age: 42656, dim: null, dslh: 289, dte: *id003, lact: 2, typ: DEACTIVATED}
+- {age: 42820, dim: null, dslh: 453, dte: !!timestamp '2017-03-28 09:36:23.239159', lact: 2, typ: CLEAR}
+lact: 2
+lactation_state: hfr
+life_state: dead
+pen: 8
+repro_state: preg
+usda: '-'
+vetck_rem: null
+vetck_state: normal

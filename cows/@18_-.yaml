@@ -1,0 +1,15 @@
+active_state: active
+bname: '18'
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '1900-01-01 00:00:00', lact: 0, rem: auto, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 0, rem: auto, typ: OPEN}
+- {age: 43119, calf: 21PCT8603, dim: null, dslh: null, dte: &id002 !!timestamp '2018-01-21 00:00:00', lact: 1, typ: FRESH}
+- {age: 43119, dim: 0, dslh: null, dte: *id002, lact: 1, rem: auto, typ: OPEN}
+lact: 1
+lactation_state: inmilk
+life_state: alive
+pen: 0
+repro_state: open
+usda: '-'
+vetck_rem: null
+vetck_state: normal

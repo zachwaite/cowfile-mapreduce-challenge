@@ -1,0 +1,21 @@
+active_state: active
+bname: '1'
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '1900-01-01 00:00:00', lact: 2, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 2, rem: auto, typ: OPEN}
+- {age: 42638, dest: 8, dim: null, dslh: null, dte: !!timestamp '2016-09-27 00:00:00', lact: 2, typ: MOVE}
+- {age: 42423, dim: null, dslh: null, dte: &id002 !!timestamp '2016-02-25 00:00:00', lact: 2, typ: BRED}
+- {age: 42638, dim: null, dslh: 215, dte: !!timestamp '2016-09-27 00:00:00', lact: 2, typ: PREG}
+- {age: 42423, dim: null, dslh: 0, dte: *id002, lact: 2, rem: auto, typ: CONCEPTION}
+- {age: 42703, dim: null, dslh: null, dte: &id003 !!timestamp '2016-12-01 00:00:00', lact: 3, typ: FRESH}
+- {age: 42703, dim: 0, dslh: null, dte: *id003, lact: 3, rem: auto, typ: OPEN}
+- {age: 42820, dim: 117, dslh: null, dte: !!timestamp '2017-03-28 09:36:23.206010', lact: 3, typ: CLEAR}
+- {age: 42884, dim: 181, dslh: null, dte: !!timestamp '2017-05-31 06:30:44.819897', lact: 3, typ: CHECK}
+lact: 3
+lactation_state: inmilk
+life_state: alive
+pen: 8
+repro_state: open
+usda: '-'
+vetck_rem: DEPR
+vetck_state: normal

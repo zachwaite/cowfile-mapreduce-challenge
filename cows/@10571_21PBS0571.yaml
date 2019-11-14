@@ -1,0 +1,33 @@
+active_state: active
+bname: '10571'
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '2015-06-04 00:00:00', lact: 0, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 0, rem: auto, typ: OPEN}
+- {age: 481, dest: 4, dim: null, dslh: null, dte: !!timestamp '2016-09-27 00:00:00', lact: 0, typ: MOVE}
+- {age: 594, ampm: am, by: zach, dig: injury, dim: null, dslh: null, dte: !!timestamp '2017-01-18 00:00:00', lact: 0, typ: DIAGNOSIS}
+- {admin: IM, age: 594, ampm: am, bfdays: 28, by: Zach Waite, dim: null, dosage: 15cc, dslh: null, dte: !!timestamp '2017-01-18 00:00:00', lact: 0, mkdays: 4, trt: Oxytetracycline 200, typ: TREATMENT}
+- {admin: IM, age: 596, ampm: am, bfdays: 28, by: Zach Waite, dim: null, dosage: 15cc, dslh: null, dte: !!timestamp '2017-01-20 00:00:00', lact: 0, mkdays: 4, trt: Oxytetracycline 200, typ: TREATMENT}
+- {admin: IM, age: 598, ampm: am, bfdays: 28, by: Zach Waite, dim: null, dosage: 15cc, dslh: null, dte: !!timestamp '2017-01-22 00:00:00', lact: 0, mkdays: 4, trt: Oxytetracycline 200, typ: TREATMENT}
+- {admin: IM, age: 600, ampm: am, bfdays: 28, by: Zach Waite, dim: null, dosage: 15cc, dslh: null, dte: !!timestamp '2017-01-24 00:00:00', lact: 0, mkdays: 4, trt: Oxytetracycline 200, typ: TREATMENT}
+- {admin: topical, age: 594, ampm: am, bfdays: 0, by: Zach Waite, dim: null, dosage: 1scoop, dslh: null, dte: !!timestamp '2017-01-18 00:00:00', lact: 0, mkdays: 0, trt: Oxytet powder, typ: TREATMENT}
+- {admin: topical, age: 596, ampm: am, bfdays: 0, by: Zach Waite, dim: null, dosage: 1scoop, dslh: null, dte: !!timestamp '2017-01-20 00:00:00', lact: 0, mkdays: 0, trt: Oxytet powder, typ: TREATMENT}
+- {admin: topical, age: 598, ampm: am, bfdays: 0, by: Zach Waite, dim: null, dosage: 1scoop, dslh: null, dte: !!timestamp '2017-01-22 00:00:00', lact: 0, mkdays: 0, trt: Oxytet powder, typ: TREATMENT}
+- {admin: topical, age: 600, ampm: am, bfdays: 0, by: Zach Waite, dim: null, dosage: 1scoop, dslh: null, dte: !!timestamp '2017-01-24 00:00:00', lact: 0, mkdays: 0, trt: Oxytet powder, typ: TREATMENT}
+- {age: 663, dim: null, dslh: null, dte: !!timestamp '2017-03-28 09:36:23.228776', lact: 0, typ: CLEAR}
+- {age: 686, dim: null, dslh: null, dte: !!timestamp '2017-04-20 00:00:00', lact: 0, typ: BRED}
+- {age: 726, dim: null, dslh: 40, dte: !!timestamp '2017-05-30 22:43:58.205915', lact: 0, typ: CHECK}
+- {age: 727, dim: null, dslh: 41, dte: !!timestamp '2017-05-31 06:14:24.695519', lact: 0, typ: CHECK}
+- {age: 754, dim: null, dslh: 68, dte: !!timestamp '2017-06-27 06:04:10.224322', lact: 0, typ: CHECK}
+- {age: 782, dim: null, dslh: 96, dte: !!timestamp '2017-07-25 04:15:18.037991', lact: 0, typ: CHECK}
+- {age: 845, dim: null, dslh: 159, dte: !!timestamp '2017-09-26 08:25:35.908268', lact: 0, typ: CHECK}
+- {age: 888, dim: null, dslh: 202, dte: !!timestamp '2017-11-08 06:48:31.844547', lact: 0, typ: CHECK}
+- {age: 907, dim: null, dslh: 221, dte: !!timestamp '2017-11-27 14:28:41.031022', lact: 0, typ: CHECK}
+- {age: 1101, dim: null, dslh: 415, dte: !!timestamp '2018-06-09 00:00:00', lact: 0, typ: BRED}
+lact: 0
+lactation_state: hfr
+life_state: alive
+pen: 4
+repro_state: bred
+usda: 21PBS0571
+vetck_rem: null
+vetck_state: normal

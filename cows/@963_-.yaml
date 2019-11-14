@@ -1,0 +1,35 @@
+active_state: active
+bname: '963'
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '1900-01-01 00:00:00', lact: 2, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 2, rem: auto, typ: OPEN}
+- {age: 42638, dest: 2, dim: null, dslh: null, dte: !!timestamp '2016-09-27 00:00:00', lact: 2, typ: MOVE}
+- {age: 42619, dim: null, dslh: null, dte: !!timestamp '2016-09-08 00:00:00', lact: 2, typ: BRED}
+- {age: 42645, dim: null, dslh: 26, dte: !!timestamp '2016-10-04 00:00:00', lact: 2, typ: BRED}
+- {age: 42690, dim: null, dslh: 45, dte: !!timestamp '2016-11-18 00:00:00', lact: 2, typ: BRED}
+- {age: 42715, dim: null, dslh: 25, dte: !!timestamp '2016-12-13 00:00:00', lact: 2, typ: BRED}
+- {age: 42764, dim: null, dslh: 49, dte: !!timestamp '2017-01-31 08:57:00.481285', lact: 2, typ: CHECK}
+- {age: 42764, dim: null, dslh: 49, dte: !!timestamp '2017-01-31 00:00:00', lact: 2, typ: OPEN}
+- {age: 42764, dim: null, dslh: null, dte: !!timestamp '2017-01-31 00:00:00', lact: 2, typ: CLEAR}
+- {age: 42783, dim: null, dslh: null, dte: !!timestamp '2017-02-19 00:00:00', lact: 2, typ: BRED}
+- {age: 42806, dim: null, dslh: 23, dte: &id002 !!timestamp '2017-03-14 00:00:00', lact: 2, typ: BRED}
+- {age: 42820, dim: null, dslh: 14, dte: !!timestamp '2017-03-28 09:36:23.209826', lact: 2, typ: CLEAR}
+- {age: 42848, dim: null, dslh: 42, dte: !!timestamp '2017-04-25 06:56:18.091307', lact: 2, typ: CHECK}
+- {age: 42848, dim: null, dslh: 42, dte: !!timestamp '2017-04-25 00:00:00', lact: 2, typ: PREG}
+- {age: 42806, dim: null, dslh: 0, dte: *id002, lact: 2, rem: auto, typ: CONCEPTION}
+- {admin: IM, age: 42848, ampm: am, bfdays: 21, by: Zach Waite, dim: null, dosage: 5ml, dslh: 42, dte: !!timestamp '2017-04-25 00:00:00', lact: 2, mkdays: 0, trt: Triangle 10 vaccine, typ: TREATMENT}
+- {age: 43077, calf: 21PCN4484, dim: null, dslh: null, dte: &id003 !!timestamp '2017-12-10 00:00:00', lact: 3, typ: FRESH}
+- {age: 43077, dim: 0, dslh: null, dte: *id003, lact: 3, rem: auto, typ: OPEN}
+- {age: 43078, ampm: am, by: Mike Waite, dig: Metritis, dim: 1, dslh: null, dte: !!timestamp '2017-12-11 00:00:00', lact: 3, typ: DIAGNOSIS}
+- {admin: IM, age: 43078, ampm: am, bfdays: 4, by: Mike Waite, dim: 1, dosage: 20cc, dslh: null, dte: !!timestamp '2017-12-11 00:00:00', lact: 3, mkdays: 0, trt: Ceftiflex, typ: TREATMENT}
+- {admin: IM, age: 43079, ampm: am, bfdays: 4, by: Mike Waite, dim: 2, dosage: 20cc, dslh: null, dte: !!timestamp '2017-12-12 00:00:00', lact: 3, mkdays: 0, trt: Ceftiflex, typ: TREATMENT}
+- {admin: IM, age: 43080, ampm: am, bfdays: 4, by: Mike Waite, dim: 3, dosage: 20cc, dslh: null, dte: !!timestamp '2017-12-13 00:00:00', lact: 3, mkdays: 0, trt: Ceftiflex, typ: TREATMENT}
+- {age: 43240, dim: 163, dslh: null, dte: !!timestamp '2018-05-22 00:00:00', lact: 3, typ: BRED}
+lact: 3
+lactation_state: inmilk
+life_state: alive
+pen: 2
+repro_state: bred
+usda: '-'
+vetck_rem: null
+vetck_state: normal

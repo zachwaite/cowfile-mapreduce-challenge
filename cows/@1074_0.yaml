@@ -1,0 +1,15 @@
+active_state: active
+bname: '1074'
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '2014-07-19 00:00:00', lact: 0, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 0, rem: auto, typ: OPEN}
+- {age: 801, dest: 7, dim: null, dslh: null, dte: !!timestamp '2016-09-27 00:00:00', lact: 0, typ: MOVE}
+- {age: 983, dim: null, dslh: null, dte: !!timestamp '2017-03-28 09:36:23.218539', lact: 0, typ: CLEAR}
+lact: 0
+lactation_state: hfr
+life_state: alive
+pen: 7
+repro_state: open
+usda: '0'
+vetck_rem: null
+vetck_state: normal

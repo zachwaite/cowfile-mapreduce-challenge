@@ -1,0 +1,29 @@
+active_state: active
+bname: AGLOR
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '1900-01-01 00:00:00', lact: 2, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 2, rem: auto, typ: OPEN}
+- {age: 42638, dest: 1, dim: null, dslh: null, dte: !!timestamp '2016-09-27 00:00:00', lact: 2, typ: MOVE}
+- {age: 42528, dim: null, dslh: null, dte: &id002 !!timestamp '2016-06-09 00:00:00', lact: 3, typ: FRESH}
+- {age: 42528, dim: 0, dslh: null, dte: *id002, lact: 3, rem: auto, typ: OPEN}
+- {admin: NA, age: 42680, ampm: am, bfdays: 0, by: Zach Waite, dim: 152, dosage: NA, dslh: null, dte: !!timestamp '2016-11-08 00:00:00', lact: 3, mkdays: 0, trt: Footrim, typ: TREATMENT}
+- {age: 42680, dim: 152, dslh: null, dte: !!timestamp '2016-11-08 00:00:00', lact: 3, typ: BRED}
+- {age: 42720, dim: 192, dslh: 40, dte: &id003 !!timestamp '2016-12-18 00:00:00', lact: 3, typ: BRED}
+- {age: 42764, dim: 236, dslh: 44, dte: !!timestamp '2017-01-31 08:57:00.481285', lact: 3, typ: CHECK}
+- {age: 42764, dim: 236, dslh: 44, dte: !!timestamp '2017-01-31 00:00:00', lact: 3, typ: PREG}
+- {age: 42720, dim: 192, dslh: 0, dte: *id003, lact: 3, rem: auto, typ: CONCEPTION}
+- {age: 42764, dim: 236, dslh: 44, dte: !!timestamp '2017-01-31 00:00:00', lact: 3, typ: CLEAR}
+- {admin: IM, age: 42764, ampm: am, bfdays: 21, by: Zach Waite, dim: 236, dosage: 5ml, dslh: 44, dte: !!timestamp '2017-01-31 00:00:00', lact: 3, mkdays: 0, trt: Triangle 10 vaccine, typ: TREATMENT}
+- {age: 42820, dim: 292, dslh: 100, dte: !!timestamp '2017-03-28 09:36:23.209589', lact: 3, typ: CLEAR}
+- {admin: NA, age: 42971, ampm: am, bfdays: 0, by: Zach Waite, dim: 443, dosage: NA, dslh: 251, dte: !!timestamp '2017-08-26 00:00:00', lact: 3, mkdays: 0, trt: Footrim, typ: TREATMENT}
+- {age: 42971, dim: 443, dslh: 251, dte: !!timestamp '2017-08-26 00:00:00', lact: 3, rem: notubes, typ: DRY}
+- {age: 42990, calf: 21PCN4454, dim: null, dslh: null, dte: &id004 !!timestamp '2017-09-14 00:00:00', lact: 4, typ: FRESH}
+- {age: 42990, dim: 0, dslh: null, dte: *id004, lact: 4, rem: auto, typ: OPEN}
+lact: 4
+lactation_state: inmilk
+life_state: alive
+pen: 1
+repro_state: open
+usda: '-'
+vetck_rem: null
+vetck_state: normal

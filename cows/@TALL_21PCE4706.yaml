@@ -1,0 +1,30 @@
+active_state: active
+bname: TALL
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '2015-04-01 00:00:00', lact: 0, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 0, rem: auto, typ: OPEN}
+- {age: 545, dest: 4, dim: null, dslh: null, dte: !!timestamp '2016-09-27 00:00:00', lact: 0, typ: MOVE}
+- {age: 480, dim: null, dslh: null, dte: !!timestamp '2016-07-24 00:00:00', lact: 0, typ: BRED}
+- {age: 573, dim: null, dslh: 93, dte: !!timestamp '2016-10-25 09:33:28.426652', lact: 0, typ: CHECK}
+- {age: 671, dim: null, dslh: 191, dte: !!timestamp '2017-01-31 08:57:00.481285', lact: 0, typ: CHECK}
+- {age: 727, dim: null, dslh: 247, dte: !!timestamp '2017-03-28 09:29:54.978949', lact: 0, typ: CHECK}
+- {age: 727, dim: null, dslh: 247, dte: !!timestamp '2017-03-28 09:36:23.207208', lact: 0, typ: CLEAR}
+- {age: 727, dim: null, dslh: 247, dte: !!timestamp '2017-03-28 09:37:03.317793', lact: 0, typ: CHECK}
+- {age: 755, dim: null, dslh: 275, dte: !!timestamp '2017-04-25 06:56:18.091307', lact: 0, typ: CHECK}
+- {age: 758, dim: null, dslh: null, dte: &id002 !!timestamp '2017-04-28 00:00:00', lact: 1, typ: FRESH}
+- {age: 758, dim: 0, dslh: null, dte: *id002, lact: 1, rem: auto, typ: OPEN}
+- {age: 791, dim: 33, dslh: null, dte: !!timestamp '2017-05-31 00:00:00', lact: 1, typ: BRED}
+- {age: 846, dim: 88, dslh: 55, dte: !!timestamp '2017-07-25 04:15:18.037991', lact: 1, typ: CHECK}
+- {age: 846, dim: 88, dslh: 55, dte: !!timestamp '2017-07-25 00:00:00', lact: 1, typ: OPEN}
+- {age: 1013, dim: 255, dslh: null, dte: &id003 !!timestamp '2018-01-08 00:00:00', lact: 1, typ: BRED}
+- {age: 1091, dim: 333, dslh: 78, dte: !!timestamp '2018-03-27 00:00:00', lact: 1, typ: PREG}
+- {age: 1013, dim: 255, dslh: 0, dte: *id003, lact: 1, rem: auto, typ: CONCEPTION}
+- {admin: IM, age: 1091, ampm: am, bfdays: 21, by: Dr. John McDermott, dim: 333, dosage: 5ml, dslh: 78, dte: !!timestamp '2018-03-27 00:00:00', lact: 1, mkdays: 0, trt: Triangle 10 vaccine, typ: TREATMENT}
+lact: 1
+lactation_state: inmilk
+life_state: alive
+pen: 4
+repro_state: preg
+usda: 21PCE4706
+vetck_rem: null
+vetck_state: normal

@@ -1,0 +1,21 @@
+active_state: inactive
+bname: POPTART
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '2016-01-01 00:00:00', lact: 0, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 0, rem: auto, typ: OPEN}
+- {age: 270, dest: 5, dim: null, dslh: null, dte: !!timestamp '2016-09-27 00:00:00', lact: 0, typ: MOVE}
+- {age: 440, ampm: am, by: zach, dig: pneu, dim: null, dslh: null, dte: !!timestamp '2017-03-16 00:00:00', lact: 0, typ: DIAGNOSIS}
+- {admin: IM, age: 441, ampm: pm, bfdays: 28, by: Zach Waite, dim: null, dosage: 18cc, dslh: null, dte: !!timestamp '2017-03-17 00:00:00', lact: 0, mkdays: 4, trt: Oxytetracycline 200, typ: TREATMENT}
+- {admin: IM, age: 442, ampm: pm, bfdays: 28, by: Zach Waite, dim: null, dosage: 18cc, dslh: null, dte: !!timestamp '2017-03-18 00:00:00', lact: 0, mkdays: 4, trt: Oxytetracycline 200, typ: TREATMENT}
+- {admin: IM, age: 443, ampm: pm, bfdays: 28, by: Zach Waite, dim: null, dosage: 18cc, dslh: null, dte: !!timestamp '2017-03-19 00:00:00', lact: 0, mkdays: 4, trt: Oxytetracycline 200, typ: TREATMENT}
+- {age: 444, dim: null, dslh: null, dte: &id002 !!timestamp '2017-03-20 00:00:00', lact: 0, typ: DIED}
+- {age: 444, dim: null, dslh: null, dte: *id002, lact: 0, typ: DEACTIVATED}
+- {age: 452, dim: null, dslh: null, dte: !!timestamp '2017-03-28 09:36:23.213428', lact: 0, typ: CLEAR}
+lact: 0
+lactation_state: hfr
+life_state: dead
+pen: 5
+repro_state: open
+usda: 21PBZ4372
+vetck_rem: null
+vetck_state: normal

@@ -1,0 +1,15 @@
+active_state: inactive
+bname: B14800
+events:
+- {age: null, dim: null, dslh: null, dte: &id001 !!timestamp '2017-06-11 00:00:00', lact: 0, rem: auto, typ: BORN}
+- {age: 0, dim: null, dslh: null, dte: *id001, lact: 0, rem: auto, typ: OPEN}
+- {age: 7, dim: null, dslh: null, dte: &id002 !!timestamp '2017-06-18 08:09:37.029438', lact: 0, typ: SOLD}
+- {age: 7, dim: null, dslh: null, dte: *id002, lact: 0, typ: DEACTIVATED}
+lact: 0
+lactation_state: hfr
+life_state: alive
+pen: 0
+repro_state: open
+usda: 21PCE4800
+vetck_rem: null
+vetck_state: normal
